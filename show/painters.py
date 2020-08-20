@@ -161,30 +161,31 @@ class KeypointPainter:
         self.framecounter = 0
         self.fallcount = 1
         self.old_y = 10000
+        self.fall = False
         
     def falling(self, new_y):
         if self.framecounter != 0 and self.framecounter % 10 == 0:
             if (new_y - self.old_y) > 50:
-                plt.savefig("/home/htxsns/projects/output/"+str(self.fallcount)+".jpg")
-                self.fallcount += 1
-            
+                self.fall = True
+                print("\nFALL DETECTED\n")
+
             self.old_y = new_y
     
     def _draw_skeleton(self, ax, x, y, v, *, skeleton, color=None, **kwargs):
         if not np.any(v > 0):
             return
 
-        # print("LS: "+str((x[5], y[5])))
-        # print("RS: "+str((x[6], y[6])))
+        print("LS: "+str((x[5], y[5])))
+        print("RS: "+str((x[6], y[6])))
         
         mid_x = (x[5]+x[6])/2
         mid_y = (y[5]+y[6])/2
-        # print("Midpoint: "+str((mid_x, mid_y)))
+        print("Midpoint: "+str((mid_x, mid_y)))
         
         if mid_y != 0:
             self.falling(mid_y)
         
-        # connections
+        # connectionsq
         lines, line_colors, line_styles = [], [], []
         for ci, (j1i, j2i) in enumerate(np.array(skeleton) - 1):
             c = color
@@ -249,6 +250,11 @@ class KeypointPainter:
             if self.show_box:
                 score = scores[i] if scores is not None else None
                 self._draw_box(ax, x, y, v, color, score)
+                
+                plt.savefig("/home/htxsns/projects/output/"+str(self.fallcount)+".jpg")
+                self.fallcount += 1
+                
+                self.fall = False
 
             if texts is not None:
                 self._draw_text(ax, x, y, v, texts[i], color)
@@ -393,9 +399,14 @@ class KeypointPainter:
         if self.show_joint_confidences:
             self._draw_joint_confidences(ax, x, y, v, color)
 
-        if self.show_box:
+        if self.show_box or self.fall:
             x_, y_, w_, h_ = ann.bbox()
             self._draw_box(ax, x_, y_, w_, h_, color, ann.score())
+            
+            plt.savefig("/home/htxsns/projects/output/"+str(self.fallcount)+".jpg")
+            self.fallcount += 1
+            
+            self.fall = False
 
         if text is not None:
             self._draw_text(ax, x, y, v, text, color, subtext=subtext)

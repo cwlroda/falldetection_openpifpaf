@@ -20,7 +20,7 @@ LOG = logging.getLogger(__name__)
 
 
 class BaseVisualizer:
-    all_indices = [('cif', 5), ('caf', 5)]
+    all_indices = []
     common_ax = None
     _image = None
     _processed_image = None

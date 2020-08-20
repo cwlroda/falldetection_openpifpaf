@@ -24,6 +24,7 @@ import logging
 import os
 import sys
 import time
+import multiprocessing
 
 import PIL
 import torch
@@ -125,9 +126,55 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
 
 def processor_factory(args):
     model, _ = network.factory_from_args(args)
-    model = model.to(args.device)
+    model = model.to(torch.device("cpu"))
     processor = decoder.factory_from_args(args, model)
     return processor, model
+
+
+def inference(stream, animation, processor, model, annotation_painter):
+    (RTSPURL, ID, scale) = stream
+    capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
+    
+    if capture.isOpened():
+        LOG.info('Loaded stream: ' + RTSPURL)
+    else:
+        LOG.error('Cannot open stream: ' + RTSPURL)
+
+    last_loop = time.time()
+    
+    for frame_i, (ax, ax_second) in enumerate(animation.iter()):
+        _, image = capture.read()
+        
+        if image is None:
+            LOG.info('no more images captured')
+            break
+        
+        if float(scale) != 1.0:
+            image = cv2.resize(image, None, fx=float(scale), fy=float(scale))
+            LOG.debug('resized image size: %s', image.shape)
+        
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        
+        if ax is None:
+            ax, ax_second = animation.frame_init(image)
+        visualizer.BaseVisualizer.image(image)
+        visualizer.BaseVisualizer.common_ax = ax_second
+
+        start = time.time()
+        image_pil = PIL.Image.fromarray(image)
+        processed_image, _, __ = transforms.EVAL_TRANSFORM(image_pil, [], None)
+        LOG.debug('preprocessing time %.3fs', time.time() - start)
+
+        preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=torch.device("cpu"))[0]
+
+        ax.imshow(image)
+        annotation_painter.annotations(ax, preds)
+
+        LOG.info('frame %d, loop time = %.3fs, FPS = %.3f',
+                frame_i,
+                time.time() - last_loop,
+                1.0 / (time.time() - last_loop))
+        last_loop = time.time()
 
 
 def main():
@@ -140,9 +187,7 @@ def main():
     keypoint_painter = show.KeypointPainter(color_connections=args.colored_connections, linewidth=6)
     annotation_painter = show.AnnotationPainter(keypoint_painter=keypoint_painter)
 
-    last_loop = time.time()
     streams = core.MultiStreamLoader(settings['RTSPAPI'])
-    streams.generateStreams()
 
     animation = show.AnimationFrame(
         show=args.show,
@@ -150,37 +195,16 @@ def main():
         second_visual=args.debug or args.debug_indices,
     )
 
-    inference = core.DetectionLoader(streams, animation, processor, model)
-    inference.loadDetectors()
+    processes = []
     
-    while True:
-        outframes = inference.getFrames()
-        # end of inference
+    for stream in streams.generateStreams():
+        process = multiprocessing.Process(target=inference, args=(stream, animation, processor, model, annotation_painter))
+        processes.append(process)
+        process.start()
+
+    for process in processes:
+        process.join()
         
-        for frame in outframes:
-            if frame is not None:
-                (frame_i, ax, image, preds) = frame
-                
-                if args.json_output:
-                    with open(args.json_output, 'a+') as f:
-                        json.dump({
-                            'frame': frame_i,
-                            'predictions': [ann.json_data() for ann in preds]
-                        }, f, separators=(',', ':'))
-                        f.write('\n')
-                if not args.json_output or args.video_output:
-                    ax.imshow(image)
-                    annotation_painter.annotations(ax, preds)
-
-                LOG.info('frame %d, loop time = %.3fs, FPS = %.3f',
-                        frame_i,
-                        time.time() - last_loop,
-                        1.0 / (time.time() - last_loop))
-                last_loop = time.time()
-                
-        outframes.clear
-        del outframes[:]
-
     sys.exit(0)
 
 if __name__ == '__main__':

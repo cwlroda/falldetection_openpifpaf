@@ -15,7 +15,7 @@ LOG = logging.getLogger(__name__)
 
 
 class AnimationFrame:
-    video_fps = 30
+    video_fps = 10
     video_dpi = 100
 
     def __init__(self, *,
@@ -30,7 +30,7 @@ class AnimationFrame:
         self.video_output = video_output
         self.video_writer = None
         if self.video_output:
-            self.video_writer = matplotlib.animation.FFMpegWriter(fps=self.video_fps)
+            self.video_writer = matplotlib.animation.writers['ffmpeg'](fps=self.video_fps)
 
         self.second_visual = second_visual
         if self.second_visual:

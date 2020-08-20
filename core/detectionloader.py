@@ -85,4 +85,5 @@ class Detector:
         if self.outframes.empty():
             return None
         else:
-            return self.outframes.get()
+            frame = self.outframes.get()
+            return frame
