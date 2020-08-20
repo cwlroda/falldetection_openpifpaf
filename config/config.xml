@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <Source>
+        <RTSPAPI>
+            <ID>osaka</ID>
+            <RTSPURL>rtsp://:7089/osaka</RTSPURL>
+            <Scale>0.7</Scale>
+        </RTSPAPI>
+    </Source>
+    <Output>
+        <FileOutput> 
+            <Dir>output/img</Dir>
+            <FileName>{yyyymmdd}_{HHMMSS}_{streamID}_{algoName}_{fallcount}.jpg</FileName>
+        </FileOutput>
+    </Output>
+</config>

@@ -30,7 +30,7 @@ import torch
 
 import cv2  # pylint: disable=import-error
 from . import decoder, network, show, transforms, visualizer, __version__
-from . import multistreamloader
+from . import config, core
 
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
 LOG = logging.getLogger(__name__)
@@ -132,6 +132,8 @@ def processor_factory(args):
 
 def main():
     args = cli()
+    settings = config.ConfigParser().getConfig()
+    
     processor, model = processor_factory(args)
 
     # create keypoint painter
@@ -139,65 +141,45 @@ def main():
     annotation_painter = show.AnnotationPainter(keypoint_painter=keypoint_painter)
 
     last_loop = time.time()
-    capture = cv2.VideoCapture(args.source, cv2.CAP_FFMPEG)
+    streams = core.MultiStreamLoader(settings['RTSPAPI'])
+    streams.generateStreams()
 
     animation = show.AnimationFrame(
         show=args.show,
         video_output=args.video_output,
         second_visual=args.debug or args.debug_indices,
     )
-    for frame_i, (ax, ax_second) in enumerate(animation.iter()):
-        _, image = capture.read()
-        if image is None:
-            LOG.info('no more images captured')
-            break
 
-        if frame_i < args.start_frame:
-            animation.skip_frame()
-            continue
+    inference = core.DetectionLoader(streams, animation, processor, model)
+    inference.loadDetectors()
+    
+    while True:
+        outframes = inference.getFrames()
+        # end of inference
+        
+        for frame in outframes:
+            if frame is not None:
+                (frame_i, ax, image, preds) = frame
+                
+                if args.json_output:
+                    with open(args.json_output, 'a+') as f:
+                        json.dump({
+                            'frame': frame_i,
+                            'predictions': [ann.json_data() for ann in preds]
+                        }, f, separators=(',', ':'))
+                        f.write('\n')
+                if not args.json_output or args.video_output:
+                    ax.imshow(image)
+                    annotation_painter.annotations(ax, preds)
 
-        if frame_i % args.skip_frames != 0:
-            animation.skip_frame()
-            continue
-
-        if args.scale != 1.0:
-            image = cv2.resize(image, None, fx=args.scale, fy=args.scale)
-            LOG.debug('resized image size: %s', image.shape)
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        if args.horizontal_flip:
-            image = image[:, ::-1]
-
-        if ax is None:
-            ax, ax_second = animation.frame_init(image)
-        visualizer.BaseVisualizer.image(image)
-        visualizer.BaseVisualizer.common_ax = ax_second
-
-        start = time.time()
-        image_pil = PIL.Image.fromarray(image)
-        processed_image, _, __ = transforms.EVAL_TRANSFORM(image_pil, [], None)
-        LOG.debug('preprocessing time %.3fs', time.time() - start)
-
-        preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=args.device)[0]
-
-        if args.json_output:
-            with open(args.json_output, 'a+') as f:
-                json.dump({
-                    'frame': frame_i,
-                    'predictions': [ann.json_data() for ann in preds]
-                }, f, separators=(',', ':'))
-                f.write('\n')
-        if not args.json_output or args.video_output:
-            ax.imshow(image)
-            annotation_painter.annotations(ax, preds)
-
-        LOG.info('frame %d, loop time = %.3fs, FPS = %.3f',
-                 frame_i,
-                 time.time() - last_loop,
-                 1.0 / (time.time() - last_loop))
-        last_loop = time.time()
-
-        if args.max_frames and frame_i >= args.start_frame + args.max_frames:
-            break
+                LOG.info('frame %d, loop time = %.3fs, FPS = %.3f',
+                        frame_i,
+                        time.time() - last_loop,
+                        1.0 / (time.time() - last_loop))
+                last_loop = time.time()
+                
+        outframes.clear
+        del outframes[:]
 
     sys.exit(0)
 

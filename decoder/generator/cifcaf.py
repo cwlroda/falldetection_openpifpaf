@@ -49,7 +49,6 @@ class CifCaf(Generator):
         self.skeleton = skeleton
         self.skeleton_m1 = np.asarray(skeleton) - 1
         self.out_skeleton = out_skeleton or skeleton
-        print(out_skeleton)
         self.confidence_scales = confidence_scales
         self.nms = nms
 
