@@ -1,6 +1,5 @@
 from collections import defaultdict
 import logging
-
 import numpy as np
 
 try:
@@ -12,6 +11,7 @@ try:
 except ImportError:
     matplotlib = None
 
+from .. import core
 
 LOG = logging.getLogger(__name__)
 
@@ -160,12 +160,14 @@ class KeypointPainter:
         
         self.framecounter = 0
         self.fallcount = 1
-        self.old_y = 10000
+        self.old_y = -1
+        self.ct = core.CentroidTracker()
+        self.centroid = -1
         self.fall = False
         
     def falling(self, new_y):
         if self.framecounter != 0 and self.framecounter % 10 == 0:
-            if (new_y - self.old_y) > 50:
+            if (new_y - self.old_y) > 50 and self.old_y != -1:
                 self.fall = True
                 print("\nFALL DETECTED\n")
 
@@ -175,16 +177,21 @@ class KeypointPainter:
         if not np.any(v > 0):
             return
 
-        print("LS: "+str((x[5], y[5])))
-        print("RS: "+str((x[6], y[6])))
+        # print("LS: "+str((x[5], y[5])))
+        # print("RS: "+str((x[6], y[6])))
         
         mid_x = (x[5]+x[6])/2
         mid_y = (y[5]+y[6])/2
-        print("Midpoint: "+str((mid_x, mid_y)))
+        # print("Midpoint: "+str((mid_x, mid_y)))
+        
+        if mid_x != 0 or mid_y != 0:
+            self.centroid = (mid_x, mid_y)
+        else:
+            self.centroid = -1
         
         if mid_y != 0:
             self.falling(mid_y)
-        
+    
         # connectionsq
         lines, line_colors, line_styles = [], [], []
         for ci, (j1i, j2i) in enumerate(np.array(skeleton) - 1):
@@ -331,8 +338,19 @@ class KeypointPainter:
                 color='white', bbox={'facecolor': color, 'alpha': 0.2, 'linewidth': 0, 'pad': 0.0},
             )
 
+    @staticmethod
+    def _draw_centroids(ax, persons, linewidth=1):
+        for ID, (x, y) in persons.items():
+            ax.add_patch(
+                matplotlib.patches.Circle(
+                    (x, y), 5, linewidth=linewidth))
+            
+            ax.text(x - linewidth*2, y - linewidth*2, ID, fontsize=8)
+    
     def annotations(self, ax, annotations, *,
                     color=None, colors=None, texts=None, subtexts=None):
+        centroids = []
+        
         for i, ann in enumerate(annotations):
             color = i
             if colors is not None:
@@ -357,7 +375,13 @@ class KeypointPainter:
                 subtext = '{:.0%}'.format(ann.score())
 
             self.annotation(ax, ann, color=color, text=text, subtext=subtext)
-
+            
+            if self.centroid != -1:
+                centroids.append(self.centroid)
+            
+        persons = self.ct.update(centroids)
+        self._draw_centroids(ax, persons, color)
+        
         self.framecounter += 1
 
     def annotation(self, ax, ann, *, color=None, text=None, subtext=None):
@@ -403,6 +427,7 @@ class KeypointPainter:
             x_, y_, w_, h_ = ann.bbox()
             self._draw_box(ax, x_, y_, w_, h_, color, ann.score())
             
+            # TCP CONNECTION
             plt.savefig("/home/htxsns/projects/output/"+str(self.fallcount)+".jpg")
             self.fallcount += 1
             

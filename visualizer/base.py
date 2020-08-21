@@ -1,4 +1,5 @@
 from contextlib import contextmanager
+import copy
 import logging
 import numpy as np
 
@@ -9,9 +10,12 @@ try:
     import matplotlib.pyplot as plt
     from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-    matplotlib.cm.get_cmap('Oranges').set_bad('white', alpha=0.5)
-    matplotlib.cm.get_cmap('Blues').set_bad('white', alpha=0.5)
-    matplotlib.cm.get_cmap('Greens').set_bad('white', alpha=0.5)
+    cmap = copy.copy(matplotlib.cm.get_cmap("Oranges"))
+    cmap.set_bad('white', alpha=0.5)
+    cmap = copy.copy(matplotlib.cm.get_cmap("Blues"))
+    cmap.set_bad('white', alpha=0.5)
+    cmap = copy.copy(matplotlib.cm.get_cmap("Greens"))
+    cmap.set_bad('white', alpha=0.5)
 except ImportError:
     plt = None
     make_axes_locatable = None

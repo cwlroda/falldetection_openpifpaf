@@ -1,0 +1,1941 @@
+2020-08-21 22:34:13,921 [INFO]: video.py(cli:109) >> neural network device: cuda
+2020-08-21 22:34:13,946 [INFO]: animation_frame.py(__init__:47) >> video output = None
+2020-08-21 22:34:13,983 [INFO]: video.py(inference:138) >> Loaded stream: /home/htxsns/falldetection/input/videoplayback.mp4
+2020-08-21 22:34:14,235 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:14,238 [INFO]: video.py(inference:175) >> frame 0, loop time = 0.254s, FPS = 3.934
+2020-08-21 22:34:14,518 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:14,520 [INFO]: video.py(inference:175) >> frame 1, loop time = 0.282s, FPS = 3.547
+2020-08-21 22:34:14,778 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:14,780 [INFO]: video.py(inference:175) >> frame 2, loop time = 0.260s, FPS = 3.846
+2020-08-21 22:34:15,022 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:15,024 [INFO]: video.py(inference:175) >> frame 3, loop time = 0.244s, FPS = 4.103
+2020-08-21 22:34:15,266 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:15,268 [INFO]: video.py(inference:175) >> frame 4, loop time = 0.244s, FPS = 4.091
+2020-08-21 22:34:15,517 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:15,521 [INFO]: video.py(inference:175) >> frame 5, loop time = 0.253s, FPS = 3.949
+2020-08-21 22:34:15,764 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:15,766 [INFO]: video.py(inference:175) >> frame 6, loop time = 0.245s, FPS = 4.081
+2020-08-21 22:34:16,023 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:16,025 [INFO]: video.py(inference:175) >> frame 7, loop time = 0.259s, FPS = 3.868
+2020-08-21 22:34:16,274 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:16,276 [INFO]: video.py(inference:175) >> frame 8, loop time = 0.251s, FPS = 3.981
+2020-08-21 22:34:16,527 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:16,529 [INFO]: video.py(inference:175) >> frame 9, loop time = 0.253s, FPS = 3.958
+2020-08-21 22:34:16,842 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:16,844 [INFO]: video.py(inference:175) >> frame 10, loop time = 0.315s, FPS = 3.171
+2020-08-21 22:34:17,086 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:17,093 [INFO]: video.py(inference:175) >> frame 11, loop time = 0.248s, FPS = 4.025
+2020-08-21 22:34:17,326 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:17,332 [INFO]: video.py(inference:175) >> frame 12, loop time = 0.239s, FPS = 4.184
+2020-08-21 22:34:17,578 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:17,585 [INFO]: video.py(inference:175) >> frame 13, loop time = 0.253s, FPS = 3.951
+2020-08-21 22:34:17,869 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:17,879 [INFO]: video.py(inference:175) >> frame 14, loop time = 0.294s, FPS = 3.401
+2020-08-21 22:34:18,250 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:18,261 [INFO]: video.py(inference:175) >> frame 15, loop time = 0.381s, FPS = 2.622
+2020-08-21 22:34:18,634 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:18,638 [INFO]: video.py(inference:175) >> frame 16, loop time = 0.377s, FPS = 2.654
+2020-08-21 22:34:19,010 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:34:19,013 [INFO]: video.py(inference:175) >> frame 17, loop time = 0.375s, FPS = 2.666
+2020-08-21 22:34:19,367 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:19,379 [INFO]: video.py(inference:175) >> frame 18, loop time = 0.366s, FPS = 2.733
+2020-08-21 22:34:19,775 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:19,788 [INFO]: video.py(inference:175) >> frame 19, loop time = 0.409s, FPS = 2.446
+2020-08-21 22:34:20,166 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:20,180 [INFO]: video.py(inference:175) >> frame 20, loop time = 0.392s, FPS = 2.554
+2020-08-21 22:34:20,566 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:20,582 [INFO]: video.py(inference:175) >> frame 21, loop time = 0.401s, FPS = 2.491
+2020-08-21 22:34:20,973 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:20,987 [INFO]: video.py(inference:175) >> frame 22, loop time = 0.405s, FPS = 2.467
+2020-08-21 22:34:21,507 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:21,522 [INFO]: video.py(inference:175) >> frame 23, loop time = 0.535s, FPS = 1.870
+2020-08-21 22:34:22,062 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:22,078 [INFO]: video.py(inference:175) >> frame 24, loop time = 0.555s, FPS = 1.800
+2020-08-21 22:34:22,555 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:22,568 [INFO]: video.py(inference:175) >> frame 25, loop time = 0.490s, FPS = 2.041
+2020-08-21 22:34:23,102 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:23,118 [INFO]: video.py(inference:175) >> frame 26, loop time = 0.550s, FPS = 1.818
+2020-08-21 22:34:23,507 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:23,520 [INFO]: video.py(inference:175) >> frame 27, loop time = 0.402s, FPS = 2.488
+2020-08-21 22:34:23,923 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:23,935 [INFO]: video.py(inference:175) >> frame 28, loop time = 0.415s, FPS = 2.412
+2020-08-21 22:34:24,418 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:24,430 [INFO]: video.py(inference:175) >> frame 29, loop time = 0.495s, FPS = 2.021
+2020-08-21 22:34:24,839 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:24,850 [INFO]: video.py(inference:175) >> frame 30, loop time = 0.420s, FPS = 2.380
+2020-08-21 22:34:25,230 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:25,242 [INFO]: video.py(inference:175) >> frame 31, loop time = 0.392s, FPS = 2.551
+2020-08-21 22:34:25,630 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:25,643 [INFO]: video.py(inference:175) >> frame 32, loop time = 0.400s, FPS = 2.497
+2020-08-21 22:34:26,034 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:26,046 [INFO]: video.py(inference:175) >> frame 33, loop time = 0.403s, FPS = 2.483
+2020-08-21 22:34:26,417 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:26,429 [INFO]: video.py(inference:175) >> frame 34, loop time = 0.383s, FPS = 2.611
+2020-08-21 22:34:26,794 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:26,807 [INFO]: video.py(inference:175) >> frame 35, loop time = 0.378s, FPS = 2.648
+2020-08-21 22:34:27,176 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:27,190 [INFO]: video.py(inference:175) >> frame 36, loop time = 0.382s, FPS = 2.615
+2020-08-21 22:34:27,569 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:27,582 [INFO]: video.py(inference:175) >> frame 37, loop time = 0.392s, FPS = 2.550
+2020-08-21 22:34:27,958 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:27,969 [INFO]: video.py(inference:175) >> frame 38, loop time = 0.387s, FPS = 2.582
+2020-08-21 22:34:28,353 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:28,368 [INFO]: video.py(inference:175) >> frame 39, loop time = 0.399s, FPS = 2.509
+2020-08-21 22:34:28,740 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:28,752 [INFO]: video.py(inference:175) >> frame 40, loop time = 0.384s, FPS = 2.607
+2020-08-21 22:34:29,114 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:29,126 [INFO]: video.py(inference:175) >> frame 41, loop time = 0.374s, FPS = 2.676
+2020-08-21 22:34:29,505 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:29,517 [INFO]: video.py(inference:175) >> frame 42, loop time = 0.391s, FPS = 2.557
+2020-08-21 22:34:29,915 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:29,927 [INFO]: video.py(inference:175) >> frame 43, loop time = 0.410s, FPS = 2.440
+2020-08-21 22:34:30,297 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:30,309 [INFO]: video.py(inference:175) >> frame 44, loop time = 0.381s, FPS = 2.622
+2020-08-21 22:34:30,689 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:30,701 [INFO]: video.py(inference:175) >> frame 45, loop time = 0.392s, FPS = 2.550
+2020-08-21 22:34:31,056 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:31,068 [INFO]: video.py(inference:175) >> frame 46, loop time = 0.367s, FPS = 2.722
+2020-08-21 22:34:31,422 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:31,434 [INFO]: video.py(inference:175) >> frame 47, loop time = 0.366s, FPS = 2.736
+2020-08-21 22:34:31,804 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:31,816 [INFO]: video.py(inference:175) >> frame 48, loop time = 0.381s, FPS = 2.623
+2020-08-21 22:34:32,169 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:34:32,182 [INFO]: video.py(inference:175) >> frame 49, loop time = 0.367s, FPS = 2.728
+2020-08-21 22:34:32,536 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:32,548 [INFO]: video.py(inference:175) >> frame 50, loop time = 0.366s, FPS = 2.733
+2020-08-21 22:34:32,908 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:32,921 [INFO]: video.py(inference:175) >> frame 51, loop time = 0.373s, FPS = 2.682
+2020-08-21 22:34:33,290 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:33,309 [INFO]: video.py(inference:175) >> frame 52, loop time = 0.388s, FPS = 2.579
+2020-08-21 22:34:33,683 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:33,695 [INFO]: video.py(inference:175) >> frame 53, loop time = 0.385s, FPS = 2.595
+2020-08-21 22:34:34,067 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:34,078 [INFO]: video.py(inference:175) >> frame 54, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:34:34,457 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:34,469 [INFO]: video.py(inference:175) >> frame 55, loop time = 0.391s, FPS = 2.559
+2020-08-21 22:34:34,837 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:34,848 [INFO]: video.py(inference:175) >> frame 56, loop time = 0.379s, FPS = 2.638
+2020-08-21 22:34:35,243 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:35,256 [INFO]: video.py(inference:175) >> frame 57, loop time = 0.408s, FPS = 2.454
+2020-08-21 22:34:35,647 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:35,661 [INFO]: video.py(inference:175) >> frame 58, loop time = 0.404s, FPS = 2.475
+2020-08-21 22:34:36,023 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:36,035 [INFO]: video.py(inference:175) >> frame 59, loop time = 0.374s, FPS = 2.670
+2020-08-21 22:34:36,401 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:36,413 [INFO]: video.py(inference:175) >> frame 60, loop time = 0.377s, FPS = 2.650
+2020-08-21 22:34:36,818 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:36,831 [INFO]: video.py(inference:175) >> frame 61, loop time = 0.418s, FPS = 2.391
+2020-08-21 22:34:37,311 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:37,323 [INFO]: video.py(inference:175) >> frame 62, loop time = 0.492s, FPS = 2.032
+2020-08-21 22:34:37,690 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:37,703 [INFO]: video.py(inference:175) >> frame 63, loop time = 0.380s, FPS = 2.633
+2020-08-21 22:34:38,128 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:38,140 [INFO]: video.py(inference:175) >> frame 64, loop time = 0.437s, FPS = 2.291
+2020-08-21 22:34:38,494 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:38,513 [INFO]: video.py(inference:175) >> frame 65, loop time = 0.373s, FPS = 2.680
+2020-08-21 22:34:38,873 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:38,886 [INFO]: video.py(inference:175) >> frame 66, loop time = 0.372s, FPS = 2.685
+2020-08-21 22:34:39,264 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:39,277 [INFO]: video.py(inference:175) >> frame 67, loop time = 0.391s, FPS = 2.559
+2020-08-21 22:34:39,652 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:39,665 [INFO]: video.py(inference:175) >> frame 68, loop time = 0.388s, FPS = 2.577
+2020-08-21 22:34:40,028 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:40,040 [INFO]: video.py(inference:175) >> frame 69, loop time = 0.375s, FPS = 2.667
+2020-08-21 22:34:40,415 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:40,427 [INFO]: video.py(inference:175) >> frame 70, loop time = 0.387s, FPS = 2.585
+2020-08-21 22:34:40,861 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:40,877 [INFO]: video.py(inference:175) >> frame 71, loop time = 0.450s, FPS = 2.221
+2020-08-21 22:34:41,259 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:41,271 [INFO]: video.py(inference:175) >> frame 72, loop time = 0.394s, FPS = 2.539
+2020-08-21 22:34:41,668 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:41,680 [INFO]: video.py(inference:175) >> frame 73, loop time = 0.409s, FPS = 2.446
+2020-08-21 22:34:42,135 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:42,147 [INFO]: video.py(inference:175) >> frame 74, loop time = 0.467s, FPS = 2.142
+2020-08-21 22:34:42,574 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:42,586 [INFO]: video.py(inference:175) >> frame 75, loop time = 0.439s, FPS = 2.279
+2020-08-21 22:34:42,965 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:42,978 [INFO]: video.py(inference:175) >> frame 76, loop time = 0.392s, FPS = 2.553
+2020-08-21 22:34:43,357 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:43,369 [INFO]: video.py(inference:175) >> frame 77, loop time = 0.391s, FPS = 2.557
+2020-08-21 22:34:43,751 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:43,764 [INFO]: video.py(inference:175) >> frame 78, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:34:44,158 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:44,171 [INFO]: video.py(inference:175) >> frame 79, loop time = 0.408s, FPS = 2.453
+2020-08-21 22:34:44,564 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:44,577 [INFO]: video.py(inference:175) >> frame 80, loop time = 0.405s, FPS = 2.466
+2020-08-21 22:34:44,957 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:44,976 [INFO]: video.py(inference:175) >> frame 81, loop time = 0.399s, FPS = 2.509
+2020-08-21 22:34:45,388 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:45,401 [INFO]: video.py(inference:175) >> frame 82, loop time = 0.425s, FPS = 2.353
+2020-08-21 22:34:45,777 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:45,790 [INFO]: video.py(inference:175) >> frame 83, loop time = 0.389s, FPS = 2.572
+2020-08-21 22:34:46,183 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:46,195 [INFO]: video.py(inference:175) >> frame 84, loop time = 0.405s, FPS = 2.467
+2020-08-21 22:34:46,558 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:46,572 [INFO]: video.py(inference:175) >> frame 85, loop time = 0.377s, FPS = 2.654
+2020-08-21 22:34:47,040 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:47,056 [INFO]: video.py(inference:175) >> frame 86, loop time = 0.483s, FPS = 2.069
+2020-08-21 22:34:47,519 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:34:47,533 [INFO]: video.py(inference:175) >> frame 87, loop time = 0.477s, FPS = 2.096
+2020-08-21 22:34:47,986 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:34:47,999 [INFO]: video.py(inference:175) >> frame 88, loop time = 0.465s, FPS = 2.149
+2020-08-21 22:34:48,398 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:34:48,410 [INFO]: video.py(inference:175) >> frame 89, loop time = 0.411s, FPS = 2.431
+2020-08-21 22:34:48,801 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:34:48,822 [INFO]: video.py(inference:175) >> frame 90, loop time = 0.412s, FPS = 2.427
+2020-08-21 22:34:49,203 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:34:49,214 [INFO]: video.py(inference:175) >> frame 91, loop time = 0.392s, FPS = 2.553
+2020-08-21 22:34:49,611 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 3]
+2020-08-21 22:34:49,629 [INFO]: video.py(inference:175) >> frame 92, loop time = 0.414s, FPS = 2.414
+2020-08-21 22:34:50,052 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:34:50,221 [INFO]: video.py(inference:175) >> frame 93, loop time = 0.592s, FPS = 1.689
+2020-08-21 22:34:50,550 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:34:50,562 [INFO]: video.py(inference:175) >> frame 94, loop time = 0.341s, FPS = 2.933
+2020-08-21 22:34:50,926 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:34:50,937 [INFO]: video.py(inference:175) >> frame 95, loop time = 0.375s, FPS = 2.665
+2020-08-21 22:34:51,282 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:34:51,294 [INFO]: video.py(inference:175) >> frame 96, loop time = 0.356s, FPS = 2.807
+2020-08-21 22:34:51,628 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:34:51,640 [INFO]: video.py(inference:175) >> frame 97, loop time = 0.346s, FPS = 2.889
+2020-08-21 22:34:52,062 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:34:52,076 [INFO]: video.py(inference:175) >> frame 98, loop time = 0.436s, FPS = 2.295
+2020-08-21 22:34:52,531 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:34:52,546 [INFO]: video.py(inference:175) >> frame 99, loop time = 0.470s, FPS = 2.129
+2020-08-21 22:34:52,994 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:53,007 [INFO]: video.py(inference:175) >> frame 100, loop time = 0.461s, FPS = 2.168
+2020-08-21 22:34:53,405 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:34:53,423 [INFO]: video.py(inference:175) >> frame 101, loop time = 0.416s, FPS = 2.406
+2020-08-21 22:34:53,859 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:53,871 [INFO]: video.py(inference:175) >> frame 102, loop time = 0.448s, FPS = 2.234
+2020-08-21 22:34:54,234 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:34:54,246 [INFO]: video.py(inference:175) >> frame 103, loop time = 0.375s, FPS = 2.668
+2020-08-21 22:34:54,691 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:34:54,706 [INFO]: video.py(inference:175) >> frame 104, loop time = 0.460s, FPS = 2.173
+2020-08-21 22:34:55,137 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:34:55,149 [INFO]: video.py(inference:175) >> frame 105, loop time = 0.443s, FPS = 2.259
+2020-08-21 22:34:55,602 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:34:55,624 [INFO]: video.py(inference:175) >> frame 106, loop time = 0.475s, FPS = 2.107
+2020-08-21 22:34:56,017 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:34:56,030 [INFO]: video.py(inference:175) >> frame 107, loop time = 0.406s, FPS = 2.462
+2020-08-21 22:34:56,389 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:34:56,405 [INFO]: video.py(inference:175) >> frame 108, loop time = 0.374s, FPS = 2.671
+2020-08-21 22:34:56,872 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:34:56,890 [INFO]: video.py(inference:175) >> frame 109, loop time = 0.486s, FPS = 2.059
+2020-08-21 22:34:57,280 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:34:57,306 [INFO]: video.py(inference:175) >> frame 110, loop time = 0.416s, FPS = 2.405
+2020-08-21 22:34:57,691 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:34:57,710 [INFO]: video.py(inference:175) >> frame 111, loop time = 0.404s, FPS = 2.476
+2020-08-21 22:34:58,087 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2020-08-21 22:34:58,113 [INFO]: video.py(inference:175) >> frame 112, loop time = 0.402s, FPS = 2.485
+2020-08-21 22:34:58,547 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2020-08-21 22:34:58,575 [INFO]: video.py(inference:175) >> frame 113, loop time = 0.462s, FPS = 2.164
+2020-08-21 22:34:59,000 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [10, 3, 2]
+2020-08-21 22:34:59,022 [INFO]: video.py(inference:175) >> frame 114, loop time = 0.447s, FPS = 2.239
+2020-08-21 22:34:59,444 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2020-08-21 22:34:59,470 [INFO]: video.py(inference:175) >> frame 115, loop time = 0.448s, FPS = 2.234
+2020-08-21 22:34:59,842 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:34:59,861 [INFO]: video.py(inference:175) >> frame 116, loop time = 0.391s, FPS = 2.558
+2020-08-21 22:35:00,241 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:35:00,260 [INFO]: video.py(inference:175) >> frame 117, loop time = 0.399s, FPS = 2.504
+2020-08-21 22:35:00,626 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:35:00,648 [INFO]: video.py(inference:175) >> frame 118, loop time = 0.387s, FPS = 2.583
+2020-08-21 22:35:01,007 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:01,026 [INFO]: video.py(inference:175) >> frame 119, loop time = 0.379s, FPS = 2.642
+2020-08-21 22:35:01,386 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:01,406 [INFO]: video.py(inference:175) >> frame 120, loop time = 0.379s, FPS = 2.638
+2020-08-21 22:35:01,788 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:01,808 [INFO]: video.py(inference:175) >> frame 121, loop time = 0.402s, FPS = 2.489
+2020-08-21 22:35:02,172 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:02,190 [INFO]: video.py(inference:175) >> frame 122, loop time = 0.382s, FPS = 2.616
+2020-08-21 22:35:02,591 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:02,610 [INFO]: video.py(inference:175) >> frame 123, loop time = 0.420s, FPS = 2.380
+2020-08-21 22:35:02,953 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:02,970 [INFO]: video.py(inference:175) >> frame 124, loop time = 0.360s, FPS = 2.780
+2020-08-21 22:35:03,335 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:03,353 [INFO]: video.py(inference:175) >> frame 125, loop time = 0.383s, FPS = 2.612
+2020-08-21 22:35:03,727 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:03,752 [INFO]: video.py(inference:175) >> frame 126, loop time = 0.399s, FPS = 2.507
+2020-08-21 22:35:04,114 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:35:04,132 [INFO]: video.py(inference:175) >> frame 127, loop time = 0.380s, FPS = 2.633
+2020-08-21 22:35:04,509 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:04,529 [INFO]: video.py(inference:175) >> frame 128, loop time = 0.396s, FPS = 2.523
+2020-08-21 22:35:04,906 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:35:04,927 [INFO]: video.py(inference:175) >> frame 129, loop time = 0.398s, FPS = 2.515
+2020-08-21 22:35:05,369 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:35:05,380 [INFO]: video.py(inference:175) >> frame 130, loop time = 0.454s, FPS = 2.205
+2020-08-21 22:35:05,749 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:35:05,767 [INFO]: video.py(inference:175) >> frame 131, loop time = 0.387s, FPS = 2.585
+2020-08-21 22:35:06,151 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:35:06,171 [INFO]: video.py(inference:175) >> frame 132, loop time = 0.404s, FPS = 2.477
+2020-08-21 22:35:06,582 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:06,594 [INFO]: video.py(inference:175) >> frame 133, loop time = 0.422s, FPS = 2.367
+2020-08-21 22:35:06,937 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:06,949 [INFO]: video.py(inference:175) >> frame 134, loop time = 0.355s, FPS = 2.817
+2020-08-21 22:35:07,296 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:07,308 [INFO]: video.py(inference:175) >> frame 135, loop time = 0.358s, FPS = 2.789
+2020-08-21 22:35:07,686 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:07,698 [INFO]: video.py(inference:175) >> frame 136, loop time = 0.390s, FPS = 2.563
+2020-08-21 22:35:08,054 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:08,066 [INFO]: video.py(inference:175) >> frame 137, loop time = 0.368s, FPS = 2.718
+2020-08-21 22:35:08,446 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:08,459 [INFO]: video.py(inference:175) >> frame 138, loop time = 0.393s, FPS = 2.548
+2020-08-21 22:35:08,850 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:08,862 [INFO]: video.py(inference:175) >> frame 139, loop time = 0.403s, FPS = 2.480
+2020-08-21 22:35:09,232 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:09,244 [INFO]: video.py(inference:175) >> frame 140, loop time = 0.382s, FPS = 2.617
+2020-08-21 22:35:09,609 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:09,622 [INFO]: video.py(inference:175) >> frame 141, loop time = 0.378s, FPS = 2.645
+2020-08-21 22:35:09,999 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:10,013 [INFO]: video.py(inference:175) >> frame 142, loop time = 0.390s, FPS = 2.562
+2020-08-21 22:35:10,401 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:10,414 [INFO]: video.py(inference:175) >> frame 143, loop time = 0.401s, FPS = 2.497
+2020-08-21 22:35:10,796 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:10,808 [INFO]: video.py(inference:175) >> frame 144, loop time = 0.395s, FPS = 2.534
+2020-08-21 22:35:11,167 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:11,180 [INFO]: video.py(inference:175) >> frame 145, loop time = 0.371s, FPS = 2.695
+2020-08-21 22:35:11,551 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:11,564 [INFO]: video.py(inference:175) >> frame 146, loop time = 0.384s, FPS = 2.604
+2020-08-21 22:35:11,931 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:11,943 [INFO]: video.py(inference:175) >> frame 147, loop time = 0.379s, FPS = 2.635
+2020-08-21 22:35:12,325 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:12,337 [INFO]: video.py(inference:175) >> frame 148, loop time = 0.394s, FPS = 2.541
+2020-08-21 22:35:12,712 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:12,725 [INFO]: video.py(inference:175) >> frame 149, loop time = 0.387s, FPS = 2.582
+2020-08-21 22:35:13,081 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:13,093 [INFO]: video.py(inference:175) >> frame 150, loop time = 0.368s, FPS = 2.715
+2020-08-21 22:35:13,451 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:13,464 [INFO]: video.py(inference:175) >> frame 151, loop time = 0.371s, FPS = 2.695
+2020-08-21 22:35:13,843 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:13,855 [INFO]: video.py(inference:175) >> frame 152, loop time = 0.391s, FPS = 2.560
+2020-08-21 22:35:14,207 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:14,219 [INFO]: video.py(inference:175) >> frame 153, loop time = 0.364s, FPS = 2.747
+2020-08-21 22:35:14,584 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:14,597 [INFO]: video.py(inference:175) >> frame 154, loop time = 0.377s, FPS = 2.652
+2020-08-21 22:35:14,973 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:14,986 [INFO]: video.py(inference:175) >> frame 155, loop time = 0.389s, FPS = 2.570
+2020-08-21 22:35:15,355 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:15,367 [INFO]: video.py(inference:175) >> frame 156, loop time = 0.381s, FPS = 2.622
+2020-08-21 22:35:15,763 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:15,777 [INFO]: video.py(inference:175) >> frame 157, loop time = 0.409s, FPS = 2.443
+2020-08-21 22:35:16,161 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:16,182 [INFO]: video.py(inference:175) >> frame 158, loop time = 0.406s, FPS = 2.465
+2020-08-21 22:35:16,555 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:16,567 [INFO]: video.py(inference:175) >> frame 159, loop time = 0.384s, FPS = 2.601
+2020-08-21 22:35:16,969 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:16,982 [INFO]: video.py(inference:175) >> frame 160, loop time = 0.414s, FPS = 2.413
+2020-08-21 22:35:17,365 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:17,378 [INFO]: video.py(inference:175) >> frame 161, loop time = 0.396s, FPS = 2.524
+2020-08-21 22:35:17,742 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:17,754 [INFO]: video.py(inference:175) >> frame 162, loop time = 0.376s, FPS = 2.661
+2020-08-21 22:35:18,112 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:18,124 [INFO]: video.py(inference:175) >> frame 163, loop time = 0.370s, FPS = 2.701
+2020-08-21 22:35:18,485 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:18,498 [INFO]: video.py(inference:175) >> frame 164, loop time = 0.373s, FPS = 2.680
+2020-08-21 22:35:18,867 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:18,880 [INFO]: video.py(inference:175) >> frame 165, loop time = 0.383s, FPS = 2.613
+2020-08-21 22:35:19,247 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:19,260 [INFO]: video.py(inference:175) >> frame 166, loop time = 0.380s, FPS = 2.633
+2020-08-21 22:35:19,638 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:19,651 [INFO]: video.py(inference:175) >> frame 167, loop time = 0.390s, FPS = 2.562
+2020-08-21 22:35:20,035 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:20,050 [INFO]: video.py(inference:175) >> frame 168, loop time = 0.399s, FPS = 2.506
+2020-08-21 22:35:20,423 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:20,436 [INFO]: video.py(inference:175) >> frame 169, loop time = 0.385s, FPS = 2.594
+2020-08-21 22:35:20,820 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:20,832 [INFO]: video.py(inference:175) >> frame 170, loop time = 0.396s, FPS = 2.526
+2020-08-21 22:35:21,221 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:21,233 [INFO]: video.py(inference:175) >> frame 171, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:35:21,652 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:21,664 [INFO]: video.py(inference:175) >> frame 172, loop time = 0.431s, FPS = 2.320
+2020-08-21 22:35:22,007 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:22,019 [INFO]: video.py(inference:175) >> frame 173, loop time = 0.354s, FPS = 2.822
+2020-08-21 22:35:22,413 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:22,425 [INFO]: video.py(inference:175) >> frame 174, loop time = 0.406s, FPS = 2.461
+2020-08-21 22:35:22,802 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:22,815 [INFO]: video.py(inference:175) >> frame 175, loop time = 0.389s, FPS = 2.568
+2020-08-21 22:35:23,178 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:23,190 [INFO]: video.py(inference:175) >> frame 176, loop time = 0.375s, FPS = 2.668
+2020-08-21 22:35:23,542 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:23,554 [INFO]: video.py(inference:175) >> frame 177, loop time = 0.365s, FPS = 2.743
+2020-08-21 22:35:23,935 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:23,947 [INFO]: video.py(inference:175) >> frame 178, loop time = 0.392s, FPS = 2.550
+2020-08-21 22:35:24,311 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:24,323 [INFO]: video.py(inference:175) >> frame 179, loop time = 0.376s, FPS = 2.660
+2020-08-21 22:35:24,699 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:24,711 [INFO]: video.py(inference:175) >> frame 180, loop time = 0.388s, FPS = 2.574
+2020-08-21 22:35:25,099 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:25,113 [INFO]: video.py(inference:175) >> frame 181, loop time = 0.402s, FPS = 2.490
+2020-08-21 22:35:25,470 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:25,481 [INFO]: video.py(inference:175) >> frame 182, loop time = 0.368s, FPS = 2.717
+2020-08-21 22:35:25,829 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:25,841 [INFO]: video.py(inference:175) >> frame 183, loop time = 0.360s, FPS = 2.781
+2020-08-21 22:35:26,216 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:26,231 [INFO]: video.py(inference:175) >> frame 184, loop time = 0.390s, FPS = 2.562
+2020-08-21 22:35:26,587 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:26,600 [INFO]: video.py(inference:175) >> frame 185, loop time = 0.368s, FPS = 2.714
+2020-08-21 22:35:26,961 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:26,973 [INFO]: video.py(inference:175) >> frame 186, loop time = 0.373s, FPS = 2.682
+2020-08-21 22:35:27,382 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:27,394 [INFO]: video.py(inference:175) >> frame 187, loop time = 0.421s, FPS = 2.376
+2020-08-21 22:35:27,772 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:27,784 [INFO]: video.py(inference:175) >> frame 188, loop time = 0.390s, FPS = 2.565
+2020-08-21 22:35:28,154 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:28,166 [INFO]: video.py(inference:175) >> frame 189, loop time = 0.382s, FPS = 2.619
+2020-08-21 22:35:28,528 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:28,540 [INFO]: video.py(inference:175) >> frame 190, loop time = 0.374s, FPS = 2.675
+2020-08-21 22:35:28,914 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:28,927 [INFO]: video.py(inference:175) >> frame 191, loop time = 0.386s, FPS = 2.588
+2020-08-21 22:35:29,292 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:29,305 [INFO]: video.py(inference:175) >> frame 192, loop time = 0.379s, FPS = 2.641
+2020-08-21 22:35:29,657 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:29,669 [INFO]: video.py(inference:175) >> frame 193, loop time = 0.364s, FPS = 2.751
+2020-08-21 22:35:30,050 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:30,063 [INFO]: video.py(inference:175) >> frame 194, loop time = 0.394s, FPS = 2.536
+2020-08-21 22:35:30,432 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:30,448 [INFO]: video.py(inference:175) >> frame 195, loop time = 0.384s, FPS = 2.604
+2020-08-21 22:35:30,820 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:30,833 [INFO]: video.py(inference:175) >> frame 196, loop time = 0.385s, FPS = 2.598
+2020-08-21 22:35:31,199 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:31,211 [INFO]: video.py(inference:175) >> frame 197, loop time = 0.378s, FPS = 2.645
+2020-08-21 22:35:31,582 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:31,594 [INFO]: video.py(inference:175) >> frame 198, loop time = 0.383s, FPS = 2.609
+2020-08-21 22:35:31,954 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:31,966 [INFO]: video.py(inference:175) >> frame 199, loop time = 0.372s, FPS = 2.691
+2020-08-21 22:35:32,378 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:32,391 [INFO]: video.py(inference:175) >> frame 200, loop time = 0.425s, FPS = 2.355
+2020-08-21 22:35:32,790 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:32,803 [INFO]: video.py(inference:175) >> frame 201, loop time = 0.412s, FPS = 2.429
+2020-08-21 22:35:33,166 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:35:33,186 [INFO]: video.py(inference:175) >> frame 202, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:35:33,539 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:33,709 [INFO]: video.py(inference:175) >> frame 203, loop time = 0.523s, FPS = 1.914
+2020-08-21 22:35:34,056 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:34,068 [INFO]: video.py(inference:175) >> frame 204, loop time = 0.359s, FPS = 2.788
+2020-08-21 22:35:34,461 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:34,476 [INFO]: video.py(inference:175) >> frame 205, loop time = 0.408s, FPS = 2.452
+2020-08-21 22:35:34,874 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:34,885 [INFO]: video.py(inference:175) >> frame 206, loop time = 0.409s, FPS = 2.444
+2020-08-21 22:35:35,255 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:35,267 [INFO]: video.py(inference:175) >> frame 207, loop time = 0.382s, FPS = 2.620
+2020-08-21 22:35:35,628 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:35,640 [INFO]: video.py(inference:175) >> frame 208, loop time = 0.373s, FPS = 2.682
+2020-08-21 22:35:36,012 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:36,024 [INFO]: video.py(inference:175) >> frame 209, loop time = 0.384s, FPS = 2.601
+2020-08-21 22:35:36,389 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:36,401 [INFO]: video.py(inference:175) >> frame 210, loop time = 0.376s, FPS = 2.660
+2020-08-21 22:35:36,781 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:36,794 [INFO]: video.py(inference:175) >> frame 211, loop time = 0.393s, FPS = 2.543
+2020-08-21 22:35:37,163 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:37,174 [INFO]: video.py(inference:175) >> frame 212, loop time = 0.380s, FPS = 2.630
+2020-08-21 22:35:37,544 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:37,556 [INFO]: video.py(inference:175) >> frame 213, loop time = 0.381s, FPS = 2.622
+2020-08-21 22:35:37,929 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:37,942 [INFO]: video.py(inference:175) >> frame 214, loop time = 0.386s, FPS = 2.592
+2020-08-21 22:35:38,323 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:38,340 [INFO]: video.py(inference:175) >> frame 215, loop time = 0.398s, FPS = 2.515
+2020-08-21 22:35:38,710 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:38,722 [INFO]: video.py(inference:175) >> frame 216, loop time = 0.382s, FPS = 2.619
+2020-08-21 22:35:39,087 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:39,105 [INFO]: video.py(inference:175) >> frame 217, loop time = 0.384s, FPS = 2.607
+2020-08-21 22:35:39,471 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:35:39,491 [INFO]: video.py(inference:175) >> frame 218, loop time = 0.385s, FPS = 2.597
+2020-08-21 22:35:39,857 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:39,869 [INFO]: video.py(inference:175) >> frame 219, loop time = 0.378s, FPS = 2.643
+2020-08-21 22:35:40,260 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:40,277 [INFO]: video.py(inference:175) >> frame 220, loop time = 0.407s, FPS = 2.454
+2020-08-21 22:35:40,634 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:40,647 [INFO]: video.py(inference:175) >> frame 221, loop time = 0.370s, FPS = 2.704
+2020-08-21 22:35:40,985 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:40,997 [INFO]: video.py(inference:175) >> frame 222, loop time = 0.350s, FPS = 2.858
+2020-08-21 22:35:41,356 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:41,368 [INFO]: video.py(inference:175) >> frame 223, loop time = 0.371s, FPS = 2.694
+2020-08-21 22:35:41,771 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:41,783 [INFO]: video.py(inference:175) >> frame 224, loop time = 0.415s, FPS = 2.408
+2020-08-21 22:35:42,141 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:42,153 [INFO]: video.py(inference:175) >> frame 225, loop time = 0.362s, FPS = 2.761
+2020-08-21 22:35:42,514 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:42,526 [INFO]: video.py(inference:175) >> frame 226, loop time = 0.373s, FPS = 2.684
+2020-08-21 22:35:42,912 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:35:42,931 [INFO]: video.py(inference:175) >> frame 227, loop time = 0.405s, FPS = 2.470
+2020-08-21 22:35:43,301 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:35:43,323 [INFO]: video.py(inference:175) >> frame 228, loop time = 0.392s, FPS = 2.549
+2020-08-21 22:35:43,697 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:35:43,715 [INFO]: video.py(inference:175) >> frame 229, loop time = 0.392s, FPS = 2.554
+2020-08-21 22:35:44,131 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:35:44,148 [INFO]: video.py(inference:175) >> frame 230, loop time = 0.433s, FPS = 2.309
+2020-08-21 22:35:44,515 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:44,536 [INFO]: video.py(inference:175) >> frame 231, loop time = 0.387s, FPS = 2.583
+2020-08-21 22:35:44,919 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [7, 2]
+2020-08-21 22:35:44,937 [INFO]: video.py(inference:175) >> frame 232, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:35:45,303 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [8, 2]
+2020-08-21 22:35:45,324 [INFO]: video.py(inference:175) >> frame 233, loop time = 0.387s, FPS = 2.587
+2020-08-21 22:35:45,700 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [7, 2]
+2020-08-21 22:35:45,720 [INFO]: video.py(inference:175) >> frame 234, loop time = 0.396s, FPS = 2.523
+2020-08-21 22:35:46,157 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [7, 2]
+2020-08-21 22:35:46,175 [INFO]: video.py(inference:175) >> frame 235, loop time = 0.454s, FPS = 2.200
+2020-08-21 22:35:46,568 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [10, 2]
+2020-08-21 22:35:46,592 [INFO]: video.py(inference:175) >> frame 236, loop time = 0.416s, FPS = 2.401
+2020-08-21 22:35:47,012 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:47,039 [INFO]: video.py(inference:175) >> frame 237, loop time = 0.447s, FPS = 2.235
+2020-08-21 22:35:47,421 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:47,440 [INFO]: video.py(inference:175) >> frame 238, loop time = 0.401s, FPS = 2.494
+2020-08-21 22:35:47,852 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:47,881 [INFO]: video.py(inference:175) >> frame 239, loop time = 0.440s, FPS = 2.271
+2020-08-21 22:35:48,278 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:48,295 [INFO]: video.py(inference:175) >> frame 240, loop time = 0.414s, FPS = 2.414
+2020-08-21 22:35:48,697 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:48,719 [INFO]: video.py(inference:175) >> frame 241, loop time = 0.423s, FPS = 2.363
+2020-08-21 22:35:49,140 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:49,161 [INFO]: video.py(inference:175) >> frame 242, loop time = 0.442s, FPS = 2.263
+2020-08-21 22:35:49,576 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:49,596 [INFO]: video.py(inference:175) >> frame 243, loop time = 0.435s, FPS = 2.301
+2020-08-21 22:35:50,014 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [9, 2]
+2020-08-21 22:35:50,036 [INFO]: video.py(inference:175) >> frame 244, loop time = 0.440s, FPS = 2.272
+2020-08-21 22:35:50,447 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:50,467 [INFO]: video.py(inference:175) >> frame 245, loop time = 0.431s, FPS = 2.321
+2020-08-21 22:35:50,845 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:50,863 [INFO]: video.py(inference:175) >> frame 246, loop time = 0.396s, FPS = 2.526
+2020-08-21 22:35:51,240 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:51,264 [INFO]: video.py(inference:175) >> frame 247, loop time = 0.400s, FPS = 2.497
+2020-08-21 22:35:51,628 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:51,646 [INFO]: video.py(inference:175) >> frame 248, loop time = 0.382s, FPS = 2.615
+2020-08-21 22:35:52,041 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:52,063 [INFO]: video.py(inference:175) >> frame 249, loop time = 0.417s, FPS = 2.401
+2020-08-21 22:35:52,400 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:52,418 [INFO]: video.py(inference:175) >> frame 250, loop time = 0.355s, FPS = 2.815
+2020-08-21 22:35:52,804 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:52,824 [INFO]: video.py(inference:175) >> frame 251, loop time = 0.406s, FPS = 2.463
+2020-08-21 22:35:53,231 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:35:53,249 [INFO]: video.py(inference:175) >> frame 252, loop time = 0.425s, FPS = 2.354
+2020-08-21 22:35:53,630 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:53,644 [INFO]: video.py(inference:175) >> frame 253, loop time = 0.394s, FPS = 2.537
+2020-08-21 22:35:54,015 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:54,029 [INFO]: video.py(inference:175) >> frame 254, loop time = 0.385s, FPS = 2.598
+2020-08-21 22:35:54,394 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:54,406 [INFO]: video.py(inference:175) >> frame 255, loop time = 0.377s, FPS = 2.655
+2020-08-21 22:35:54,773 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:54,792 [INFO]: video.py(inference:175) >> frame 256, loop time = 0.386s, FPS = 2.588
+2020-08-21 22:35:55,241 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:55,252 [INFO]: video.py(inference:175) >> frame 257, loop time = 0.460s, FPS = 2.174
+2020-08-21 22:35:55,642 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:35:55,655 [INFO]: video.py(inference:175) >> frame 258, loop time = 0.402s, FPS = 2.486
+2020-08-21 22:35:56,038 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:56,050 [INFO]: video.py(inference:175) >> frame 259, loop time = 0.395s, FPS = 2.532
+2020-08-21 22:35:56,436 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:35:56,448 [INFO]: video.py(inference:175) >> frame 260, loop time = 0.398s, FPS = 2.510
+2020-08-21 22:35:56,836 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:56,849 [INFO]: video.py(inference:175) >> frame 261, loop time = 0.400s, FPS = 2.500
+2020-08-21 22:35:57,206 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:57,218 [INFO]: video.py(inference:175) >> frame 262, loop time = 0.369s, FPS = 2.707
+2020-08-21 22:35:57,584 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:57,597 [INFO]: video.py(inference:175) >> frame 263, loop time = 0.378s, FPS = 2.643
+2020-08-21 22:35:58,001 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:58,016 [INFO]: video.py(inference:175) >> frame 264, loop time = 0.419s, FPS = 2.388
+2020-08-21 22:35:58,384 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:58,396 [INFO]: video.py(inference:175) >> frame 265, loop time = 0.380s, FPS = 2.631
+2020-08-21 22:35:58,777 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:58,790 [INFO]: video.py(inference:175) >> frame 266, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:35:59,161 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:59,173 [INFO]: video.py(inference:175) >> frame 267, loop time = 0.383s, FPS = 2.611
+2020-08-21 22:35:59,542 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:59,553 [INFO]: video.py(inference:175) >> frame 268, loop time = 0.380s, FPS = 2.631
+2020-08-21 22:35:59,936 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:35:59,949 [INFO]: video.py(inference:175) >> frame 269, loop time = 0.395s, FPS = 2.529
+2020-08-21 22:36:00,328 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:00,340 [INFO]: video.py(inference:175) >> frame 270, loop time = 0.391s, FPS = 2.559
+2020-08-21 22:36:00,724 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:00,737 [INFO]: video.py(inference:175) >> frame 271, loop time = 0.397s, FPS = 2.517
+2020-08-21 22:36:01,134 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:01,147 [INFO]: video.py(inference:175) >> frame 272, loop time = 0.410s, FPS = 2.439
+2020-08-21 22:36:01,525 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:01,537 [INFO]: video.py(inference:175) >> frame 273, loop time = 0.389s, FPS = 2.569
+2020-08-21 22:36:01,910 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:01,922 [INFO]: video.py(inference:175) >> frame 274, loop time = 0.385s, FPS = 2.597
+2020-08-21 22:36:02,315 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:02,327 [INFO]: video.py(inference:175) >> frame 275, loop time = 0.405s, FPS = 2.469
+2020-08-21 22:36:02,716 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:02,730 [INFO]: video.py(inference:175) >> frame 276, loop time = 0.403s, FPS = 2.484
+2020-08-21 22:36:03,102 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:03,115 [INFO]: video.py(inference:175) >> frame 277, loop time = 0.385s, FPS = 2.599
+2020-08-21 22:36:03,487 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:03,498 [INFO]: video.py(inference:175) >> frame 278, loop time = 0.384s, FPS = 2.607
+2020-08-21 22:36:03,880 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:03,891 [INFO]: video.py(inference:175) >> frame 279, loop time = 0.393s, FPS = 2.545
+2020-08-21 22:36:04,271 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:04,283 [INFO]: video.py(inference:175) >> frame 280, loop time = 0.391s, FPS = 2.557
+2020-08-21 22:36:04,647 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:04,660 [INFO]: video.py(inference:175) >> frame 281, loop time = 0.377s, FPS = 2.652
+2020-08-21 22:36:05,036 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:05,053 [INFO]: video.py(inference:175) >> frame 282, loop time = 0.393s, FPS = 2.543
+2020-08-21 22:36:05,435 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:05,447 [INFO]: video.py(inference:175) >> frame 283, loop time = 0.393s, FPS = 2.544
+2020-08-21 22:36:05,806 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:05,818 [INFO]: video.py(inference:175) >> frame 284, loop time = 0.372s, FPS = 2.691
+2020-08-21 22:36:06,188 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:06,200 [INFO]: video.py(inference:175) >> frame 285, loop time = 0.382s, FPS = 2.620
+2020-08-21 22:36:06,574 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:06,586 [INFO]: video.py(inference:175) >> frame 286, loop time = 0.386s, FPS = 2.591
+2020-08-21 22:36:06,960 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:06,973 [INFO]: video.py(inference:175) >> frame 287, loop time = 0.386s, FPS = 2.589
+2020-08-21 22:36:07,347 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:07,367 [INFO]: video.py(inference:175) >> frame 288, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:36:07,706 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:07,718 [INFO]: video.py(inference:175) >> frame 289, loop time = 0.351s, FPS = 2.846
+2020-08-21 22:36:08,084 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:08,097 [INFO]: video.py(inference:175) >> frame 290, loop time = 0.378s, FPS = 2.644
+2020-08-21 22:36:08,473 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:08,485 [INFO]: video.py(inference:175) >> frame 291, loop time = 0.388s, FPS = 2.578
+2020-08-21 22:36:08,859 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:08,871 [INFO]: video.py(inference:175) >> frame 292, loop time = 0.386s, FPS = 2.592
+2020-08-21 22:36:09,234 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:09,246 [INFO]: video.py(inference:175) >> frame 293, loop time = 0.375s, FPS = 2.666
+2020-08-21 22:36:09,619 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:09,631 [INFO]: video.py(inference:175) >> frame 294, loop time = 0.384s, FPS = 2.602
+2020-08-21 22:36:10,001 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:10,012 [INFO]: video.py(inference:175) >> frame 295, loop time = 0.382s, FPS = 2.621
+2020-08-21 22:36:10,391 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:10,403 [INFO]: video.py(inference:175) >> frame 296, loop time = 0.391s, FPS = 2.558
+2020-08-21 22:36:10,776 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:10,789 [INFO]: video.py(inference:175) >> frame 297, loop time = 0.385s, FPS = 2.596
+2020-08-21 22:36:11,145 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:11,157 [INFO]: video.py(inference:175) >> frame 298, loop time = 0.368s, FPS = 2.717
+2020-08-21 22:36:11,516 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:11,532 [INFO]: video.py(inference:175) >> frame 299, loop time = 0.375s, FPS = 2.670
+2020-08-21 22:36:11,896 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:11,907 [INFO]: video.py(inference:175) >> frame 300, loop time = 0.375s, FPS = 2.664
+2020-08-21 22:36:12,266 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:12,278 [INFO]: video.py(inference:175) >> frame 301, loop time = 0.371s, FPS = 2.696
+2020-08-21 22:36:12,647 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:12,661 [INFO]: video.py(inference:175) >> frame 302, loop time = 0.383s, FPS = 2.613
+2020-08-21 22:36:13,033 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:13,055 [INFO]: video.py(inference:175) >> frame 303, loop time = 0.394s, FPS = 2.541
+2020-08-21 22:36:13,416 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:13,429 [INFO]: video.py(inference:175) >> frame 304, loop time = 0.374s, FPS = 2.674
+2020-08-21 22:36:13,796 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:13,810 [INFO]: video.py(inference:175) >> frame 305, loop time = 0.381s, FPS = 2.628
+2020-08-21 22:36:14,195 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:14,207 [INFO]: video.py(inference:175) >> frame 306, loop time = 0.396s, FPS = 2.523
+2020-08-21 22:36:14,581 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:14,593 [INFO]: video.py(inference:175) >> frame 307, loop time = 0.386s, FPS = 2.588
+2020-08-21 22:36:14,952 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:14,964 [INFO]: video.py(inference:175) >> frame 308, loop time = 0.371s, FPS = 2.697
+2020-08-21 22:36:15,342 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:15,353 [INFO]: video.py(inference:175) >> frame 309, loop time = 0.389s, FPS = 2.571
+2020-08-21 22:36:15,707 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:15,719 [INFO]: video.py(inference:175) >> frame 310, loop time = 0.366s, FPS = 2.733
+2020-08-21 22:36:16,097 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:16,108 [INFO]: video.py(inference:175) >> frame 311, loop time = 0.389s, FPS = 2.572
+2020-08-21 22:36:16,488 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:16,500 [INFO]: video.py(inference:175) >> frame 312, loop time = 0.391s, FPS = 2.556
+2020-08-21 22:36:16,867 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:16,881 [INFO]: video.py(inference:175) >> frame 313, loop time = 0.381s, FPS = 2.625
+2020-08-21 22:36:17,252 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:17,265 [INFO]: video.py(inference:175) >> frame 314, loop time = 0.384s, FPS = 2.605
+2020-08-21 22:36:17,637 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:17,649 [INFO]: video.py(inference:175) >> frame 315, loop time = 0.384s, FPS = 2.602
+2020-08-21 22:36:18,019 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:18,032 [INFO]: video.py(inference:175) >> frame 316, loop time = 0.382s, FPS = 2.616
+2020-08-21 22:36:18,410 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:18,423 [INFO]: video.py(inference:175) >> frame 317, loop time = 0.391s, FPS = 2.555
+2020-08-21 22:36:18,797 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:18,808 [INFO]: video.py(inference:175) >> frame 318, loop time = 0.385s, FPS = 2.601
+2020-08-21 22:36:19,181 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:19,193 [INFO]: video.py(inference:175) >> frame 319, loop time = 0.385s, FPS = 2.601
+2020-08-21 22:36:19,572 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:36:19,585 [INFO]: video.py(inference:175) >> frame 320, loop time = 0.392s, FPS = 2.552
+2020-08-21 22:36:19,964 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:36:19,984 [INFO]: video.py(inference:175) >> frame 321, loop time = 0.399s, FPS = 2.505
+2020-08-21 22:36:20,351 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:20,363 [INFO]: video.py(inference:175) >> frame 322, loop time = 0.379s, FPS = 2.639
+2020-08-21 22:36:20,742 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:20,754 [INFO]: video.py(inference:175) >> frame 323, loop time = 0.391s, FPS = 2.557
+2020-08-21 22:36:21,139 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:21,152 [INFO]: video.py(inference:175) >> frame 324, loop time = 0.397s, FPS = 2.516
+2020-08-21 22:36:21,529 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:21,540 [INFO]: video.py(inference:175) >> frame 325, loop time = 0.388s, FPS = 2.575
+2020-08-21 22:36:21,947 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:21,959 [INFO]: video.py(inference:175) >> frame 326, loop time = 0.419s, FPS = 2.389
+2020-08-21 22:36:22,332 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:22,344 [INFO]: video.py(inference:175) >> frame 327, loop time = 0.385s, FPS = 2.600
+2020-08-21 22:36:22,722 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:22,735 [INFO]: video.py(inference:175) >> frame 328, loop time = 0.391s, FPS = 2.560
+2020-08-21 22:36:23,102 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:23,114 [INFO]: video.py(inference:175) >> frame 329, loop time = 0.379s, FPS = 2.637
+2020-08-21 22:36:23,478 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [9, 2]
+2020-08-21 22:36:23,500 [INFO]: video.py(inference:175) >> frame 330, loop time = 0.386s, FPS = 2.590
+2020-08-21 22:36:23,975 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [9]
+2020-08-21 22:36:23,988 [INFO]: video.py(inference:175) >> frame 331, loop time = 0.487s, FPS = 2.051
+2020-08-21 22:36:24,391 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:36:24,395 [INFO]: video.py(inference:175) >> frame 332, loop time = 0.407s, FPS = 2.458
+2020-08-21 22:36:24,750 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:36:24,753 [INFO]: video.py(inference:175) >> frame 333, loop time = 0.358s, FPS = 2.794
+2020-08-21 22:36:25,122 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:36:25,134 [INFO]: video.py(inference:175) >> frame 334, loop time = 0.381s, FPS = 2.627
+2020-08-21 22:36:25,509 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:36:25,680 [INFO]: video.py(inference:175) >> frame 335, loop time = 0.546s, FPS = 1.832
+2020-08-21 22:36:26,076 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [7]
+2020-08-21 22:36:26,089 [INFO]: video.py(inference:175) >> frame 336, loop time = 0.409s, FPS = 2.442
+2020-08-21 22:36:26,494 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [9]
+2020-08-21 22:36:26,505 [INFO]: video.py(inference:175) >> frame 337, loop time = 0.415s, FPS = 2.408
+2020-08-21 22:36:26,868 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 3]
+2020-08-21 22:36:26,887 [INFO]: video.py(inference:175) >> frame 338, loop time = 0.382s, FPS = 2.621
+2020-08-21 22:36:27,266 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:27,279 [INFO]: video.py(inference:175) >> frame 339, loop time = 0.393s, FPS = 2.547
+2020-08-21 22:36:27,639 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:27,652 [INFO]: video.py(inference:175) >> frame 340, loop time = 0.372s, FPS = 2.687
+2020-08-21 22:36:28,020 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [10, 3]
+2020-08-21 22:36:28,041 [INFO]: video.py(inference:175) >> frame 341, loop time = 0.389s, FPS = 2.570
+2020-08-21 22:36:28,437 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:36:28,441 [INFO]: video.py(inference:175) >> frame 342, loop time = 0.400s, FPS = 2.502
+2020-08-21 22:36:28,798 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:36:28,811 [INFO]: video.py(inference:175) >> frame 343, loop time = 0.370s, FPS = 2.701
+2020-08-21 22:36:29,203 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [4]
+2020-08-21 22:36:29,216 [INFO]: video.py(inference:175) >> frame 344, loop time = 0.404s, FPS = 2.474
+2020-08-21 22:36:29,582 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:36:29,595 [INFO]: video.py(inference:175) >> frame 345, loop time = 0.379s, FPS = 2.639
+2020-08-21 22:36:29,973 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:36:29,992 [INFO]: video.py(inference:175) >> frame 346, loop time = 0.397s, FPS = 2.520
+2020-08-21 22:36:30,342 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [7, 2]
+2020-08-21 22:36:30,361 [INFO]: video.py(inference:175) >> frame 347, loop time = 0.369s, FPS = 2.707
+2020-08-21 22:36:30,727 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [6, 3]
+2020-08-21 22:36:30,746 [INFO]: video.py(inference:175) >> frame 348, loop time = 0.385s, FPS = 2.601
+2020-08-21 22:36:31,136 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [9]
+2020-08-21 22:36:31,148 [INFO]: video.py(inference:175) >> frame 349, loop time = 0.402s, FPS = 2.488
+2020-08-21 22:36:31,517 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:36:31,520 [INFO]: video.py(inference:175) >> frame 350, loop time = 0.372s, FPS = 2.688
+2020-08-21 22:36:31,871 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:36:31,874 [INFO]: video.py(inference:175) >> frame 351, loop time = 0.354s, FPS = 2.826
+2020-08-21 22:36:32,255 [INFO]: cifcaf.py(__call__:119) >> 0 annotations: []
+2020-08-21 22:36:32,258 [INFO]: video.py(inference:175) >> frame 352, loop time = 0.384s, FPS = 2.605
+2020-08-21 22:36:32,624 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:32,636 [INFO]: video.py(inference:175) >> frame 353, loop time = 0.378s, FPS = 2.644
+2020-08-21 22:36:33,017 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [8, 2, 2]
+2020-08-21 22:36:33,046 [INFO]: video.py(inference:175) >> frame 354, loop time = 0.410s, FPS = 2.442
+2020-08-21 22:36:33,441 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:33,454 [INFO]: video.py(inference:175) >> frame 355, loop time = 0.408s, FPS = 2.452
+2020-08-21 22:36:33,819 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:36:33,831 [INFO]: video.py(inference:175) >> frame 356, loop time = 0.377s, FPS = 2.651
+2020-08-21 22:36:34,207 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [9]
+2020-08-21 22:36:34,220 [INFO]: video.py(inference:175) >> frame 357, loop time = 0.388s, FPS = 2.575
+2020-08-21 22:36:34,619 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [7]
+2020-08-21 22:36:34,632 [INFO]: video.py(inference:175) >> frame 358, loop time = 0.412s, FPS = 2.428
+2020-08-21 22:36:34,997 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:35,174 [INFO]: video.py(inference:175) >> frame 359, loop time = 0.542s, FPS = 1.846
+2020-08-21 22:36:35,519 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:35,531 [INFO]: video.py(inference:175) >> frame 360, loop time = 0.357s, FPS = 2.799
+2020-08-21 22:36:35,883 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:35,897 [INFO]: video.py(inference:175) >> frame 361, loop time = 0.365s, FPS = 2.737
+2020-08-21 22:36:36,295 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:36,308 [INFO]: video.py(inference:175) >> frame 362, loop time = 0.411s, FPS = 2.433
+2020-08-21 22:36:36,676 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:36,688 [INFO]: video.py(inference:175) >> frame 363, loop time = 0.380s, FPS = 2.630
+2020-08-21 22:36:37,048 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:37,061 [INFO]: video.py(inference:175) >> frame 364, loop time = 0.373s, FPS = 2.681
+2020-08-21 22:36:37,438 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:36:37,452 [INFO]: video.py(inference:175) >> frame 365, loop time = 0.391s, FPS = 2.561
+2020-08-21 22:36:37,830 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:36:37,843 [INFO]: video.py(inference:175) >> frame 366, loop time = 0.390s, FPS = 2.561
+2020-08-21 22:36:38,200 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:36:38,219 [INFO]: video.py(inference:175) >> frame 367, loop time = 0.376s, FPS = 2.659
+2020-08-21 22:36:38,600 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:36:38,631 [INFO]: video.py(inference:175) >> frame 368, loop time = 0.412s, FPS = 2.428
+2020-08-21 22:36:39,008 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:36:39,027 [INFO]: video.py(inference:175) >> frame 369, loop time = 0.396s, FPS = 2.525
+2020-08-21 22:36:39,396 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [10, 2]
+2020-08-21 22:36:39,416 [INFO]: video.py(inference:175) >> frame 370, loop time = 0.389s, FPS = 2.572
+2020-08-21 22:36:39,793 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2020-08-21 22:36:39,819 [INFO]: video.py(inference:175) >> frame 371, loop time = 0.402s, FPS = 2.484
+2020-08-21 22:36:40,214 [INFO]: cifcaf.py(__call__:119) >> 3 annotations: [10, 2, 2]
+2020-08-21 22:36:40,239 [INFO]: video.py(inference:175) >> frame 372, loop time = 0.420s, FPS = 2.378
+2020-08-21 22:36:40,634 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:36:40,653 [INFO]: video.py(inference:175) >> frame 373, loop time = 0.413s, FPS = 2.420
+2020-08-21 22:36:41,016 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:36:41,035 [INFO]: video.py(inference:175) >> frame 374, loop time = 0.383s, FPS = 2.613
+2020-08-21 22:36:41,413 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:36:41,433 [INFO]: video.py(inference:175) >> frame 375, loop time = 0.397s, FPS = 2.517
+2020-08-21 22:36:41,791 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:36:41,851 [INFO]: video.py(inference:175) >> frame 376, loop time = 0.418s, FPS = 2.393
+2020-08-21 22:36:42,225 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:36:42,245 [INFO]: video.py(inference:175) >> frame 377, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:36:42,631 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:36:42,644 [INFO]: video.py(inference:175) >> frame 378, loop time = 0.399s, FPS = 2.509
+2020-08-21 22:36:43,020 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:43,032 [INFO]: video.py(inference:175) >> frame 379, loop time = 0.388s, FPS = 2.575
+2020-08-21 22:36:43,418 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:43,432 [INFO]: video.py(inference:175) >> frame 380, loop time = 0.399s, FPS = 2.506
+2020-08-21 22:36:43,801 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:43,815 [INFO]: video.py(inference:175) >> frame 381, loop time = 0.383s, FPS = 2.609
+2020-08-21 22:36:44,210 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:44,224 [INFO]: video.py(inference:175) >> frame 382, loop time = 0.409s, FPS = 2.444
+2020-08-21 22:36:44,586 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:44,599 [INFO]: video.py(inference:175) >> frame 383, loop time = 0.375s, FPS = 2.669
+2020-08-21 22:36:44,984 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:44,998 [INFO]: video.py(inference:175) >> frame 384, loop time = 0.398s, FPS = 2.512
+2020-08-21 22:36:45,358 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:45,372 [INFO]: video.py(inference:175) >> frame 385, loop time = 0.374s, FPS = 2.674
+2020-08-21 22:36:45,723 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:45,737 [INFO]: video.py(inference:175) >> frame 386, loop time = 0.365s, FPS = 2.737
+2020-08-21 22:36:46,104 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:36:46,123 [INFO]: video.py(inference:175) >> frame 387, loop time = 0.386s, FPS = 2.592
+2020-08-21 22:36:46,541 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:46,558 [INFO]: video.py(inference:175) >> frame 388, loop time = 0.435s, FPS = 2.300
+2020-08-21 22:36:46,921 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [16, 2]
+2020-08-21 22:36:46,941 [INFO]: video.py(inference:175) >> frame 389, loop time = 0.383s, FPS = 2.611
+2020-08-21 22:36:47,331 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:47,347 [INFO]: video.py(inference:175) >> frame 390, loop time = 0.405s, FPS = 2.467
+2020-08-21 22:36:47,734 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:47,748 [INFO]: video.py(inference:175) >> frame 391, loop time = 0.401s, FPS = 2.494
+2020-08-21 22:36:48,145 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:48,158 [INFO]: video.py(inference:175) >> frame 392, loop time = 0.410s, FPS = 2.440
+2020-08-21 22:36:48,524 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:48,537 [INFO]: video.py(inference:175) >> frame 393, loop time = 0.379s, FPS = 2.635
+2020-08-21 22:36:48,925 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:48,939 [INFO]: video.py(inference:175) >> frame 394, loop time = 0.401s, FPS = 2.491
+2020-08-21 22:36:49,331 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:49,347 [INFO]: video.py(inference:175) >> frame 395, loop time = 0.408s, FPS = 2.452
+2020-08-21 22:36:49,748 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:49,762 [INFO]: video.py(inference:175) >> frame 396, loop time = 0.415s, FPS = 2.412
+2020-08-21 22:36:50,179 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:50,194 [INFO]: video.py(inference:175) >> frame 397, loop time = 0.432s, FPS = 2.317
+2020-08-21 22:36:50,653 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:50,668 [INFO]: video.py(inference:175) >> frame 398, loop time = 0.475s, FPS = 2.107
+2020-08-21 22:36:51,099 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:51,114 [INFO]: video.py(inference:175) >> frame 399, loop time = 0.445s, FPS = 2.247
+2020-08-21 22:36:51,586 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:51,599 [INFO]: video.py(inference:175) >> frame 400, loop time = 0.485s, FPS = 2.060
+2020-08-21 22:36:51,965 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:51,978 [INFO]: video.py(inference:175) >> frame 401, loop time = 0.378s, FPS = 2.645
+2020-08-21 22:36:52,386 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:52,403 [INFO]: video.py(inference:175) >> frame 402, loop time = 0.425s, FPS = 2.354
+2020-08-21 22:36:52,878 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:52,893 [INFO]: video.py(inference:175) >> frame 403, loop time = 0.490s, FPS = 2.040
+2020-08-21 22:36:53,354 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:36:53,369 [INFO]: video.py(inference:175) >> frame 404, loop time = 0.476s, FPS = 2.100
+2020-08-21 22:36:53,857 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:53,871 [INFO]: video.py(inference:175) >> frame 405, loop time = 0.502s, FPS = 1.993
+2020-08-21 22:36:54,259 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:54,272 [INFO]: video.py(inference:175) >> frame 406, loop time = 0.401s, FPS = 2.496
+2020-08-21 22:36:54,684 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:54,697 [INFO]: video.py(inference:175) >> frame 407, loop time = 0.425s, FPS = 2.352
+2020-08-21 22:36:55,057 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:55,070 [INFO]: video.py(inference:175) >> frame 408, loop time = 0.372s, FPS = 2.688
+2020-08-21 22:36:55,494 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:55,505 [INFO]: video.py(inference:175) >> frame 409, loop time = 0.436s, FPS = 2.296
+2020-08-21 22:36:55,879 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:36:55,892 [INFO]: video.py(inference:175) >> frame 410, loop time = 0.386s, FPS = 2.590
+2020-08-21 22:36:56,268 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:56,280 [INFO]: video.py(inference:175) >> frame 411, loop time = 0.389s, FPS = 2.573
+2020-08-21 22:36:56,685 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:56,697 [INFO]: video.py(inference:175) >> frame 412, loop time = 0.416s, FPS = 2.404
+2020-08-21 22:36:57,047 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:57,058 [INFO]: video.py(inference:175) >> frame 413, loop time = 0.362s, FPS = 2.765
+2020-08-21 22:36:57,410 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:57,423 [INFO]: video.py(inference:175) >> frame 414, loop time = 0.364s, FPS = 2.748
+2020-08-21 22:36:57,817 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:36:57,833 [INFO]: video.py(inference:175) >> frame 415, loop time = 0.411s, FPS = 2.435
+2020-08-21 22:36:58,196 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:58,208 [INFO]: video.py(inference:175) >> frame 416, loop time = 0.374s, FPS = 2.671
+2020-08-21 22:36:58,571 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:36:58,585 [INFO]: video.py(inference:175) >> frame 417, loop time = 0.377s, FPS = 2.655
+2020-08-21 22:36:58,937 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:36:58,948 [INFO]: video.py(inference:175) >> frame 418, loop time = 0.363s, FPS = 2.753
+2020-08-21 22:36:59,305 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:36:59,318 [INFO]: video.py(inference:175) >> frame 419, loop time = 0.369s, FPS = 2.708
+2020-08-21 22:36:59,679 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:36:59,699 [INFO]: video.py(inference:175) >> frame 420, loop time = 0.381s, FPS = 2.623
+2020-08-21 22:37:00,103 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:37:00,115 [INFO]: video.py(inference:175) >> frame 421, loop time = 0.416s, FPS = 2.404
+2020-08-21 22:37:00,478 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:00,490 [INFO]: video.py(inference:175) >> frame 422, loop time = 0.374s, FPS = 2.672
+2020-08-21 22:37:00,844 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:37:00,861 [INFO]: video.py(inference:175) >> frame 423, loop time = 0.372s, FPS = 2.691
+2020-08-21 22:37:01,243 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:01,256 [INFO]: video.py(inference:175) >> frame 424, loop time = 0.394s, FPS = 2.536
+2020-08-21 22:37:01,637 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:37:01,655 [INFO]: video.py(inference:175) >> frame 425, loop time = 0.399s, FPS = 2.505
+2020-08-21 22:37:02,019 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:37:02,037 [INFO]: video.py(inference:175) >> frame 426, loop time = 0.382s, FPS = 2.618
+2020-08-21 22:37:02,398 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:02,411 [INFO]: video.py(inference:175) >> frame 427, loop time = 0.373s, FPS = 2.681
+2020-08-21 22:37:02,778 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:37:02,797 [INFO]: video.py(inference:175) >> frame 428, loop time = 0.386s, FPS = 2.591
+2020-08-21 22:37:03,170 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:37:03,331 [INFO]: video.py(inference:175) >> frame 429, loop time = 0.534s, FPS = 1.871
+2020-08-21 22:37:03,680 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:03,690 [INFO]: video.py(inference:175) >> frame 430, loop time = 0.359s, FPS = 2.787
+2020-08-21 22:37:04,040 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:04,053 [INFO]: video.py(inference:175) >> frame 431, loop time = 0.362s, FPS = 2.760
+2020-08-21 22:37:04,397 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:04,409 [INFO]: video.py(inference:175) >> frame 432, loop time = 0.356s, FPS = 2.812
+2020-08-21 22:37:04,767 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:04,779 [INFO]: video.py(inference:175) >> frame 433, loop time = 0.371s, FPS = 2.697
+2020-08-21 22:37:05,162 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:05,173 [INFO]: video.py(inference:175) >> frame 434, loop time = 0.394s, FPS = 2.539
+2020-08-21 22:37:05,543 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:05,555 [INFO]: video.py(inference:175) >> frame 435, loop time = 0.382s, FPS = 2.620
+2020-08-21 22:37:05,957 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:05,969 [INFO]: video.py(inference:175) >> frame 436, loop time = 0.413s, FPS = 2.419
+2020-08-21 22:37:06,331 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:06,343 [INFO]: video.py(inference:175) >> frame 437, loop time = 0.374s, FPS = 2.674
+2020-08-21 22:37:06,716 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:06,728 [INFO]: video.py(inference:175) >> frame 438, loop time = 0.385s, FPS = 2.595
+2020-08-21 22:37:07,090 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:07,103 [INFO]: video.py(inference:175) >> frame 439, loop time = 0.374s, FPS = 2.673
+2020-08-21 22:37:07,461 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:07,473 [INFO]: video.py(inference:175) >> frame 440, loop time = 0.370s, FPS = 2.703
+2020-08-21 22:37:07,832 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:07,843 [INFO]: video.py(inference:175) >> frame 441, loop time = 0.370s, FPS = 2.700
+2020-08-21 22:37:08,257 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:08,276 [INFO]: video.py(inference:175) >> frame 442, loop time = 0.432s, FPS = 2.313
+2020-08-21 22:37:08,664 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:08,679 [INFO]: video.py(inference:175) >> frame 443, loop time = 0.404s, FPS = 2.478
+2020-08-21 22:37:09,061 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:09,073 [INFO]: video.py(inference:175) >> frame 444, loop time = 0.394s, FPS = 2.541
+2020-08-21 22:37:09,469 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:37:09,488 [INFO]: video.py(inference:175) >> frame 445, loop time = 0.415s, FPS = 2.411
+2020-08-21 22:37:09,867 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:09,879 [INFO]: video.py(inference:175) >> frame 446, loop time = 0.391s, FPS = 2.557
+2020-08-21 22:37:10,247 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:10,259 [INFO]: video.py(inference:175) >> frame 447, loop time = 0.379s, FPS = 2.636
+2020-08-21 22:37:10,629 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:10,641 [INFO]: video.py(inference:175) >> frame 448, loop time = 0.382s, FPS = 2.617
+2020-08-21 22:37:10,997 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:11,009 [INFO]: video.py(inference:175) >> frame 449, loop time = 0.367s, FPS = 2.721
+2020-08-21 22:37:11,367 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:11,379 [INFO]: video.py(inference:175) >> frame 450, loop time = 0.371s, FPS = 2.699
+2020-08-21 22:37:11,800 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:11,813 [INFO]: video.py(inference:175) >> frame 451, loop time = 0.433s, FPS = 2.309
+2020-08-21 22:37:12,174 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:12,186 [INFO]: video.py(inference:175) >> frame 452, loop time = 0.373s, FPS = 2.678
+2020-08-21 22:37:12,560 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:12,574 [INFO]: video.py(inference:175) >> frame 453, loop time = 0.388s, FPS = 2.579
+2020-08-21 22:37:12,946 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:12,960 [INFO]: video.py(inference:175) >> frame 454, loop time = 0.386s, FPS = 2.593
+2020-08-21 22:37:13,331 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:37:13,350 [INFO]: video.py(inference:175) >> frame 455, loop time = 0.389s, FPS = 2.568
+2020-08-21 22:37:13,789 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:13,803 [INFO]: video.py(inference:175) >> frame 456, loop time = 0.453s, FPS = 2.208
+2020-08-21 22:37:14,197 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:14,209 [INFO]: video.py(inference:175) >> frame 457, loop time = 0.407s, FPS = 2.459
+2020-08-21 22:37:14,591 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:37:14,612 [INFO]: video.py(inference:175) >> frame 458, loop time = 0.402s, FPS = 2.488
+2020-08-21 22:37:15,037 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:15,050 [INFO]: video.py(inference:175) >> frame 459, loop time = 0.438s, FPS = 2.281
+2020-08-21 22:37:15,457 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:15,473 [INFO]: video.py(inference:175) >> frame 460, loop time = 0.423s, FPS = 2.366
+2020-08-21 22:37:15,915 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:15,927 [INFO]: video.py(inference:175) >> frame 461, loop time = 0.454s, FPS = 2.202
+2020-08-21 22:37:16,330 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:16,341 [INFO]: video.py(inference:175) >> frame 462, loop time = 0.414s, FPS = 2.415
+2020-08-21 22:37:16,730 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:16,743 [INFO]: video.py(inference:175) >> frame 463, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:37:17,138 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:17,153 [INFO]: video.py(inference:175) >> frame 464, loop time = 0.410s, FPS = 2.440
+2020-08-21 22:37:17,560 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:17,578 [INFO]: video.py(inference:175) >> frame 465, loop time = 0.425s, FPS = 2.354
+2020-08-21 22:37:18,015 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:18,029 [INFO]: video.py(inference:175) >> frame 466, loop time = 0.451s, FPS = 2.216
+2020-08-21 22:37:18,463 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:18,478 [INFO]: video.py(inference:175) >> frame 467, loop time = 0.449s, FPS = 2.227
+2020-08-21 22:37:18,868 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:37:18,881 [INFO]: video.py(inference:175) >> frame 468, loop time = 0.403s, FPS = 2.482
+2020-08-21 22:37:19,265 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:19,286 [INFO]: video.py(inference:175) >> frame 469, loop time = 0.404s, FPS = 2.476
+2020-08-21 22:37:19,657 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:19,670 [INFO]: video.py(inference:175) >> frame 470, loop time = 0.384s, FPS = 2.601
+2020-08-21 22:37:20,020 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:20,033 [INFO]: video.py(inference:175) >> frame 471, loop time = 0.363s, FPS = 2.756
+2020-08-21 22:37:20,476 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:20,490 [INFO]: video.py(inference:175) >> frame 472, loop time = 0.457s, FPS = 2.188
+2020-08-21 22:37:20,863 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:20,884 [INFO]: video.py(inference:175) >> frame 473, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:37:21,254 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:21,268 [INFO]: video.py(inference:175) >> frame 474, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:37:21,671 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:21,685 [INFO]: video.py(inference:175) >> frame 475, loop time = 0.417s, FPS = 2.397
+2020-08-21 22:37:22,067 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:22,079 [INFO]: video.py(inference:175) >> frame 476, loop time = 0.394s, FPS = 2.537
+2020-08-21 22:37:22,457 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:37:22,468 [INFO]: video.py(inference:175) >> frame 477, loop time = 0.389s, FPS = 2.572
+2020-08-21 22:37:22,872 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:22,887 [INFO]: video.py(inference:175) >> frame 478, loop time = 0.418s, FPS = 2.390
+2020-08-21 22:37:23,318 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:23,330 [INFO]: video.py(inference:175) >> frame 479, loop time = 0.443s, FPS = 2.257
+2020-08-21 22:37:23,701 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:23,714 [INFO]: video.py(inference:175) >> frame 480, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:37:24,095 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:24,107 [INFO]: video.py(inference:175) >> frame 481, loop time = 0.394s, FPS = 2.540
+2020-08-21 22:37:24,513 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:24,535 [INFO]: video.py(inference:175) >> frame 482, loop time = 0.428s, FPS = 2.337
+2020-08-21 22:37:24,937 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:24,949 [INFO]: video.py(inference:175) >> frame 483, loop time = 0.414s, FPS = 2.417
+2020-08-21 22:37:25,345 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:25,357 [INFO]: video.py(inference:175) >> frame 484, loop time = 0.408s, FPS = 2.452
+2020-08-21 22:37:25,754 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:25,766 [INFO]: video.py(inference:175) >> frame 485, loop time = 0.408s, FPS = 2.450
+2020-08-21 22:37:26,156 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:26,169 [INFO]: video.py(inference:175) >> frame 486, loop time = 0.403s, FPS = 2.481
+2020-08-21 22:37:26,532 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:26,544 [INFO]: video.py(inference:175) >> frame 487, loop time = 0.375s, FPS = 2.665
+2020-08-21 22:37:27,037 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:27,053 [INFO]: video.py(inference:175) >> frame 488, loop time = 0.509s, FPS = 1.965
+2020-08-21 22:37:27,405 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:27,417 [INFO]: video.py(inference:175) >> frame 489, loop time = 0.364s, FPS = 2.751
+2020-08-21 22:37:27,784 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:27,797 [INFO]: video.py(inference:175) >> frame 490, loop time = 0.380s, FPS = 2.633
+2020-08-21 22:37:28,171 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:28,183 [INFO]: video.py(inference:175) >> frame 491, loop time = 0.385s, FPS = 2.595
+2020-08-21 22:37:28,538 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:28,551 [INFO]: video.py(inference:175) >> frame 492, loop time = 0.368s, FPS = 2.719
+2020-08-21 22:37:28,942 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:28,955 [INFO]: video.py(inference:175) >> frame 493, loop time = 0.404s, FPS = 2.476
+2020-08-21 22:37:29,336 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:29,349 [INFO]: video.py(inference:175) >> frame 494, loop time = 0.394s, FPS = 2.539
+2020-08-21 22:37:29,738 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:29,752 [INFO]: video.py(inference:175) >> frame 495, loop time = 0.403s, FPS = 2.482
+2020-08-21 22:37:30,165 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:30,177 [INFO]: video.py(inference:175) >> frame 496, loop time = 0.425s, FPS = 2.354
+2020-08-21 22:37:30,565 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:30,585 [INFO]: video.py(inference:175) >> frame 497, loop time = 0.408s, FPS = 2.453
+2020-08-21 22:37:30,968 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:30,980 [INFO]: video.py(inference:175) >> frame 498, loop time = 0.395s, FPS = 2.530
+2020-08-21 22:37:31,336 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:31,348 [INFO]: video.py(inference:175) >> frame 499, loop time = 0.368s, FPS = 2.720
+2020-08-21 22:37:31,735 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:31,747 [INFO]: video.py(inference:175) >> frame 500, loop time = 0.399s, FPS = 2.506
+2020-08-21 22:37:32,135 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:32,147 [INFO]: video.py(inference:175) >> frame 501, loop time = 0.400s, FPS = 2.500
+2020-08-21 22:37:32,542 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:32,553 [INFO]: video.py(inference:175) >> frame 502, loop time = 0.406s, FPS = 2.463
+2020-08-21 22:37:32,955 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:32,968 [INFO]: video.py(inference:175) >> frame 503, loop time = 0.414s, FPS = 2.415
+2020-08-21 22:37:33,368 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:33,380 [INFO]: video.py(inference:175) >> frame 504, loop time = 0.412s, FPS = 2.425
+2020-08-21 22:37:33,793 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:33,807 [INFO]: video.py(inference:175) >> frame 505, loop time = 0.427s, FPS = 2.341
+2020-08-21 22:37:34,257 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:34,273 [INFO]: video.py(inference:175) >> frame 506, loop time = 0.465s, FPS = 2.150
+2020-08-21 22:37:34,700 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:34,712 [INFO]: video.py(inference:175) >> frame 507, loop time = 0.439s, FPS = 2.277
+2020-08-21 22:37:35,061 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:35,073 [INFO]: video.py(inference:175) >> frame 508, loop time = 0.361s, FPS = 2.771
+2020-08-21 22:37:35,455 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:35,467 [INFO]: video.py(inference:175) >> frame 509, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:37:35,830 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:35,841 [INFO]: video.py(inference:175) >> frame 510, loop time = 0.374s, FPS = 2.674
+2020-08-21 22:37:36,193 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:36,206 [INFO]: video.py(inference:175) >> frame 511, loop time = 0.364s, FPS = 2.746
+2020-08-21 22:37:36,605 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:36,617 [INFO]: video.py(inference:175) >> frame 512, loop time = 0.412s, FPS = 2.430
+2020-08-21 22:37:36,969 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:37:36,987 [INFO]: video.py(inference:175) >> frame 513, loop time = 0.370s, FPS = 2.703
+2020-08-21 22:37:37,367 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:37:37,385 [INFO]: video.py(inference:175) >> frame 514, loop time = 0.398s, FPS = 2.513
+2020-08-21 22:37:37,757 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:37:37,777 [INFO]: video.py(inference:175) >> frame 515, loop time = 0.391s, FPS = 2.557
+2020-08-21 22:37:38,193 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:37:38,211 [INFO]: video.py(inference:175) >> frame 516, loop time = 0.434s, FPS = 2.304
+2020-08-21 22:37:38,565 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:38,577 [INFO]: video.py(inference:175) >> frame 517, loop time = 0.366s, FPS = 2.732
+2020-08-21 22:37:38,917 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:38,929 [INFO]: video.py(inference:175) >> frame 518, loop time = 0.352s, FPS = 2.844
+2020-08-21 22:37:39,286 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:37:39,441 [INFO]: video.py(inference:175) >> frame 519, loop time = 0.512s, FPS = 1.953
+2020-08-21 22:37:39,795 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:39,812 [INFO]: video.py(inference:175) >> frame 520, loop time = 0.371s, FPS = 2.696
+2020-08-21 22:37:40,233 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:40,244 [INFO]: video.py(inference:175) >> frame 521, loop time = 0.432s, FPS = 2.315
+2020-08-21 22:37:40,599 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:40,611 [INFO]: video.py(inference:175) >> frame 522, loop time = 0.366s, FPS = 2.733
+2020-08-21 22:37:40,972 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:40,984 [INFO]: video.py(inference:175) >> frame 523, loop time = 0.373s, FPS = 2.679
+2020-08-21 22:37:41,425 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:41,439 [INFO]: video.py(inference:175) >> frame 524, loop time = 0.454s, FPS = 2.201
+2020-08-21 22:37:41,790 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:41,804 [INFO]: video.py(inference:175) >> frame 525, loop time = 0.365s, FPS = 2.739
+2020-08-21 22:37:42,153 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:42,165 [INFO]: video.py(inference:175) >> frame 526, loop time = 0.361s, FPS = 2.770
+2020-08-21 22:37:42,525 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:42,536 [INFO]: video.py(inference:175) >> frame 527, loop time = 0.371s, FPS = 2.694
+2020-08-21 22:37:42,896 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:42,908 [INFO]: video.py(inference:175) >> frame 528, loop time = 0.372s, FPS = 2.692
+2020-08-21 22:37:43,276 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:43,288 [INFO]: video.py(inference:175) >> frame 529, loop time = 0.380s, FPS = 2.633
+2020-08-21 22:37:43,650 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:43,662 [INFO]: video.py(inference:175) >> frame 530, loop time = 0.374s, FPS = 2.675
+2020-08-21 22:37:44,043 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:44,055 [INFO]: video.py(inference:175) >> frame 531, loop time = 0.393s, FPS = 2.547
+2020-08-21 22:37:44,421 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:44,433 [INFO]: video.py(inference:175) >> frame 532, loop time = 0.378s, FPS = 2.644
+2020-08-21 22:37:44,867 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:44,879 [INFO]: video.py(inference:175) >> frame 533, loop time = 0.446s, FPS = 2.243
+2020-08-21 22:37:45,263 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:45,275 [INFO]: video.py(inference:175) >> frame 534, loop time = 0.396s, FPS = 2.527
+2020-08-21 22:37:45,677 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:45,693 [INFO]: video.py(inference:175) >> frame 535, loop time = 0.418s, FPS = 2.394
+2020-08-21 22:37:46,075 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:46,087 [INFO]: video.py(inference:175) >> frame 536, loop time = 0.394s, FPS = 2.537
+2020-08-21 22:37:46,473 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:46,486 [INFO]: video.py(inference:175) >> frame 537, loop time = 0.398s, FPS = 2.511
+2020-08-21 22:37:46,853 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:46,866 [INFO]: video.py(inference:175) >> frame 538, loop time = 0.380s, FPS = 2.632
+2020-08-21 22:37:47,222 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:47,234 [INFO]: video.py(inference:175) >> frame 539, loop time = 0.368s, FPS = 2.720
+2020-08-21 22:37:47,596 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:47,613 [INFO]: video.py(inference:175) >> frame 540, loop time = 0.379s, FPS = 2.640
+2020-08-21 22:37:47,963 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:47,975 [INFO]: video.py(inference:175) >> frame 541, loop time = 0.362s, FPS = 2.760
+2020-08-21 22:37:48,328 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:48,341 [INFO]: video.py(inference:175) >> frame 542, loop time = 0.366s, FPS = 2.734
+2020-08-21 22:37:48,757 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:48,770 [INFO]: video.py(inference:175) >> frame 543, loop time = 0.429s, FPS = 2.331
+2020-08-21 22:37:49,176 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:49,195 [INFO]: video.py(inference:175) >> frame 544, loop time = 0.425s, FPS = 2.352
+2020-08-21 22:37:49,597 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:49,609 [INFO]: video.py(inference:175) >> frame 545, loop time = 0.414s, FPS = 2.417
+2020-08-21 22:37:49,985 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:49,998 [INFO]: video.py(inference:175) >> frame 546, loop time = 0.388s, FPS = 2.576
+2020-08-21 22:37:50,366 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:37:50,379 [INFO]: video.py(inference:175) >> frame 547, loop time = 0.381s, FPS = 2.622
+2020-08-21 22:37:50,809 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:50,825 [INFO]: video.py(inference:175) >> frame 548, loop time = 0.445s, FPS = 2.246
+2020-08-21 22:37:51,195 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:37:51,208 [INFO]: video.py(inference:175) >> frame 549, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:37:51,615 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:51,627 [INFO]: video.py(inference:175) >> frame 550, loop time = 0.419s, FPS = 2.389
+2020-08-21 22:37:52,046 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:52,058 [INFO]: video.py(inference:175) >> frame 551, loop time = 0.431s, FPS = 2.319
+2020-08-21 22:37:52,450 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:52,462 [INFO]: video.py(inference:175) >> frame 552, loop time = 0.404s, FPS = 2.476
+2020-08-21 22:37:52,863 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:52,876 [INFO]: video.py(inference:175) >> frame 553, loop time = 0.413s, FPS = 2.420
+2020-08-21 22:37:53,265 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:53,277 [INFO]: video.py(inference:175) >> frame 554, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:37:53,657 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:53,669 [INFO]: video.py(inference:175) >> frame 555, loop time = 0.391s, FPS = 2.555
+2020-08-21 22:37:54,017 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:54,029 [INFO]: video.py(inference:175) >> frame 556, loop time = 0.361s, FPS = 2.771
+2020-08-21 22:37:54,427 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:54,439 [INFO]: video.py(inference:175) >> frame 557, loop time = 0.410s, FPS = 2.441
+2020-08-21 22:37:54,903 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:54,918 [INFO]: video.py(inference:175) >> frame 558, loop time = 0.478s, FPS = 2.090
+2020-08-21 22:37:55,368 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:55,379 [INFO]: video.py(inference:175) >> frame 559, loop time = 0.461s, FPS = 2.167
+2020-08-21 22:37:55,752 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:55,763 [INFO]: video.py(inference:175) >> frame 560, loop time = 0.384s, FPS = 2.607
+2020-08-21 22:37:56,168 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:56,183 [INFO]: video.py(inference:175) >> frame 561, loop time = 0.419s, FPS = 2.386
+2020-08-21 22:37:56,634 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:56,648 [INFO]: video.py(inference:175) >> frame 562, loop time = 0.466s, FPS = 2.148
+2020-08-21 22:37:57,044 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:57,064 [INFO]: video.py(inference:175) >> frame 563, loop time = 0.416s, FPS = 2.405
+2020-08-21 22:37:57,447 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:57,459 [INFO]: video.py(inference:175) >> frame 564, loop time = 0.395s, FPS = 2.534
+2020-08-21 22:37:57,849 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:57,860 [INFO]: video.py(inference:175) >> frame 565, loop time = 0.401s, FPS = 2.494
+2020-08-21 22:37:58,272 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:37:58,284 [INFO]: video.py(inference:175) >> frame 566, loop time = 0.424s, FPS = 2.360
+2020-08-21 22:37:58,686 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:58,698 [INFO]: video.py(inference:175) >> frame 567, loop time = 0.414s, FPS = 2.417
+2020-08-21 22:37:59,088 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:59,100 [INFO]: video.py(inference:175) >> frame 568, loop time = 0.402s, FPS = 2.487
+2020-08-21 22:37:59,480 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:37:59,493 [INFO]: video.py(inference:175) >> frame 569, loop time = 0.393s, FPS = 2.547
+2020-08-21 22:37:59,884 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:37:59,895 [INFO]: video.py(inference:175) >> frame 570, loop time = 0.402s, FPS = 2.487
+2020-08-21 22:38:00,284 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:00,296 [INFO]: video.py(inference:175) >> frame 571, loop time = 0.401s, FPS = 2.496
+2020-08-21 22:38:00,681 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:00,693 [INFO]: video.py(inference:175) >> frame 572, loop time = 0.397s, FPS = 2.521
+2020-08-21 22:38:01,063 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:01,075 [INFO]: video.py(inference:175) >> frame 573, loop time = 0.382s, FPS = 2.621
+2020-08-21 22:38:01,465 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:01,478 [INFO]: video.py(inference:175) >> frame 574, loop time = 0.403s, FPS = 2.482
+2020-08-21 22:38:01,869 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:01,883 [INFO]: video.py(inference:175) >> frame 575, loop time = 0.405s, FPS = 2.468
+2020-08-21 22:38:02,260 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:02,272 [INFO]: video.py(inference:175) >> frame 576, loop time = 0.389s, FPS = 2.569
+2020-08-21 22:38:02,655 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:02,667 [INFO]: video.py(inference:175) >> frame 577, loop time = 0.394s, FPS = 2.539
+2020-08-21 22:38:03,024 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:03,040 [INFO]: video.py(inference:175) >> frame 578, loop time = 0.373s, FPS = 2.680
+2020-08-21 22:38:03,418 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:03,431 [INFO]: video.py(inference:175) >> frame 579, loop time = 0.391s, FPS = 2.560
+2020-08-21 22:38:03,821 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:03,833 [INFO]: video.py(inference:175) >> frame 580, loop time = 0.402s, FPS = 2.485
+2020-08-21 22:38:04,241 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:04,255 [INFO]: video.py(inference:175) >> frame 581, loop time = 0.421s, FPS = 2.374
+2020-08-21 22:38:04,696 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:04,714 [INFO]: video.py(inference:175) >> frame 582, loop time = 0.459s, FPS = 2.179
+2020-08-21 22:38:05,135 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:05,148 [INFO]: video.py(inference:175) >> frame 583, loop time = 0.434s, FPS = 2.304
+2020-08-21 22:38:05,548 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:05,560 [INFO]: video.py(inference:175) >> frame 584, loop time = 0.412s, FPS = 2.427
+2020-08-21 22:38:05,983 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:05,996 [INFO]: video.py(inference:175) >> frame 585, loop time = 0.436s, FPS = 2.294
+2020-08-21 22:38:06,371 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:06,384 [INFO]: video.py(inference:175) >> frame 586, loop time = 0.388s, FPS = 2.580
+2020-08-21 22:38:06,775 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:06,788 [INFO]: video.py(inference:175) >> frame 587, loop time = 0.404s, FPS = 2.473
+2020-08-21 22:38:07,172 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:07,184 [INFO]: video.py(inference:175) >> frame 588, loop time = 0.396s, FPS = 2.526
+2020-08-21 22:38:07,560 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:07,574 [INFO]: video.py(inference:175) >> frame 589, loop time = 0.389s, FPS = 2.568
+2020-08-21 22:38:07,981 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:07,992 [INFO]: video.py(inference:175) >> frame 590, loop time = 0.418s, FPS = 2.393
+2020-08-21 22:38:08,354 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:08,374 [INFO]: video.py(inference:175) >> frame 591, loop time = 0.382s, FPS = 2.620
+2020-08-21 22:38:08,744 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:08,756 [INFO]: video.py(inference:175) >> frame 592, loop time = 0.382s, FPS = 2.619
+2020-08-21 22:38:09,146 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:09,158 [INFO]: video.py(inference:175) >> frame 593, loop time = 0.402s, FPS = 2.489
+2020-08-21 22:38:09,547 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:09,559 [INFO]: video.py(inference:175) >> frame 594, loop time = 0.401s, FPS = 2.494
+2020-08-21 22:38:09,939 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:09,951 [INFO]: video.py(inference:175) >> frame 595, loop time = 0.392s, FPS = 2.548
+2020-08-21 22:38:10,319 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:10,331 [INFO]: video.py(inference:175) >> frame 596, loop time = 0.379s, FPS = 2.637
+2020-08-21 22:38:10,711 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:10,724 [INFO]: video.py(inference:175) >> frame 597, loop time = 0.393s, FPS = 2.546
+2020-08-21 22:38:11,117 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:11,129 [INFO]: video.py(inference:175) >> frame 598, loop time = 0.405s, FPS = 2.468
+2020-08-21 22:38:11,505 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:11,666 [INFO]: video.py(inference:175) >> frame 599, loop time = 0.537s, FPS = 1.863
+2020-08-21 22:38:12,011 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:12,022 [INFO]: video.py(inference:175) >> frame 600, loop time = 0.356s, FPS = 2.805
+2020-08-21 22:38:12,399 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:12,411 [INFO]: video.py(inference:175) >> frame 601, loop time = 0.388s, FPS = 2.575
+2020-08-21 22:38:12,772 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:12,784 [INFO]: video.py(inference:175) >> frame 602, loop time = 0.373s, FPS = 2.682
+2020-08-21 22:38:13,172 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:13,184 [INFO]: video.py(inference:175) >> frame 603, loop time = 0.400s, FPS = 2.498
+2020-08-21 22:38:13,556 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:38:13,568 [INFO]: video.py(inference:175) >> frame 604, loop time = 0.383s, FPS = 2.611
+2020-08-21 22:38:13,946 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:13,958 [INFO]: video.py(inference:175) >> frame 605, loop time = 0.390s, FPS = 2.565
+2020-08-21 22:38:14,347 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:14,359 [INFO]: video.py(inference:175) >> frame 606, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:38:14,738 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:14,752 [INFO]: video.py(inference:175) >> frame 607, loop time = 0.393s, FPS = 2.546
+2020-08-21 22:38:15,133 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:15,146 [INFO]: video.py(inference:175) >> frame 608, loop time = 0.394s, FPS = 2.541
+2020-08-21 22:38:15,523 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:15,535 [INFO]: video.py(inference:175) >> frame 609, loop time = 0.390s, FPS = 2.566
+2020-08-21 22:38:15,925 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:15,937 [INFO]: video.py(inference:175) >> frame 610, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:38:16,347 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:38:16,366 [INFO]: video.py(inference:175) >> frame 611, loop time = 0.429s, FPS = 2.333
+2020-08-21 22:38:16,743 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:38:16,763 [INFO]: video.py(inference:175) >> frame 612, loop time = 0.397s, FPS = 2.518
+2020-08-21 22:38:17,161 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:38:17,176 [INFO]: video.py(inference:175) >> frame 613, loop time = 0.413s, FPS = 2.420
+2020-08-21 22:38:17,561 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:38:17,575 [INFO]: video.py(inference:175) >> frame 614, loop time = 0.399s, FPS = 2.509
+2020-08-21 22:38:17,964 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:38:17,975 [INFO]: video.py(inference:175) >> frame 615, loop time = 0.400s, FPS = 2.499
+2020-08-21 22:38:18,353 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:38:18,364 [INFO]: video.py(inference:175) >> frame 616, loop time = 0.389s, FPS = 2.572
+2020-08-21 22:38:18,801 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:18,812 [INFO]: video.py(inference:175) >> frame 617, loop time = 0.448s, FPS = 2.234
+2020-08-21 22:38:19,186 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:19,202 [INFO]: video.py(inference:175) >> frame 618, loop time = 0.390s, FPS = 2.563
+2020-08-21 22:38:19,625 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:19,640 [INFO]: video.py(inference:175) >> frame 619, loop time = 0.437s, FPS = 2.287
+2020-08-21 22:38:20,059 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:20,072 [INFO]: video.py(inference:175) >> frame 620, loop time = 0.433s, FPS = 2.312
+2020-08-21 22:38:20,466 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [6, 2]
+2020-08-21 22:38:20,484 [INFO]: video.py(inference:175) >> frame 621, loop time = 0.412s, FPS = 2.428
+2020-08-21 22:38:20,908 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [9]
+2020-08-21 22:38:20,922 [INFO]: video.py(inference:175) >> frame 622, loop time = 0.437s, FPS = 2.287
+2020-08-21 22:38:21,314 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:38:21,327 [INFO]: video.py(inference:175) >> frame 623, loop time = 0.405s, FPS = 2.470
+2020-08-21 22:38:21,730 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [9]
+2020-08-21 22:38:21,743 [INFO]: video.py(inference:175) >> frame 624, loop time = 0.416s, FPS = 2.406
+2020-08-21 22:38:22,177 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:38:22,190 [INFO]: video.py(inference:175) >> frame 625, loop time = 0.447s, FPS = 2.238
+2020-08-21 22:38:22,607 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:38:22,619 [INFO]: video.py(inference:175) >> frame 626, loop time = 0.429s, FPS = 2.333
+2020-08-21 22:38:23,030 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:38:23,045 [INFO]: video.py(inference:175) >> frame 627, loop time = 0.426s, FPS = 2.347
+2020-08-21 22:38:23,430 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [11]
+2020-08-21 22:38:23,442 [INFO]: video.py(inference:175) >> frame 628, loop time = 0.397s, FPS = 2.522
+2020-08-21 22:38:23,870 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:38:24,038 [INFO]: video.py(inference:175) >> frame 629, loop time = 0.596s, FPS = 1.677
+2020-08-21 22:38:24,418 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:24,430 [INFO]: video.py(inference:175) >> frame 630, loop time = 0.391s, FPS = 2.555
+2020-08-21 22:38:24,914 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [7]
+2020-08-21 22:38:24,927 [INFO]: video.py(inference:175) >> frame 631, loop time = 0.497s, FPS = 2.011
+2020-08-21 22:38:25,370 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [10, 2]
+2020-08-21 22:38:25,388 [INFO]: video.py(inference:175) >> frame 632, loop time = 0.461s, FPS = 2.170
+2020-08-21 22:38:25,806 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:38:25,819 [INFO]: video.py(inference:175) >> frame 633, loop time = 0.430s, FPS = 2.325
+2020-08-21 22:38:26,217 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [11, 2]
+2020-08-21 22:38:26,235 [INFO]: video.py(inference:175) >> frame 634, loop time = 0.417s, FPS = 2.400
+2020-08-21 22:38:26,645 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:26,657 [INFO]: video.py(inference:175) >> frame 635, loop time = 0.421s, FPS = 2.373
+2020-08-21 22:38:27,037 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:27,049 [INFO]: video.py(inference:175) >> frame 636, loop time = 0.392s, FPS = 2.551
+2020-08-21 22:38:27,414 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:38:27,427 [INFO]: video.py(inference:175) >> frame 637, loop time = 0.377s, FPS = 2.652
+2020-08-21 22:38:27,801 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [4, 5]
+2020-08-21 22:38:27,819 [INFO]: video.py(inference:175) >> frame 638, loop time = 0.392s, FPS = 2.552
+2020-08-21 22:38:28,206 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [3, 6]
+2020-08-21 22:38:28,223 [INFO]: video.py(inference:175) >> frame 639, loop time = 0.404s, FPS = 2.475
+2020-08-21 22:38:28,641 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [5, 5]
+2020-08-21 22:38:28,660 [INFO]: video.py(inference:175) >> frame 640, loop time = 0.437s, FPS = 2.290
+2020-08-21 22:38:29,072 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [5, 4]
+2020-08-21 22:38:29,091 [INFO]: video.py(inference:175) >> frame 641, loop time = 0.431s, FPS = 2.318
+2020-08-21 22:38:29,495 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [5, 6]
+2020-08-21 22:38:29,513 [INFO]: video.py(inference:175) >> frame 642, loop time = 0.421s, FPS = 2.374
+2020-08-21 22:38:29,929 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [5, 3]
+2020-08-21 22:38:29,953 [INFO]: video.py(inference:175) >> frame 643, loop time = 0.440s, FPS = 2.273
+2020-08-21 22:38:30,386 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [6]
+2020-08-21 22:38:30,399 [INFO]: video.py(inference:175) >> frame 644, loop time = 0.446s, FPS = 2.244
+2020-08-21 22:38:30,817 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [6, 4]
+2020-08-21 22:38:30,836 [INFO]: video.py(inference:175) >> frame 645, loop time = 0.438s, FPS = 2.285
+2020-08-21 22:38:31,219 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [8, 4]
+2020-08-21 22:38:31,238 [INFO]: video.py(inference:175) >> frame 646, loop time = 0.401s, FPS = 2.492
+2020-08-21 22:38:31,672 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [8, 4]
+2020-08-21 22:38:31,695 [INFO]: video.py(inference:175) >> frame 647, loop time = 0.457s, FPS = 2.188
+2020-08-21 22:38:32,124 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 1]
+2020-08-21 22:38:32,143 [INFO]: video.py(inference:175) >> frame 648, loop time = 0.447s, FPS = 2.236
+2020-08-21 22:38:32,558 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 1]
+2020-08-21 22:38:32,579 [INFO]: video.py(inference:175) >> frame 649, loop time = 0.436s, FPS = 2.292
+2020-08-21 22:38:33,002 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:33,015 [INFO]: video.py(inference:175) >> frame 650, loop time = 0.436s, FPS = 2.295
+2020-08-21 22:38:33,420 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:33,432 [INFO]: video.py(inference:175) >> frame 651, loop time = 0.417s, FPS = 2.397
+2020-08-21 22:38:33,836 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:33,848 [INFO]: video.py(inference:175) >> frame 652, loop time = 0.416s, FPS = 2.407
+2020-08-21 22:38:34,215 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:34,227 [INFO]: video.py(inference:175) >> frame 653, loop time = 0.379s, FPS = 2.639
+2020-08-21 22:38:34,631 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:34,646 [INFO]: video.py(inference:175) >> frame 654, loop time = 0.419s, FPS = 2.385
+2020-08-21 22:38:35,053 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:35,066 [INFO]: video.py(inference:175) >> frame 655, loop time = 0.419s, FPS = 2.385
+2020-08-21 22:38:35,526 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:35,540 [INFO]: video.py(inference:175) >> frame 656, loop time = 0.474s, FPS = 2.110
+2020-08-21 22:38:35,954 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:35,965 [INFO]: video.py(inference:175) >> frame 657, loop time = 0.425s, FPS = 2.353
+2020-08-21 22:38:36,391 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:36,403 [INFO]: video.py(inference:175) >> frame 658, loop time = 0.438s, FPS = 2.283
+2020-08-21 22:38:36,811 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:36,822 [INFO]: video.py(inference:175) >> frame 659, loop time = 0.419s, FPS = 2.387
+2020-08-21 22:38:37,194 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:37,206 [INFO]: video.py(inference:175) >> frame 660, loop time = 0.383s, FPS = 2.608
+2020-08-21 22:38:37,586 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:37,599 [INFO]: video.py(inference:175) >> frame 661, loop time = 0.393s, FPS = 2.546
+2020-08-21 22:38:38,029 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:38,042 [INFO]: video.py(inference:175) >> frame 662, loop time = 0.443s, FPS = 2.259
+2020-08-21 22:38:38,415 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:38,429 [INFO]: video.py(inference:175) >> frame 663, loop time = 0.387s, FPS = 2.587
+2020-08-21 22:38:38,829 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:38,842 [INFO]: video.py(inference:175) >> frame 664, loop time = 0.413s, FPS = 2.421
+2020-08-21 22:38:39,256 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:39,272 [INFO]: video.py(inference:175) >> frame 665, loop time = 0.430s, FPS = 2.327
+2020-08-21 22:38:39,673 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:39,685 [INFO]: video.py(inference:175) >> frame 666, loop time = 0.413s, FPS = 2.419
+2020-08-21 22:38:40,055 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:40,067 [INFO]: video.py(inference:175) >> frame 667, loop time = 0.381s, FPS = 2.622
+2020-08-21 22:38:40,436 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:40,448 [INFO]: video.py(inference:175) >> frame 668, loop time = 0.381s, FPS = 2.626
+2020-08-21 22:38:40,828 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:40,840 [INFO]: video.py(inference:175) >> frame 669, loop time = 0.392s, FPS = 2.552
+2020-08-21 22:38:41,287 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:41,303 [INFO]: video.py(inference:175) >> frame 670, loop time = 0.463s, FPS = 2.161
+2020-08-21 22:38:41,725 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:41,740 [INFO]: video.py(inference:175) >> frame 671, loop time = 0.437s, FPS = 2.290
+2020-08-21 22:38:42,145 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:42,158 [INFO]: video.py(inference:175) >> frame 672, loop time = 0.417s, FPS = 2.396
+2020-08-21 22:38:42,554 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:42,566 [INFO]: video.py(inference:175) >> frame 673, loop time = 0.409s, FPS = 2.448
+2020-08-21 22:38:42,985 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:42,996 [INFO]: video.py(inference:175) >> frame 674, loop time = 0.430s, FPS = 2.326
+2020-08-21 22:38:43,388 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:43,400 [INFO]: video.py(inference:175) >> frame 675, loop time = 0.403s, FPS = 2.481
+2020-08-21 22:38:43,798 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:43,811 [INFO]: video.py(inference:175) >> frame 676, loop time = 0.411s, FPS = 2.433
+2020-08-21 22:38:44,225 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:44,237 [INFO]: video.py(inference:175) >> frame 677, loop time = 0.426s, FPS = 2.350
+2020-08-21 22:38:44,646 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:44,658 [INFO]: video.py(inference:175) >> frame 678, loop time = 0.421s, FPS = 2.373
+2020-08-21 22:38:45,086 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:45,102 [INFO]: video.py(inference:175) >> frame 679, loop time = 0.443s, FPS = 2.255
+2020-08-21 22:38:45,461 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:45,473 [INFO]: video.py(inference:175) >> frame 680, loop time = 0.371s, FPS = 2.697
+2020-08-21 22:38:45,844 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:45,859 [INFO]: video.py(inference:175) >> frame 681, loop time = 0.386s, FPS = 2.592
+2020-08-21 22:38:46,233 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:38:46,245 [INFO]: video.py(inference:175) >> frame 682, loop time = 0.386s, FPS = 2.590
+2020-08-21 22:38:46,610 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:38:46,631 [INFO]: video.py(inference:175) >> frame 683, loop time = 0.386s, FPS = 2.594
+2020-08-21 22:38:47,025 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:38:47,043 [INFO]: video.py(inference:175) >> frame 684, loop time = 0.412s, FPS = 2.424
+2020-08-21 22:38:47,422 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:47,434 [INFO]: video.py(inference:175) >> frame 685, loop time = 0.390s, FPS = 2.563
+2020-08-21 22:38:47,793 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:47,805 [INFO]: video.py(inference:175) >> frame 686, loop time = 0.372s, FPS = 2.691
+2020-08-21 22:38:48,189 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:48,202 [INFO]: video.py(inference:175) >> frame 687, loop time = 0.396s, FPS = 2.525
+2020-08-21 22:38:48,567 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:38:48,581 [INFO]: video.py(inference:175) >> frame 688, loop time = 0.380s, FPS = 2.634
+2020-08-21 22:38:48,950 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:38:49,111 [INFO]: video.py(inference:175) >> frame 689, loop time = 0.530s, FPS = 1.888
+2020-08-21 22:38:49,455 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:49,468 [INFO]: video.py(inference:175) >> frame 690, loop time = 0.356s, FPS = 2.807
+2020-08-21 22:38:49,846 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:49,860 [INFO]: video.py(inference:175) >> frame 691, loop time = 0.392s, FPS = 2.551
+2020-08-21 22:38:50,228 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:38:50,241 [INFO]: video.py(inference:175) >> frame 692, loop time = 0.381s, FPS = 2.625
+2020-08-21 22:38:50,645 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:50,657 [INFO]: video.py(inference:175) >> frame 693, loop time = 0.417s, FPS = 2.401
+2020-08-21 22:38:51,015 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:51,027 [INFO]: video.py(inference:175) >> frame 694, loop time = 0.370s, FPS = 2.706
+2020-08-21 22:38:51,414 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:51,426 [INFO]: video.py(inference:175) >> frame 695, loop time = 0.399s, FPS = 2.507
+2020-08-21 22:38:51,805 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:51,817 [INFO]: video.py(inference:175) >> frame 696, loop time = 0.390s, FPS = 2.562
+2020-08-21 22:38:52,183 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:52,195 [INFO]: video.py(inference:175) >> frame 697, loop time = 0.378s, FPS = 2.642
+2020-08-21 22:38:52,566 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:52,580 [INFO]: video.py(inference:175) >> frame 698, loop time = 0.385s, FPS = 2.601
+2020-08-21 22:38:53,022 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:38:53,044 [INFO]: video.py(inference:175) >> frame 699, loop time = 0.464s, FPS = 2.155
+2020-08-21 22:38:53,454 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:38:53,474 [INFO]: video.py(inference:175) >> frame 700, loop time = 0.429s, FPS = 2.328
+2020-08-21 22:38:53,884 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:38:53,911 [INFO]: video.py(inference:175) >> frame 701, loop time = 0.437s, FPS = 2.287
+2020-08-21 22:38:54,302 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:54,315 [INFO]: video.py(inference:175) >> frame 702, loop time = 0.403s, FPS = 2.480
+2020-08-21 22:38:54,671 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:54,682 [INFO]: video.py(inference:175) >> frame 703, loop time = 0.367s, FPS = 2.722
+2020-08-21 22:38:55,034 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:55,046 [INFO]: video.py(inference:175) >> frame 704, loop time = 0.363s, FPS = 2.752
+2020-08-21 22:38:55,459 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:38:55,479 [INFO]: video.py(inference:175) >> frame 705, loop time = 0.433s, FPS = 2.312
+2020-08-21 22:38:55,897 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:38:55,917 [INFO]: video.py(inference:175) >> frame 706, loop time = 0.438s, FPS = 2.282
+2020-08-21 22:38:56,294 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:56,307 [INFO]: video.py(inference:175) >> frame 707, loop time = 0.390s, FPS = 2.564
+2020-08-21 22:38:56,701 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:56,714 [INFO]: video.py(inference:175) >> frame 708, loop time = 0.407s, FPS = 2.456
+2020-08-21 22:38:57,116 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:57,130 [INFO]: video.py(inference:175) >> frame 709, loop time = 0.415s, FPS = 2.408
+2020-08-21 22:38:57,503 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:38:57,521 [INFO]: video.py(inference:175) >> frame 710, loop time = 0.391s, FPS = 2.558
+2020-08-21 22:38:57,906 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:38:57,930 [INFO]: video.py(inference:175) >> frame 711, loop time = 0.409s, FPS = 2.443
+2020-08-21 22:38:58,323 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:58,336 [INFO]: video.py(inference:175) >> frame 712, loop time = 0.405s, FPS = 2.469
+2020-08-21 22:38:58,705 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:58,718 [INFO]: video.py(inference:175) >> frame 713, loop time = 0.382s, FPS = 2.618
+2020-08-21 22:38:59,087 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:38:59,103 [INFO]: video.py(inference:175) >> frame 714, loop time = 0.386s, FPS = 2.594
+2020-08-21 22:38:59,486 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:38:59,499 [INFO]: video.py(inference:175) >> frame 715, loop time = 0.396s, FPS = 2.526
+2020-08-21 22:38:59,887 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:38:59,900 [INFO]: video.py(inference:175) >> frame 716, loop time = 0.401s, FPS = 2.497
+2020-08-21 22:39:00,307 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [12, 2]
+2020-08-21 22:39:00,326 [INFO]: video.py(inference:175) >> frame 717, loop time = 0.426s, FPS = 2.350
+2020-08-21 22:39:00,721 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:39:00,739 [INFO]: video.py(inference:175) >> frame 718, loop time = 0.413s, FPS = 2.419
+2020-08-21 22:39:01,146 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:39:01,167 [INFO]: video.py(inference:175) >> frame 719, loop time = 0.427s, FPS = 2.340
+2020-08-21 22:39:01,593 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:39:01,615 [INFO]: video.py(inference:175) >> frame 720, loop time = 0.448s, FPS = 2.230
+2020-08-21 22:39:02,097 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:39:02,117 [INFO]: video.py(inference:175) >> frame 721, loop time = 0.502s, FPS = 1.993
+2020-08-21 22:39:02,550 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:02,570 [INFO]: video.py(inference:175) >> frame 722, loop time = 0.453s, FPS = 2.208
+2020-08-21 22:39:03,074 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:39:03,094 [INFO]: video.py(inference:175) >> frame 723, loop time = 0.523s, FPS = 1.912
+2020-08-21 22:39:03,527 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:39:03,548 [INFO]: video.py(inference:175) >> frame 724, loop time = 0.453s, FPS = 2.206
+2020-08-21 22:39:04,036 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:04,049 [INFO]: video.py(inference:175) >> frame 725, loop time = 0.501s, FPS = 1.995
+2020-08-21 22:39:04,543 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:04,558 [INFO]: video.py(inference:175) >> frame 726, loop time = 0.509s, FPS = 1.963
+2020-08-21 22:39:05,013 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:39:05,031 [INFO]: video.py(inference:175) >> frame 727, loop time = 0.473s, FPS = 2.115
+2020-08-21 22:39:05,431 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:05,445 [INFO]: video.py(inference:175) >> frame 728, loop time = 0.413s, FPS = 2.419
+2020-08-21 22:39:05,890 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:39:05,910 [INFO]: video.py(inference:175) >> frame 729, loop time = 0.465s, FPS = 2.150
+2020-08-21 22:39:06,344 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [13, 2]
+2020-08-21 22:39:06,365 [INFO]: video.py(inference:175) >> frame 730, loop time = 0.454s, FPS = 2.201
+2020-08-21 22:39:06,859 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:06,879 [INFO]: video.py(inference:175) >> frame 731, loop time = 0.514s, FPS = 1.946
+2020-08-21 22:39:07,372 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:07,387 [INFO]: video.py(inference:175) >> frame 732, loop time = 0.507s, FPS = 1.970
+2020-08-21 22:39:07,840 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:07,853 [INFO]: video.py(inference:175) >> frame 733, loop time = 0.466s, FPS = 2.147
+2020-08-21 22:39:08,277 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:08,293 [INFO]: video.py(inference:175) >> frame 734, loop time = 0.439s, FPS = 2.277
+2020-08-21 22:39:08,680 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:08,692 [INFO]: video.py(inference:175) >> frame 735, loop time = 0.399s, FPS = 2.506
+2020-08-21 22:39:09,061 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:09,075 [INFO]: video.py(inference:175) >> frame 736, loop time = 0.382s, FPS = 2.615
+2020-08-21 22:39:09,457 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:09,468 [INFO]: video.py(inference:175) >> frame 737, loop time = 0.393s, FPS = 2.542
+2020-08-21 22:39:09,845 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:09,859 [INFO]: video.py(inference:175) >> frame 738, loop time = 0.390s, FPS = 2.562
+2020-08-21 22:39:10,292 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:10,306 [INFO]: video.py(inference:175) >> frame 739, loop time = 0.447s, FPS = 2.236
+2020-08-21 22:39:10,733 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:10,748 [INFO]: video.py(inference:175) >> frame 740, loop time = 0.442s, FPS = 2.263
+2020-08-21 22:39:11,147 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:11,162 [INFO]: video.py(inference:175) >> frame 741, loop time = 0.413s, FPS = 2.420
+2020-08-21 22:39:11,561 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:11,575 [INFO]: video.py(inference:175) >> frame 742, loop time = 0.413s, FPS = 2.419
+2020-08-21 22:39:11,972 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:11,984 [INFO]: video.py(inference:175) >> frame 743, loop time = 0.409s, FPS = 2.447
+2020-08-21 22:39:12,358 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [15, 2]
+2020-08-21 22:39:12,378 [INFO]: video.py(inference:175) >> frame 744, loop time = 0.394s, FPS = 2.540
+2020-08-21 22:39:12,762 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:12,774 [INFO]: video.py(inference:175) >> frame 745, loop time = 0.397s, FPS = 2.521
+2020-08-21 22:39:13,154 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:13,166 [INFO]: video.py(inference:175) >> frame 746, loop time = 0.391s, FPS = 2.554
+2020-08-21 22:39:13,608 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:13,622 [INFO]: video.py(inference:175) >> frame 747, loop time = 0.456s, FPS = 2.193
+2020-08-21 22:39:14,080 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:14,095 [INFO]: video.py(inference:175) >> frame 748, loop time = 0.473s, FPS = 2.114
+2020-08-21 22:39:14,526 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 2]
+2020-08-21 22:39:14,546 [INFO]: video.py(inference:175) >> frame 749, loop time = 0.450s, FPS = 2.222
+2020-08-21 22:39:14,931 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:14,944 [INFO]: video.py(inference:175) >> frame 750, loop time = 0.398s, FPS = 2.512
+2020-08-21 22:39:15,386 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:15,398 [INFO]: video.py(inference:175) >> frame 751, loop time = 0.454s, FPS = 2.202
+2020-08-21 22:39:15,757 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:15,768 [INFO]: video.py(inference:175) >> frame 752, loop time = 0.370s, FPS = 2.702
+2020-08-21 22:39:16,151 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:16,164 [INFO]: video.py(inference:175) >> frame 753, loop time = 0.395s, FPS = 2.530
+2020-08-21 22:39:16,550 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:16,565 [INFO]: video.py(inference:175) >> frame 754, loop time = 0.401s, FPS = 2.493
+2020-08-21 22:39:16,958 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:16,970 [INFO]: video.py(inference:175) >> frame 755, loop time = 0.405s, FPS = 2.471
+2020-08-21 22:39:17,334 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:17,347 [INFO]: video.py(inference:175) >> frame 756, loop time = 0.377s, FPS = 2.656
+2020-08-21 22:39:17,692 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:17,705 [INFO]: video.py(inference:175) >> frame 757, loop time = 0.358s, FPS = 2.790
+2020-08-21 22:39:18,117 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:18,130 [INFO]: video.py(inference:175) >> frame 758, loop time = 0.425s, FPS = 2.355
+2020-08-21 22:39:18,496 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:18,508 [INFO]: video.py(inference:175) >> frame 759, loop time = 0.378s, FPS = 2.645
+2020-08-21 22:39:18,888 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:18,900 [INFO]: video.py(inference:175) >> frame 760, loop time = 0.392s, FPS = 2.554
+2020-08-21 22:39:19,294 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:19,314 [INFO]: video.py(inference:175) >> frame 761, loop time = 0.414s, FPS = 2.414
+2020-08-21 22:39:19,695 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:19,708 [INFO]: video.py(inference:175) >> frame 762, loop time = 0.393s, FPS = 2.543
+2020-08-21 22:39:20,105 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:20,118 [INFO]: video.py(inference:175) >> frame 763, loop time = 0.410s, FPS = 2.437
+2020-08-21 22:39:20,508 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:20,519 [INFO]: video.py(inference:175) >> frame 764, loop time = 0.401s, FPS = 2.496
+2020-08-21 22:39:20,946 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:20,959 [INFO]: video.py(inference:175) >> frame 765, loop time = 0.439s, FPS = 2.276
+2020-08-21 22:39:21,354 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:21,367 [INFO]: video.py(inference:175) >> frame 766, loop time = 0.408s, FPS = 2.454
+2020-08-21 22:39:21,814 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:21,828 [INFO]: video.py(inference:175) >> frame 767, loop time = 0.461s, FPS = 2.169
+2020-08-21 22:39:22,208 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:22,221 [INFO]: video.py(inference:175) >> frame 768, loop time = 0.393s, FPS = 2.543
+2020-08-21 22:39:22,638 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:22,649 [INFO]: video.py(inference:175) >> frame 769, loop time = 0.428s, FPS = 2.336
+2020-08-21 22:39:23,054 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:23,067 [INFO]: video.py(inference:175) >> frame 770, loop time = 0.417s, FPS = 2.398
+2020-08-21 22:39:23,453 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:23,466 [INFO]: video.py(inference:175) >> frame 771, loop time = 0.399s, FPS = 2.506
+2020-08-21 22:39:23,861 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:39:23,875 [INFO]: video.py(inference:175) >> frame 772, loop time = 0.409s, FPS = 2.446
+2020-08-21 22:39:24,275 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:24,287 [INFO]: video.py(inference:175) >> frame 773, loop time = 0.412s, FPS = 2.428
+2020-08-21 22:39:24,674 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:24,686 [INFO]: video.py(inference:175) >> frame 774, loop time = 0.399s, FPS = 2.506
+2020-08-21 22:39:25,047 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:25,059 [INFO]: video.py(inference:175) >> frame 775, loop time = 0.373s, FPS = 2.679
+2020-08-21 22:39:25,416 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:25,428 [INFO]: video.py(inference:175) >> frame 776, loop time = 0.368s, FPS = 2.715
+2020-08-21 22:39:25,815 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:25,828 [INFO]: video.py(inference:175) >> frame 777, loop time = 0.400s, FPS = 2.501
+2020-08-21 22:39:26,187 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:26,199 [INFO]: video.py(inference:175) >> frame 778, loop time = 0.371s, FPS = 2.694
+2020-08-21 22:39:26,571 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:26,584 [INFO]: video.py(inference:175) >> frame 779, loop time = 0.384s, FPS = 2.603
+2020-08-21 22:39:26,954 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:26,965 [INFO]: video.py(inference:175) >> frame 780, loop time = 0.382s, FPS = 2.620
+2020-08-21 22:39:27,331 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:27,343 [INFO]: video.py(inference:175) >> frame 781, loop time = 0.377s, FPS = 2.650
+2020-08-21 22:39:27,713 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:27,726 [INFO]: video.py(inference:175) >> frame 782, loop time = 0.383s, FPS = 2.612
+2020-08-21 22:39:28,089 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:28,101 [INFO]: video.py(inference:175) >> frame 783, loop time = 0.375s, FPS = 2.664
+2020-08-21 22:39:28,473 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:28,485 [INFO]: video.py(inference:175) >> frame 784, loop time = 0.384s, FPS = 2.607
+2020-08-21 22:39:28,865 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:28,877 [INFO]: video.py(inference:175) >> frame 785, loop time = 0.392s, FPS = 2.553
+2020-08-21 22:39:29,233 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:29,245 [INFO]: video.py(inference:175) >> frame 786, loop time = 0.368s, FPS = 2.720
+2020-08-21 22:39:29,599 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:29,613 [INFO]: video.py(inference:175) >> frame 787, loop time = 0.368s, FPS = 2.716
+2020-08-21 22:39:29,979 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:29,991 [INFO]: video.py(inference:175) >> frame 788, loop time = 0.378s, FPS = 2.648
+2020-08-21 22:39:30,415 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:30,427 [INFO]: video.py(inference:175) >> frame 789, loop time = 0.436s, FPS = 2.296
+2020-08-21 22:39:30,804 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:30,817 [INFO]: video.py(inference:175) >> frame 790, loop time = 0.390s, FPS = 2.565
+2020-08-21 22:39:31,198 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:31,211 [INFO]: video.py(inference:175) >> frame 791, loop time = 0.394s, FPS = 2.538
+2020-08-21 22:39:31,601 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:31,614 [INFO]: video.py(inference:175) >> frame 792, loop time = 0.403s, FPS = 2.479
+2020-08-21 22:39:31,980 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:31,993 [INFO]: video.py(inference:175) >> frame 793, loop time = 0.378s, FPS = 2.643
+2020-08-21 22:39:32,368 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:32,380 [INFO]: video.py(inference:175) >> frame 794, loop time = 0.387s, FPS = 2.586
+2020-08-21 22:39:32,763 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:32,775 [INFO]: video.py(inference:175) >> frame 795, loop time = 0.395s, FPS = 2.530
+2020-08-21 22:39:33,152 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:33,165 [INFO]: video.py(inference:175) >> frame 796, loop time = 0.389s, FPS = 2.568
+2020-08-21 22:39:33,535 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:33,549 [INFO]: video.py(inference:175) >> frame 797, loop time = 0.384s, FPS = 2.607
+2020-08-21 22:39:33,928 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:33,939 [INFO]: video.py(inference:175) >> frame 798, loop time = 0.391s, FPS = 2.559
+2020-08-21 22:39:34,304 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:34,316 [INFO]: video.py(inference:175) >> frame 799, loop time = 0.376s, FPS = 2.658
+2020-08-21 22:39:34,703 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:34,716 [INFO]: video.py(inference:175) >> frame 800, loop time = 0.400s, FPS = 2.501
+2020-08-21 22:39:35,109 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:35,122 [INFO]: video.py(inference:175) >> frame 801, loop time = 0.406s, FPS = 2.466
+2020-08-21 22:39:35,492 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:35,504 [INFO]: video.py(inference:175) >> frame 802, loop time = 0.383s, FPS = 2.613
+2020-08-21 22:39:35,879 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:35,892 [INFO]: video.py(inference:175) >> frame 803, loop time = 0.388s, FPS = 2.579
+2020-08-21 22:39:36,330 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:36,341 [INFO]: video.py(inference:175) >> frame 804, loop time = 0.449s, FPS = 2.227
+2020-08-21 22:39:36,701 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:36,714 [INFO]: video.py(inference:175) >> frame 805, loop time = 0.372s, FPS = 2.685
+2020-08-21 22:39:37,108 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:37,120 [INFO]: video.py(inference:175) >> frame 806, loop time = 0.406s, FPS = 2.465
+2020-08-21 22:39:37,502 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:37,514 [INFO]: video.py(inference:175) >> frame 807, loop time = 0.394s, FPS = 2.535
+2020-08-21 22:39:37,895 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:37,907 [INFO]: video.py(inference:175) >> frame 808, loop time = 0.393s, FPS = 2.546
+2020-08-21 22:39:38,268 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:38,281 [INFO]: video.py(inference:175) >> frame 809, loop time = 0.373s, FPS = 2.680
+2020-08-21 22:39:38,689 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:38,701 [INFO]: video.py(inference:175) >> frame 810, loop time = 0.421s, FPS = 2.378
+2020-08-21 22:39:39,113 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:39,126 [INFO]: video.py(inference:175) >> frame 811, loop time = 0.424s, FPS = 2.357
+2020-08-21 22:39:39,530 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:39,543 [INFO]: video.py(inference:175) >> frame 812, loop time = 0.417s, FPS = 2.400
+2020-08-21 22:39:39,999 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:40,012 [INFO]: video.py(inference:175) >> frame 813, loop time = 0.469s, FPS = 2.132
+2020-08-21 22:39:40,398 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:40,410 [INFO]: video.py(inference:175) >> frame 814, loop time = 0.398s, FPS = 2.513
+2020-08-21 22:39:40,815 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:40,827 [INFO]: video.py(inference:175) >> frame 815, loop time = 0.417s, FPS = 2.398
+2020-08-21 22:39:41,250 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [17]
+2020-08-21 22:39:41,262 [INFO]: video.py(inference:175) >> frame 816, loop time = 0.435s, FPS = 2.300
+2020-08-21 22:39:41,717 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:41,734 [INFO]: video.py(inference:175) >> frame 817, loop time = 0.472s, FPS = 2.119
+2020-08-21 22:39:42,171 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:42,185 [INFO]: video.py(inference:175) >> frame 818, loop time = 0.451s, FPS = 2.218
+2020-08-21 22:39:42,624 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:42,636 [INFO]: video.py(inference:175) >> frame 819, loop time = 0.451s, FPS = 2.216
+2020-08-21 22:39:43,029 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:39:43,042 [INFO]: video.py(inference:175) >> frame 820, loop time = 0.406s, FPS = 2.466
+2020-08-21 22:39:43,413 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:43,425 [INFO]: video.py(inference:175) >> frame 821, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:39:43,800 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:43,812 [INFO]: video.py(inference:175) >> frame 822, loop time = 0.387s, FPS = 2.587
+2020-08-21 22:39:44,191 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:44,203 [INFO]: video.py(inference:175) >> frame 823, loop time = 0.391s, FPS = 2.561
+2020-08-21 22:39:44,567 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:39:44,587 [INFO]: video.py(inference:175) >> frame 824, loop time = 0.384s, FPS = 2.603
+2020-08-21 22:39:44,981 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:44,994 [INFO]: video.py(inference:175) >> frame 825, loop time = 0.406s, FPS = 2.462
+2020-08-21 22:39:45,397 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:45,409 [INFO]: video.py(inference:175) >> frame 826, loop time = 0.416s, FPS = 2.406
+2020-08-21 22:39:45,847 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:45,860 [INFO]: video.py(inference:175) >> frame 827, loop time = 0.451s, FPS = 2.219
+2020-08-21 22:39:46,216 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:46,231 [INFO]: video.py(inference:175) >> frame 828, loop time = 0.371s, FPS = 2.697
+2020-08-21 22:39:46,611 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:46,623 [INFO]: video.py(inference:175) >> frame 829, loop time = 0.392s, FPS = 2.553
+2020-08-21 22:39:46,994 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:47,006 [INFO]: video.py(inference:175) >> frame 830, loop time = 0.383s, FPS = 2.610
+2020-08-21 22:39:47,387 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:47,400 [INFO]: video.py(inference:175) >> frame 831, loop time = 0.393s, FPS = 2.544
+2020-08-21 22:39:47,769 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:47,782 [INFO]: video.py(inference:175) >> frame 832, loop time = 0.382s, FPS = 2.616
+2020-08-21 22:39:48,178 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:48,192 [INFO]: video.py(inference:175) >> frame 833, loop time = 0.410s, FPS = 2.441
+2020-08-21 22:39:48,621 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:48,634 [INFO]: video.py(inference:175) >> frame 834, loop time = 0.442s, FPS = 2.262
+2020-08-21 22:39:49,044 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:49,057 [INFO]: video.py(inference:175) >> frame 835, loop time = 0.423s, FPS = 2.364
+2020-08-21 22:39:49,493 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:49,506 [INFO]: video.py(inference:175) >> frame 836, loop time = 0.448s, FPS = 2.230
+2020-08-21 22:39:49,915 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:49,928 [INFO]: video.py(inference:175) >> frame 837, loop time = 0.422s, FPS = 2.372
+2020-08-21 22:39:50,364 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:50,376 [INFO]: video.py(inference:175) >> frame 838, loop time = 0.449s, FPS = 2.228
+2020-08-21 22:39:50,800 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:50,814 [INFO]: video.py(inference:175) >> frame 839, loop time = 0.437s, FPS = 2.288
+2020-08-21 22:39:51,222 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:51,234 [INFO]: video.py(inference:175) >> frame 840, loop time = 0.420s, FPS = 2.383
+2020-08-21 22:39:51,630 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:51,642 [INFO]: video.py(inference:175) >> frame 841, loop time = 0.409s, FPS = 2.448
+2020-08-21 22:39:52,032 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:52,045 [INFO]: video.py(inference:175) >> frame 842, loop time = 0.402s, FPS = 2.486
+2020-08-21 22:39:52,428 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:52,441 [INFO]: video.py(inference:175) >> frame 843, loop time = 0.396s, FPS = 2.524
+2020-08-21 22:39:52,838 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:52,851 [INFO]: video.py(inference:175) >> frame 844, loop time = 0.409s, FPS = 2.443
+2020-08-21 22:39:53,247 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:53,260 [INFO]: video.py(inference:175) >> frame 845, loop time = 0.410s, FPS = 2.441
+2020-08-21 22:39:53,689 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:53,701 [INFO]: video.py(inference:175) >> frame 846, loop time = 0.441s, FPS = 2.269
+2020-08-21 22:39:54,072 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:54,085 [INFO]: video.py(inference:175) >> frame 847, loop time = 0.384s, FPS = 2.605
+2020-08-21 22:39:54,463 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:54,476 [INFO]: video.py(inference:175) >> frame 848, loop time = 0.391s, FPS = 2.561
+2020-08-21 22:39:54,848 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:54,860 [INFO]: video.py(inference:175) >> frame 849, loop time = 0.384s, FPS = 2.602
+2020-08-21 22:39:55,268 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:55,282 [INFO]: video.py(inference:175) >> frame 850, loop time = 0.421s, FPS = 2.373
+2020-08-21 22:39:55,637 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:39:55,649 [INFO]: video.py(inference:175) >> frame 851, loop time = 0.367s, FPS = 2.728
+2020-08-21 22:39:56,013 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:39:56,024 [INFO]: video.py(inference:175) >> frame 852, loop time = 0.375s, FPS = 2.665
+2020-08-21 22:39:56,410 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:56,422 [INFO]: video.py(inference:175) >> frame 853, loop time = 0.398s, FPS = 2.516
+2020-08-21 22:39:56,843 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:56,856 [INFO]: video.py(inference:175) >> frame 854, loop time = 0.434s, FPS = 2.306
+2020-08-21 22:39:57,268 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:57,280 [INFO]: video.py(inference:175) >> frame 855, loop time = 0.424s, FPS = 2.360
+2020-08-21 22:39:57,656 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:57,668 [INFO]: video.py(inference:175) >> frame 856, loop time = 0.388s, FPS = 2.574
+2020-08-21 22:39:58,046 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:58,058 [INFO]: video.py(inference:175) >> frame 857, loop time = 0.390s, FPS = 2.567
+2020-08-21 22:39:58,433 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:58,445 [INFO]: video.py(inference:175) >> frame 858, loop time = 0.387s, FPS = 2.585
+2020-08-21 22:39:58,832 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:58,845 [INFO]: video.py(inference:175) >> frame 859, loop time = 0.400s, FPS = 2.499
+2020-08-21 22:39:59,200 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:59,212 [INFO]: video.py(inference:175) >> frame 860, loop time = 0.366s, FPS = 2.730
+2020-08-21 22:39:59,594 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:39:59,605 [INFO]: video.py(inference:175) >> frame 861, loop time = 0.394s, FPS = 2.541
+2020-08-21 22:39:59,989 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:00,002 [INFO]: video.py(inference:175) >> frame 862, loop time = 0.396s, FPS = 2.523
+2020-08-21 22:40:00,380 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:00,392 [INFO]: video.py(inference:175) >> frame 863, loop time = 0.390s, FPS = 2.567
+2020-08-21 22:40:00,773 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:00,784 [INFO]: video.py(inference:175) >> frame 864, loop time = 0.393s, FPS = 2.547
+2020-08-21 22:40:01,184 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:01,198 [INFO]: video.py(inference:175) >> frame 865, loop time = 0.414s, FPS = 2.416
+2020-08-21 22:40:01,567 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:01,584 [INFO]: video.py(inference:175) >> frame 866, loop time = 0.385s, FPS = 2.595
+2020-08-21 22:40:01,961 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:01,974 [INFO]: video.py(inference:175) >> frame 867, loop time = 0.389s, FPS = 2.568
+2020-08-21 22:40:02,350 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:02,362 [INFO]: video.py(inference:175) >> frame 868, loop time = 0.388s, FPS = 2.574
+2020-08-21 22:40:02,791 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:02,802 [INFO]: video.py(inference:175) >> frame 869, loop time = 0.440s, FPS = 2.274
+2020-08-21 22:40:03,176 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:03,188 [INFO]: video.py(inference:175) >> frame 870, loop time = 0.386s, FPS = 2.592
+2020-08-21 22:40:03,608 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:03,629 [INFO]: video.py(inference:175) >> frame 871, loop time = 0.441s, FPS = 2.268
+2020-08-21 22:40:04,009 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:04,021 [INFO]: video.py(inference:175) >> frame 872, loop time = 0.391s, FPS = 2.556
+2020-08-21 22:40:04,387 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:04,399 [INFO]: video.py(inference:175) >> frame 873, loop time = 0.378s, FPS = 2.643
+2020-08-21 22:40:04,804 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:04,817 [INFO]: video.py(inference:175) >> frame 874, loop time = 0.417s, FPS = 2.396
+2020-08-21 22:40:05,227 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:05,239 [INFO]: video.py(inference:175) >> frame 875, loop time = 0.422s, FPS = 2.368
+2020-08-21 22:40:05,633 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:05,645 [INFO]: video.py(inference:175) >> frame 876, loop time = 0.405s, FPS = 2.467
+2020-08-21 22:40:06,039 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:06,051 [INFO]: video.py(inference:175) >> frame 877, loop time = 0.406s, FPS = 2.462
+2020-08-21 22:40:06,483 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:06,497 [INFO]: video.py(inference:175) >> frame 878, loop time = 0.445s, FPS = 2.245
+2020-08-21 22:40:06,923 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:06,935 [INFO]: video.py(inference:175) >> frame 879, loop time = 0.438s, FPS = 2.283
+2020-08-21 22:40:07,305 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:07,319 [INFO]: video.py(inference:175) >> frame 880, loop time = 0.384s, FPS = 2.605
+2020-08-21 22:40:07,694 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:07,706 [INFO]: video.py(inference:175) >> frame 881, loop time = 0.387s, FPS = 2.581
+2020-08-21 22:40:08,090 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:08,103 [INFO]: video.py(inference:175) >> frame 882, loop time = 0.396s, FPS = 2.524
+2020-08-21 22:40:08,476 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:08,489 [INFO]: video.py(inference:175) >> frame 883, loop time = 0.386s, FPS = 2.592
+2020-08-21 22:40:08,874 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:08,886 [INFO]: video.py(inference:175) >> frame 884, loop time = 0.397s, FPS = 2.519
+2020-08-21 22:40:09,271 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:09,283 [INFO]: video.py(inference:175) >> frame 885, loop time = 0.397s, FPS = 2.519
+2020-08-21 22:40:09,664 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:09,677 [INFO]: video.py(inference:175) >> frame 886, loop time = 0.393s, FPS = 2.542
+2020-08-21 22:40:10,068 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:10,081 [INFO]: video.py(inference:175) >> frame 887, loop time = 0.404s, FPS = 2.476
+2020-08-21 22:40:10,476 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:10,489 [INFO]: video.py(inference:175) >> frame 888, loop time = 0.408s, FPS = 2.451
+2020-08-21 22:40:10,863 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:10,875 [INFO]: video.py(inference:175) >> frame 889, loop time = 0.386s, FPS = 2.589
+2020-08-21 22:40:11,275 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:11,287 [INFO]: video.py(inference:175) >> frame 890, loop time = 0.411s, FPS = 2.431
+2020-08-21 22:40:11,703 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:11,718 [INFO]: video.py(inference:175) >> frame 891, loop time = 0.431s, FPS = 2.319
+2020-08-21 22:40:12,101 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:12,113 [INFO]: video.py(inference:175) >> frame 892, loop time = 0.394s, FPS = 2.535
+2020-08-21 22:40:12,496 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:12,508 [INFO]: video.py(inference:175) >> frame 893, loop time = 0.395s, FPS = 2.531
+2020-08-21 22:40:12,930 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:12,944 [INFO]: video.py(inference:175) >> frame 894, loop time = 0.436s, FPS = 2.295
+2020-08-21 22:40:13,345 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:13,357 [INFO]: video.py(inference:175) >> frame 895, loop time = 0.413s, FPS = 2.420
+2020-08-21 22:40:13,792 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:13,805 [INFO]: video.py(inference:175) >> frame 896, loop time = 0.447s, FPS = 2.235
+2020-08-21 22:40:14,228 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:14,240 [INFO]: video.py(inference:175) >> frame 897, loop time = 0.435s, FPS = 2.297
+2020-08-21 22:40:14,633 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:40:14,644 [INFO]: video.py(inference:175) >> frame 898, loop time = 0.404s, FPS = 2.475
+2020-08-21 22:40:15,039 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:15,056 [INFO]: video.py(inference:175) >> frame 899, loop time = 0.411s, FPS = 2.432
+2020-08-21 22:40:15,450 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:15,462 [INFO]: video.py(inference:175) >> frame 900, loop time = 0.406s, FPS = 2.461
+2020-08-21 22:40:15,872 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:40:15,885 [INFO]: video.py(inference:175) >> frame 901, loop time = 0.423s, FPS = 2.366
+2020-08-21 22:40:16,288 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:16,301 [INFO]: video.py(inference:175) >> frame 902, loop time = 0.416s, FPS = 2.405
+2020-08-21 22:40:16,694 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:16,706 [INFO]: video.py(inference:175) >> frame 903, loop time = 0.405s, FPS = 2.471
+2020-08-21 22:40:17,111 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:17,123 [INFO]: video.py(inference:175) >> frame 904, loop time = 0.417s, FPS = 2.396
+2020-08-21 22:40:17,528 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:17,541 [INFO]: video.py(inference:175) >> frame 905, loop time = 0.417s, FPS = 2.398
+2020-08-21 22:40:17,927 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [12]
+2020-08-21 22:40:17,939 [INFO]: video.py(inference:175) >> frame 906, loop time = 0.398s, FPS = 2.510
+2020-08-21 22:40:18,313 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:18,325 [INFO]: video.py(inference:175) >> frame 907, loop time = 0.385s, FPS = 2.595
+2020-08-21 22:40:18,686 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:18,698 [INFO]: video.py(inference:175) >> frame 908, loop time = 0.373s, FPS = 2.682
+2020-08-21 22:40:19,070 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:19,083 [INFO]: video.py(inference:175) >> frame 909, loop time = 0.385s, FPS = 2.598
+2020-08-21 22:40:19,464 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:19,477 [INFO]: video.py(inference:175) >> frame 910, loop time = 0.394s, FPS = 2.540
+2020-08-21 22:40:19,888 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:19,901 [INFO]: video.py(inference:175) >> frame 911, loop time = 0.424s, FPS = 2.357
+2020-08-21 22:40:20,322 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:20,335 [INFO]: video.py(inference:175) >> frame 912, loop time = 0.434s, FPS = 2.306
+2020-08-21 22:40:20,713 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:20,726 [INFO]: video.py(inference:175) >> frame 913, loop time = 0.391s, FPS = 2.559
+2020-08-21 22:40:21,116 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:21,129 [INFO]: video.py(inference:175) >> frame 914, loop time = 0.403s, FPS = 2.483
+2020-08-21 22:40:21,549 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:21,562 [INFO]: video.py(inference:175) >> frame 915, loop time = 0.433s, FPS = 2.311
+2020-08-21 22:40:21,965 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:21,987 [INFO]: video.py(inference:175) >> frame 916, loop time = 0.426s, FPS = 2.350
+2020-08-21 22:40:22,379 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:22,392 [INFO]: video.py(inference:175) >> frame 917, loop time = 0.405s, FPS = 2.471
+2020-08-21 22:40:22,795 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:22,810 [INFO]: video.py(inference:175) >> frame 918, loop time = 0.418s, FPS = 2.392
+2020-08-21 22:40:23,243 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:23,434 [INFO]: video.py(inference:175) >> frame 919, loop time = 0.624s, FPS = 1.603
+2020-08-21 22:40:23,843 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:23,855 [INFO]: video.py(inference:175) >> frame 920, loop time = 0.421s, FPS = 2.377
+2020-08-21 22:40:24,312 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:24,326 [INFO]: video.py(inference:175) >> frame 921, loop time = 0.471s, FPS = 2.124
+2020-08-21 22:40:24,719 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [8]
+2020-08-21 22:40:24,732 [INFO]: video.py(inference:175) >> frame 922, loop time = 0.406s, FPS = 2.465
+2020-08-21 22:40:25,204 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [10]
+2020-08-21 22:40:25,221 [INFO]: video.py(inference:175) >> frame 923, loop time = 0.489s, FPS = 2.046
+2020-08-21 22:40:25,757 [INFO]: cifcaf.py(__call__:119) >> 2 annotations: [14, 5]
+2020-08-21 22:40:25,778 [INFO]: video.py(inference:175) >> frame 924, loop time = 0.556s, FPS = 1.800
+2020-08-21 22:40:26,169 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:26,184 [INFO]: video.py(inference:175) >> frame 925, loop time = 0.406s, FPS = 2.464
+2020-08-21 22:40:26,541 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:26,552 [INFO]: video.py(inference:175) >> frame 926, loop time = 0.369s, FPS = 2.714
+2020-08-21 22:40:26,953 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:26,965 [INFO]: video.py(inference:175) >> frame 927, loop time = 0.413s, FPS = 2.421
+2020-08-21 22:40:27,406 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:27,420 [INFO]: video.py(inference:175) >> frame 928, loop time = 0.454s, FPS = 2.201
+2020-08-21 22:40:27,780 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:27,939 [INFO]: video.py(inference:175) >> frame 929, loop time = 0.519s, FPS = 1.928
+2020-08-21 22:40:28,282 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:28,294 [INFO]: video.py(inference:175) >> frame 930, loop time = 0.355s, FPS = 2.815
+2020-08-21 22:40:28,702 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:28,713 [INFO]: video.py(inference:175) >> frame 931, loop time = 0.419s, FPS = 2.387
+2020-08-21 22:40:29,075 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:29,087 [INFO]: video.py(inference:175) >> frame 932, loop time = 0.373s, FPS = 2.680
+2020-08-21 22:40:29,490 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:29,502 [INFO]: video.py(inference:175) >> frame 933, loop time = 0.415s, FPS = 2.408
+2020-08-21 22:40:29,877 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:29,889 [INFO]: video.py(inference:175) >> frame 934, loop time = 0.386s, FPS = 2.589
+2020-08-21 22:40:30,273 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:30,287 [INFO]: video.py(inference:175) >> frame 935, loop time = 0.398s, FPS = 2.513
+2020-08-21 22:40:30,689 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:30,701 [INFO]: video.py(inference:175) >> frame 936, loop time = 0.414s, FPS = 2.416
+2020-08-21 22:40:31,128 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:31,143 [INFO]: video.py(inference:175) >> frame 937, loop time = 0.442s, FPS = 2.262
+2020-08-21 22:40:31,556 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:31,572 [INFO]: video.py(inference:175) >> frame 938, loop time = 0.429s, FPS = 2.333
+2020-08-21 22:40:31,977 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:31,990 [INFO]: video.py(inference:175) >> frame 939, loop time = 0.417s, FPS = 2.396
+2020-08-21 22:40:32,359 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:32,372 [INFO]: video.py(inference:175) >> frame 940, loop time = 0.382s, FPS = 2.615
+2020-08-21 22:40:32,785 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:32,798 [INFO]: video.py(inference:175) >> frame 941, loop time = 0.425s, FPS = 2.350
+2020-08-21 22:40:33,182 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:33,194 [INFO]: video.py(inference:175) >> frame 942, loop time = 0.396s, FPS = 2.525
+2020-08-21 22:40:33,583 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:33,595 [INFO]: video.py(inference:175) >> frame 943, loop time = 0.401s, FPS = 2.495
+2020-08-21 22:40:34,033 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:34,044 [INFO]: video.py(inference:175) >> frame 944, loop time = 0.449s, FPS = 2.229
+2020-08-21 22:40:34,416 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [13]
+2020-08-21 22:40:34,437 [INFO]: video.py(inference:175) >> frame 945, loop time = 0.393s, FPS = 2.546
+2020-08-21 22:40:34,841 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:34,854 [INFO]: video.py(inference:175) >> frame 946, loop time = 0.417s, FPS = 2.398
+2020-08-21 22:40:35,279 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [14]
+2020-08-21 22:40:35,292 [INFO]: video.py(inference:175) >> frame 947, loop time = 0.438s, FPS = 2.284
+2020-08-21 22:40:35,709 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:35,721 [INFO]: video.py(inference:175) >> frame 948, loop time = 0.429s, FPS = 2.333
+2020-08-21 22:40:36,134 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:36,148 [INFO]: video.py(inference:175) >> frame 949, loop time = 0.427s, FPS = 2.343
+2020-08-21 22:40:36,533 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:36,546 [INFO]: video.py(inference:175) >> frame 950, loop time = 0.398s, FPS = 2.510
+2020-08-21 22:40:36,960 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:36,972 [INFO]: video.py(inference:175) >> frame 951, loop time = 0.425s, FPS = 2.352
+2020-08-21 22:40:37,378 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:37,390 [INFO]: video.py(inference:175) >> frame 952, loop time = 0.418s, FPS = 2.392
+2020-08-21 22:40:37,770 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:37,782 [INFO]: video.py(inference:175) >> frame 953, loop time = 0.392s, FPS = 2.552
+2020-08-21 22:40:38,161 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:38,174 [INFO]: video.py(inference:175) >> frame 954, loop time = 0.392s, FPS = 2.553
+2020-08-21 22:40:38,589 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:38,602 [INFO]: video.py(inference:175) >> frame 955, loop time = 0.428s, FPS = 2.337
+2020-08-21 22:40:39,043 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:39,056 [INFO]: video.py(inference:175) >> frame 956, loop time = 0.454s, FPS = 2.202
+2020-08-21 22:40:39,456 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:39,476 [INFO]: video.py(inference:175) >> frame 957, loop time = 0.420s, FPS = 2.384
+2020-08-21 22:40:39,904 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:39,917 [INFO]: video.py(inference:175) >> frame 958, loop time = 0.441s, FPS = 2.266
+2020-08-21 22:40:40,320 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [15]
+2020-08-21 22:40:40,334 [INFO]: video.py(inference:175) >> frame 959, loop time = 0.416s, FPS = 2.401
+2020-08-21 22:40:40,783 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:40,796 [INFO]: video.py(inference:175) >> frame 960, loop time = 0.462s, FPS = 2.165
+2020-08-21 22:40:41,208 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:41,226 [INFO]: video.py(inference:175) >> frame 961, loop time = 0.430s, FPS = 2.326
+2020-08-21 22:40:41,646 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:41,661 [INFO]: video.py(inference:175) >> frame 962, loop time = 0.435s, FPS = 2.301
+2020-08-21 22:40:42,042 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:42,054 [INFO]: video.py(inference:175) >> frame 963, loop time = 0.393s, FPS = 2.543
+2020-08-21 22:40:42,429 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:42,441 [INFO]: video.py(inference:175) >> frame 964, loop time = 0.387s, FPS = 2.586
+2020-08-21 22:40:42,848 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:42,861 [INFO]: video.py(inference:175) >> frame 965, loop time = 0.420s, FPS = 2.383
+2020-08-21 22:40:43,290 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:43,303 [INFO]: video.py(inference:175) >> frame 966, loop time = 0.442s, FPS = 2.262
+2020-08-21 22:40:43,696 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:43,708 [INFO]: video.py(inference:175) >> frame 967, loop time = 0.405s, FPS = 2.467
+2020-08-21 22:40:44,096 [INFO]: cifcaf.py(__call__:119) >> 1 annotations: [16]
+2020-08-21 22:40:44,109 [INFO]: video.py(inference:175) >> frame 968, loop time = 0.400s, FPS = 2.501

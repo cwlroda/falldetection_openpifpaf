@@ -24,14 +24,14 @@ import logging
 import os
 import sys
 import time
-import multiprocessing
 
 import PIL
 import torch
+import torch.multiprocessing as mp
 
 import cv2  # pylint: disable=import-error
 from . import decoder, network, show, transforms, visualizer, __version__
-from . import config, core
+from . import config, core, logger
 
 os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;udp"
 LOG = logging.getLogger(__name__)
@@ -90,9 +90,8 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
         log_level = logging.WARNING
     if args.debug:
         log_level = logging.DEBUG
-    logging.basicConfig()
-    logging.getLogger('openpifpaf').setLevel(log_level)
-    LOG.setLevel(log_level)
+    
+    LOG = logger.Logger('openpifpaf').setup(log_level)
 
     network.configure(args)
     show.configure(args)
@@ -198,14 +197,14 @@ def main():
     processes = []
     
     for stream in streams.generateStreams():
-        process = multiprocessing.Process(target=inference, args=(stream, animation, processor, model, annotation_painter))
-        processes.append(process)
+        process = mp.Process(target=inference, args=(stream, animation, processor, model, annotation_painter))
         process.start()
+        processes.append(process)
 
     for process in processes:
         process.join()
-        
-    sys.exit(0)
+
 
 if __name__ == '__main__':
     main()
+
