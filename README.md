@@ -1,4 +1,4 @@
-# Fall Detection using Pose Estimation
+# Fall Detection Human Pose Estimation Model
 
 ## Introduction
 Fall Detection model based on OpenPifPaf:
