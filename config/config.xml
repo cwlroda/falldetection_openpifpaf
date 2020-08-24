@@ -3,7 +3,7 @@
     <Source>
         <RTSPAPI>
             <ID>osaka</ID>
-            <RTSPURL>/home/htxsns/falldetection/input/videoplayback.mp4</RTSPURL>
+            <RTSPURL>/home/htxsns/projects/falldetection/input/collapse_treebranch.mp4</RTSPURL>
             <Scale>0.7</Scale>
         </RTSPAPI>
     </Source>

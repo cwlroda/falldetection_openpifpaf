@@ -1,6 +1,10 @@
 from scipy.spatial import distance as dist
 from collections import OrderedDict
 import numpy as np
+import logging
+
+LOG = logging.getLogger(__name__)
+
 
 class CentroidTracker():
     def __init__(self, frame_threshold=30):

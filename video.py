@@ -110,7 +110,7 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
 
     # standard filenames
     if args.video_output is True:
-        args.video_output = '{}_output.mp4'.format(args.source)
+        args.video_output = os.path.dirname(__file__)+"/output/"+"output.mp4"
         if os.path.exists(args.video_output):
             os.remove(args.video_output)
     assert args.video_output is None or not os.path.exists(args.video_output)

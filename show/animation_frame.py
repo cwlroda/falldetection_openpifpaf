@@ -15,7 +15,7 @@ LOG = logging.getLogger(__name__)
 
 
 class AnimationFrame:
-    video_fps = 10
+    video_fps = 30
     video_dpi = 100
 
     def __init__(self, *,

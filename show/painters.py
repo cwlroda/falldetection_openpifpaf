@@ -1,6 +1,7 @@
-from collections import defaultdict
+import os
 import logging
 import numpy as np
+from collections import defaultdict, OrderedDict
 
 try:
     import matplotlib
@@ -158,22 +159,14 @@ class KeypointPainter:
         LOG.debug('color connections = %s, lw = %d, marker = %d',
                   self.color_connections, self.linewidth, self.markersize)
         
-        self.framecounter = 0
+        self.framecount = 0
         self.fallcount = 1
-        self.old_y = -1
         self.ct = core.CentroidTracker()
         self.centroid = -1
-        self.fall = False
-        
-    def falling(self, new_y):
-        if self.framecounter != 0 and self.framecounter % 10 == 0:
-            if (new_y - self.old_y) > 50 and self.old_y != -1:
-                self.fall = True
-                print("\nFALL DETECTED\n")
-
-            self.old_y = new_y
+        self.persons = OrderedDict()
+        self.falls = core.FallDetector()
     
-    def _draw_skeleton(self, ax, x, y, v, *, skeleton, color=None, **kwargs):
+    def _draw_skeleton(self, ax, x, y, v, x_, y_, w_, h_, *, skeleton, color=None, **kwargs):
         if not np.any(v > 0):
             return
 
@@ -185,12 +178,9 @@ class KeypointPainter:
         # print("Midpoint: "+str((mid_x, mid_y)))
         
         if mid_x != 0 or mid_y != 0:
-            self.centroid = (mid_x, mid_y)
+            self.centroid = (mid_x, mid_y, x_, y_, w_, h_)
         else:
             self.centroid = -1
-        
-        if mid_y != 0:
-            self.falling(mid_y)
     
         # connectionsq
         lines, line_colors, line_styles = [], [], []
@@ -257,23 +247,12 @@ class KeypointPainter:
             if self.show_box:
                 score = scores[i] if scores is not None else None
                 self._draw_box(ax, x, y, v, color, score)
-                
-                plt.savefig("/home/htxsns/projects/output/"+str(self.fallcount)+".jpg")
-                self.fallcount += 1
-                
-                self.fall = False
 
             if texts is not None:
                 self._draw_text(ax, x, y, v, texts[i], color)
 
     @staticmethod
     def _draw_box(ax, x, y, w, h, color, score=None, linewidth=1):
-        if w < 5.0:
-            x -= 2.0
-            w += 4.0
-        if h < 5.0:
-            y -= 2.0
-            h += 4.0
         ax.add_patch(
             matplotlib.patches.Rectangle(
                 (x, y), w, h, fill=False, color=color, linewidth=linewidth))
@@ -339,19 +318,20 @@ class KeypointPainter:
             )
 
     @staticmethod
-    def _draw_centroids(ax, persons, linewidth=1):
-        for ID, (x, y) in persons.items():
-            ax.add_patch(
-                matplotlib.patches.Circle(
-                    (x, y), 5, linewidth=linewidth))
-            
-            ax.text(x - linewidth*2, y - linewidth*2, ID, fontsize=8)
+    def _draw_centroids(ax, ID, x, y, linewidth=1):
+        ax.add_patch(
+            matplotlib.patches.Circle(
+                (x, y), 5, linewidth=linewidth))
+        
+        ax.text(x - linewidth*2, y - linewidth*2, ID, fontsize=8)
     
     def annotations(self, ax, annotations, *,
                     color=None, colors=None, texts=None, subtexts=None):
         centroids = []
         
         for i, ann in enumerate(annotations):
+            self.centroid = -1
+            
             color = i
             if colors is not None:
                 color = colors[i]
@@ -379,10 +359,20 @@ class KeypointPainter:
             if self.centroid != -1:
                 centroids.append(self.centroid)
             
-        persons = self.ct.update(centroids)
-        self._draw_centroids(ax, persons, color)
+        self.persons = self.ct.update(centroids)
         
-        self.framecounter += 1
+        for ID, (x, y, x_, y_, w_, h_) in self.persons.items():
+            self._draw_centroids(ax, ID, x, y, color)
+        
+        # fall detection
+        self.fallen = self.falls.update(self.persons, self.framecount)
+        
+        for ID, (x_, y_, w_, h_) in self.fallen.items():
+            self._draw_box(ax, x_, y_, w_, h_, color='red')
+            plt.savefig(os.path.abspath(__file__+"/../../")+"/output/img/"+str(self.fallcount)+".jpg")
+            self.fallcount += 1
+        
+        self.framecount += 1
 
     def annotation(self, ax, ann, *, color=None, text=None, subtext=None):
         if color is None:
@@ -415,7 +405,19 @@ class KeypointPainter:
             ]
             skeleton = [se for se, m in zip(skeleton, skeleton_mask) if m]
 
-        self._draw_skeleton(ax, x, y, v, color=color, skeleton=skeleton)
+        x_, y_, w_, h_ = ann.bbox()
+            
+        if w_ < 5.0:
+            x_ -= 2.0
+            w_ += 4.0
+        if h_ < 5.0:
+            y_ -= 2.0
+            h_ += 4.0
+
+        self.subject_width = w_
+        self.subject_height = h_
+
+        self._draw_skeleton(ax, x, y, v, x_, y_, w_, h_, color=color, skeleton=skeleton)
 
         if self.show_joint_scales and ann.joint_scales is not None:
             self._draw_scales(ax, x, y, v, color, ann.joint_scales)
@@ -423,15 +425,8 @@ class KeypointPainter:
         if self.show_joint_confidences:
             self._draw_joint_confidences(ax, x, y, v, color)
 
-        if self.show_box or self.fall:
-            x_, y_, w_, h_ = ann.bbox()
+        if self.show_box:
             self._draw_box(ax, x_, y_, w_, h_, color, ann.score())
-            
-            # TCP CONNECTION
-            plt.savefig("/home/htxsns/projects/output/"+str(self.fallcount)+".jpg")
-            self.fallcount += 1
-            
-            self.fall = False
 
         if text is not None:
             self._draw_text(ax, x, y, v, text, color, subtext=subtext)
