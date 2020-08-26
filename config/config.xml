@@ -3,7 +3,7 @@
     <Source>
         <RTSPAPI>
             <ID>osaka</ID>
-            <RTSPURL>/home/htxsns/projects/falldetection/input/collapse_treebranch.mp4</RTSPURL>
+            <RTSPURL>/home/htxsns/anaconda3/lib/python3.7/site-packages/openpifpaf/input/videoplayback.mp4</RTSPURL>
             <Scale>0.7</Scale>
         </RTSPAPI>
     </Source>

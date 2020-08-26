@@ -1,4 +1,4 @@
-# Fall Detection Human Pose Estimation Model
+# Fall Detection using Pose Estimation
 
 ## Introduction
 Fall Detection model based on OpenPifPaf:
@@ -9,7 +9,7 @@ https://pypi.org/project/openpifpaf/
 
 https://openaccess.thecvf.com/content_CVPR_2019/html/Kreiss_PifPaf_Composite_Fields_for_Human_Pose_Estimation_CVPR_2019_paper.html
 
-The detection can run on both GPU (requires CUDA) and CPU, but GPU has been intentionally disabled to run tests solely on CPU.
+The detection can run on both GPU and CPU, but GPU has been intentionally disabled to run tests solely on CPU.
 
 ## Environment
 

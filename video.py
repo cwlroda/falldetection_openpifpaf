@@ -56,7 +56,7 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
     show.cli(parser)
     visualizer.cli(parser)
 
-    parser.add_argument('--source', default='0',
+    parser.add_argument('--source', default=None,
                         help='OpenCV source url. Integer for webcams. Supports rtmp streams.')
     parser.add_argument('--video-output', default=None, nargs='?', const=True,
                         help='video output file')
@@ -99,7 +99,7 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
     show.AnimationFrame.video_fps = args.video_fps
 
     # check whether source should be an int
-    if len(args.source) == 1:
+    if args.source is not None:
         args.source = int(args.source)
 
     # add args.device
@@ -139,10 +139,12 @@ def inference(stream, animation, processor, model, annotation_painter):
     else:
         LOG.error('Cannot open stream: ' + RTSPURL)
 
+
     last_loop = time.time()
     
     for frame_i, (ax, ax_second) in enumerate(animation.iter()):
         _, image = capture.read()
+        input_fps = capture.get(cv2.CAP_PROP_FPS)
         
         if image is None:
             LOG.info('no more images captured')
@@ -167,26 +169,29 @@ def inference(stream, animation, processor, model, annotation_painter):
         preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=torch.device("cpu"))[0]
 
         ax.imshow(image)
-        annotation_painter.annotations(ax, preds)
+        annotation_painter.annotations(ax, preds, input_fps)
 
-        LOG.info('frame %d, loop time = %.3fs, FPS = %.3f',
+        LOG.info('frame %d, loop time = %.3fs, input FPS = %.3f, output FPS = %.3f',
                 frame_i,
                 time.time() - last_loop,
+                input_fps,
                 1.0 / (time.time() - last_loop))
         last_loop = time.time()
 
 
 def main():
     args = cli()
-    settings = config.ConfigParser().getConfig()
-    
     processor, model = processor_factory(args)
 
     # create keypoint painter
     keypoint_painter = show.KeypointPainter(color_connections=args.colored_connections, linewidth=6)
     annotation_painter = show.AnnotationPainter(keypoint_painter=keypoint_painter)
 
-    streams = core.MultiStreamLoader(settings['RTSPAPI'])
+    if args.source is None:
+        settings = config.ConfigParser().getConfig()
+        streams = core.MultiStreamLoader(settings['RTSPAPI'])
+    else:
+        stream = (args.source, "webcam", args.scale)
 
     animation = show.AnimationFrame(
         show=args.show,

@@ -29,7 +29,7 @@ class AnnotationPainter:
             'AnnotationDet': detection_painter or DetectionPainter(xy_scale=xy_scale),
         }
 
-    def annotations(self, ax, annotations, *,
+    def annotations(self, ax, annotations, fps, *,
                     color=None, colors=None, texts=None, subtexts=None):
         by_classname = defaultdict(list)
         for ann_i, ann in enumerate(annotations):
@@ -41,7 +41,7 @@ class AnnotationPainter:
             this_texts = [texts[i] for i, _ in i_anns] if texts else None
             this_subtexts = [subtexts[i] for i, _ in i_anns] if subtexts else None
             self.painters[classname].annotations(
-                ax, anns,
+                ax, anns, fps,
                 color=color, colors=this_colors, texts=this_texts, subtexts=this_subtexts)
 
 
@@ -160,11 +160,13 @@ class KeypointPainter:
                   self.color_connections, self.linewidth, self.markersize)
         
         self.framecount = 0
-        self.fallcount = 1
+        self.fallcount = 0
         self.ct = core.CentroidTracker()
         self.centroid = -1
         self.persons = OrderedDict()
         self.falls = core.FallDetector()
+        self.fallen = OrderedDict()
+        self.prev_fallen = OrderedDict()
     
     def _draw_skeleton(self, ax, x, y, v, x_, y_, w_, h_, *, skeleton, color=None, **kwargs):
         if not np.any(v > 0):
@@ -181,6 +183,9 @@ class KeypointPainter:
             self.centroid = (mid_x, mid_y, x_, y_, w_, h_)
         else:
             self.centroid = -1
+
+        # disable skeleton drawing
+        return
     
         # connectionsq
         lines, line_colors, line_styles = [], [], []
@@ -325,7 +330,11 @@ class KeypointPainter:
         
         ax.text(x - linewidth*2, y - linewidth*2, ID, fontsize=8)
     
-    def annotations(self, ax, annotations, *,
+    @staticmethod
+    def _draw_fallcount(ax, fallcount):
+        ax.text(350, 15, "Fall Count: {}".format(fallcount), fontsize=16, color='black')
+        
+    def annotations(self, ax, annotations, fps, *,
                     color=None, colors=None, texts=None, subtexts=None):
         centroids = []
         
@@ -361,17 +370,22 @@ class KeypointPainter:
             
         self.persons = self.ct.update(centroids)
         
-        for ID, (x, y, x_, y_, w_, h_) in self.persons.items():
-            self._draw_centroids(ax, ID, x, y, color)
+        # for ID, (x, y, x_, y_, w_, h_) in self.persons.items():
+        #     self._draw_centroids(ax, ID, x, y, color)
         
         # fall detection
-        self.fallen = self.falls.update(self.persons, self.framecount)
+        self.fallen = self.falls.update(self.persons, self.framecount, fps)
         
         for ID, (x_, y_, w_, h_) in self.fallen.items():
             self._draw_box(ax, x_, y_, w_, h_, color='red')
-            plt.savefig(os.path.abspath(__file__+"/../../")+"/output/img/"+str(self.fallcount)+".jpg")
-            self.fallcount += 1
+            
+            if ID not in self.prev_fallen:
+                self.fallcount += 1
+                plt.savefig(os.path.abspath(__file__+"/../../")+"/output/img/"+str(self.fallcount)+".jpg")
         
+        self.prev_fallen = self.fallen
+        
+        self._draw_fallcount(ax, self.fallcount)
         self.framecount += 1
 
     def annotation(self, ax, ann, *, color=None, text=None, subtext=None):
