@@ -169,7 +169,7 @@ def inference(stream, animation, processor, model, annotation_painter):
         preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=torch.device("cpu"))[0]
 
         ax.imshow(image)
-        annotation_painter.annotations(ax, preds, input_fps)
+        annotation_painter.annotations(ax, preds, ID, input_fps)
 
         LOG.info('frame %d, loop time = %.3fs, input FPS = %.3f, output FPS = %.3f',
                 frame_i,

@@ -2,14 +2,13 @@
 <config>
     <Source>
         <RTSPAPI>
-            <ID>osaka</ID>
+            <ID>50waystofall</ID>
             <RTSPURL>/home/htxsns/anaconda3/lib/python3.7/site-packages/openpifpaf/input/videoplayback.mp4</RTSPURL>
             <Scale>0.7</Scale>
         </RTSPAPI>
     </Source>
     <Output>
         <FileOutput>
-            <Dir>output/img</Dir>
             <FileName>{yyyymmdd}_{HHMMSS}_{streamID}_{algoName}_{fallcount}.jpg</FileName>
         </FileOutput>
     </Output>
