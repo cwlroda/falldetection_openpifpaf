@@ -16,6 +16,8 @@ The detection can run on both GPU and CPU.
 ![Stubbed Toe](https://github.com/cwlroda/falldetection_openpifpaf/blob/master/media/stubbed_toe.gif)
 ![Drunk](https://github.com/cwlroda/falldetection_openpifpaf/blob/master/media/drunk.gif)
 
+(Video credits: 50 Ways to Fall - https://www.youtube.com/watch?v=8Rhimam6FgQ)
+
 ## Environment
 - Ubuntu 18.04 x86_64
 - Python 3.7.6
