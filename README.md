@@ -22,26 +22,26 @@ The detection can run on both GPU and CPU, but GPU has been intentionally disabl
 ```console
 $ git clone https://github.com/cwlroda/falldetection_openpifpaf.git
 ```
-**Setup Conda Environment**
-```console
-$ conda create --name falldetection_openpifpaf python=3.7.6
-$ conda activate falldetection_openpifpaf
-```
 **Download OpenPifPaf 0.11.8 (PyPI)**
 ```console
 $ pip3 install openpifpaf
 ```
 **Copy Source Files**
 ```console
-$ cd {home_dir}/anaconda3/envs/falldetection_openpifpaf/lib/python3.7/site-packages/openpifpaf
+$ cd {home_dir}/anaconda3/lib/python3.7/site-packages/openpifpaf
 Replace ALL files in that folder with the files in this repository
+```
+**Setup Conda Environment**
+```console
+$ conda create --name falldetection_openpifpaf python=3.7.6
+$ conda activate falldetection_openpifpaf
 ```
 **Prerequisites**
 ```console
 $ pip3 install -r requirements.txt
 ```
-**Execution (this can be run in any directory)**
+**Execution**
 ```console
-$ python3 -m openpifpaf.video --show --video-output
+$ python3 -m openpifpaf.video --show
 $ (use --help to see the full list of command line arguments)
 ```

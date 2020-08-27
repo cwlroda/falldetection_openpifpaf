@@ -336,10 +336,7 @@ class KeypointPainter:
     
     @staticmethod
     def _draw_fallcount(ax, fallcount):
-        ax.text(350, 15, "Fall Count: {}".format(fallcount), fontsize=16, color='black')
-    
-    def subscribeEndpoint(self, callback):
-        return callback()
+        ax.text(0, 0.9, "Fall Count: {}".format(fallcount), fontsize=16, color='black', transform=ax.transAxes)
         
     def annotations(self, ax, annotations, stream, fps, *,
                     color=None, colors=None, texts=None, subtexts=None):

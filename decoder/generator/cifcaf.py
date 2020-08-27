@@ -39,6 +39,7 @@ class CifCaf(Generator):
                  worker_pool=None,
                  nms=True):
         super().__init__(worker_pool)
+        
         if nms is True:
             nms = nms_module.Keypoints()
 

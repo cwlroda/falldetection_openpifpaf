@@ -1,21 +1,12 @@
 from contextlib import contextmanager
-import copy
 import logging
 import numpy as np
 
 from .. import show
 
 try:
-    import matplotlib.cm
     import matplotlib.pyplot as plt
     from mpl_toolkits.axes_grid1 import make_axes_locatable
-
-    cmap = copy.copy(matplotlib.cm.get_cmap("Oranges"))
-    cmap.set_bad('white', alpha=0.5)
-    cmap = copy.copy(matplotlib.cm.get_cmap("Blues"))
-    cmap.set_bad('white', alpha=0.5)
-    cmap = copy.copy(matplotlib.cm.get_cmap("Greens"))
-    cmap.set_bad('white', alpha=0.5)
 except ImportError:
     plt = None
     make_axes_locatable = None

@@ -85,13 +85,13 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
     args.debug_images = False
 
     # configure logging
-    log_level = logging.INFO
+    args.log_level = logging.INFO
     if args.quiet:
-        log_level = logging.WARNING
+        args.log_level = logging.WARNING
     if args.debug:
-        log_level = logging.DEBUG
+        args.log_level = logging.DEBUG
     
-    LOG = logger.Logger('openpifpaf').setup(log_level)
+    LOG = logger.Logger('openpifpaf').setup(args.log_level)
 
     network.configure(args)
     show.configure(args)
@@ -125,22 +125,39 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
 
 def processor_factory(args):
     model, _ = network.factory_from_args(args)
-    model = model.to(torch.device(args.device))
+    model = model.to(args.device)
     processor = decoder.factory_from_args(args, model)
     return processor, model
 
 
-def inference(args, stream, animation, processor, model, annotation_painter):
+def inference(args, stream):
+    processor, model = processor_factory(args)
+
+    # create keypoint painter
+    keypoint_painter = show.KeypointPainter(color_connections=args.colored_connections, linewidth=6)
+    annotation_painter = show.AnnotationPainter(keypoint_painter=keypoint_painter)
+
+    animation = show.AnimationFrame(
+        show=args.show,
+        video_output=args.video_output,
+        second_visual=args.debug or args.debug_indices,
+    )
+    
     (RTSPURL, ID, scale) = stream
-    capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
+    
+    if ID == "webcam":
+        capture = cv2.VideoCapture(-1)
+    else:
+        capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
     
     if capture.isOpened():
-        LOG.info('Loaded stream: ' + RTSPURL)
+        LOG.info('Loaded stream: ' + str(RTSPURL))
     else:
-        LOG.error('Cannot open stream: ' + RTSPURL)
+        LOG.error('Cannot open stream: ' + str(RTSPURL))
 
 
     last_loop = time.time()
+    output_fps = 0
     
     for frame_i, (ax, ax_second) in enumerate(animation.iter()):
         _, image = capture.read()
@@ -148,6 +165,7 @@ def inference(args, stream, animation, processor, model, annotation_painter):
         
         if image is None:
             LOG.info('no more images captured')
+            capture.release()
             break
         
         if float(scale) != 1.0:
@@ -166,53 +184,65 @@ def inference(args, stream, animation, processor, model, annotation_painter):
         processed_image, _, __ = transforms.EVAL_TRANSFORM(image_pil, [], None)
         LOG.debug('preprocessing time %.3fs', time.time() - start)
 
-        preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=torch.device(args.device))[0]
-
+        preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=args.device)[0]
         ax.imshow(image)
-        annotation_painter.annotations(ax, preds, ID, input_fps)
+        
+        fallcount = annotation_painter.annotations(ax, preds, ID, input_fps)
+        
+        loop_time = time.time() - last_loop
+        output_fps = 1.0 / loop_time
+        
+        ax.text(0, 0.95, "FPS: {}".format(output_fps), fontsize=16, color='black', transform=ax.transAxes)
 
-        LOG.info('frame %d, loop time = %.3fs, input FPS = %.3f, output FPS = %.3f',
+        if args.device == torch.device('cpu'):
+            LOG.info('frame %d, loop time = %.3fs, input FPS = %.3f, output FPS = %.3f',
+                    frame_i,
+                    loop_time,
+                    input_fps,
+                    output_fps)
+        else:
+            print('frame {}, input FPS = {}, output FPS = {}'.format(
                 frame_i,
-                time.time() - last_loop,
                 input_fps,
-                1.0 / (time.time() - last_loop))
+                output_fps
+                ))
+            
         last_loop = time.time()
 
 
 def main():
     args = cli()
-    processor, model = processor_factory(args)
-
-    # create keypoint painter
-    keypoint_painter = show.KeypointPainter(color_connections=args.colored_connections, linewidth=6)
-    annotation_painter = show.AnnotationPainter(keypoint_painter=keypoint_painter)
-
+    
+    if args.device == torch.device('cuda'):
+        mp.set_start_method('forkserver')
+    
     if args.source is None:
         settings = config.ConfigParser().getConfig()
-        streams = core.MultiStreamLoader(settings['RTSPAPI'])
+        streamer = core.MultiStreamLoader(settings['RTSPAPI'])
     else:
-        stream = (args.source, "webcam", args.scale)
-
-    animation = show.AnimationFrame(
-        show=args.show,
-        video_output=args.video_output,
-        second_visual=args.debug or args.debug_indices,
-    )
-
-    if args.device == 'cpu':
-        processes = []
+        streamer = (args.source, "webcam", args.scale)
+        inference(args, streamer)
         
-        for stream in streams.generateStreams():
-            process = mp.Process(target=inference, args=(args, stream, animation, processor, model, annotation_painter))
-            process.start()
-            processes.append(process)
-
-        for process in processes:
-            process.join()
+        return
     
-    else:
-        for stream in streams.generateStreams():
-            inference(args, stream, animation, processor, model, annotation_painter)
+    streams = streamer.generateStreams()
+
+    queue = mp.Queue(-1)
+    listener = mp.Process(
+        target=logger.listener_process, args=(queue,))
+    listener.start()
+
+    logger.root_configurer(queue, args.log_level)
+    
+    processes = []
+    
+    for stream in streams:
+        process = mp.Process(target=inference, args=(args, stream))
+        process.start()
+        processes.append(process)
+
+    for process in processes:
+        process.join()
 
 
 if __name__ == '__main__':
