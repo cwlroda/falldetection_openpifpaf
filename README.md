@@ -12,7 +12,6 @@ https://openaccess.thecvf.com/content_CVPR_2019/html/Kreiss_PifPaf_Composite_Fie
 The detection can run on both GPU and CPU, but GPU has been intentionally disabled to run tests solely on CPU.
 
 ## Environment
-
 - Ubuntu 18.04 x86_64
 - Python 3.7.6
 - Anaconda 3
@@ -22,7 +21,7 @@ The detection can run on both GPU and CPU, but GPU has been intentionally disabl
 ```console
 $ git clone https://github.com/cwlroda/falldetection_openpifpaf.git
 ```
-**Download OpenPifPaf 0.11.8 (PyPI)**
+**Download OpenPifPaf 0.11.9 (PyPI)**
 ```console
 $ pip3 install openpifpaf
 ```
