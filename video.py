@@ -125,12 +125,12 @@ def cli():  # pylint: disable=too-many-statements,too-many-branches
 
 def processor_factory(args):
     model, _ = network.factory_from_args(args)
-    model = model.to(torch.device("cpu"))
+    model = model.to(torch.device(args.device))
     processor = decoder.factory_from_args(args, model)
     return processor, model
 
 
-def inference(stream, animation, processor, model, annotation_painter):
+def inference(args, stream, animation, processor, model, annotation_painter):
     (RTSPURL, ID, scale) = stream
     capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
     
@@ -166,7 +166,7 @@ def inference(stream, animation, processor, model, annotation_painter):
         processed_image, _, __ = transforms.EVAL_TRANSFORM(image_pil, [], None)
         LOG.debug('preprocessing time %.3fs', time.time() - start)
 
-        preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=torch.device("cpu"))[0]
+        preds = processor.batch(model, torch.unsqueeze(processed_image, 0), device=torch.device(args.device))[0]
 
         ax.imshow(image)
         annotation_painter.annotations(ax, preds, ID, input_fps)
@@ -199,15 +199,20 @@ def main():
         second_visual=args.debug or args.debug_indices,
     )
 
-    processes = []
-    
-    for stream in streams.generateStreams():
-        process = mp.Process(target=inference, args=(stream, animation, processor, model, annotation_painter))
-        process.start()
-        processes.append(process)
+    if args.device == 'cpu':
+        processes = []
+        
+        for stream in streams.generateStreams():
+            process = mp.Process(target=inference, args=(args, stream, animation, processor, model, annotation_painter))
+            process.start()
+            processes.append(process)
 
-    for process in processes:
-        process.join()
+        for process in processes:
+            process.join()
+    
+    else:
+        for stream in streams.generateStreams():
+            inference(args, stream, animation, processor, model, annotation_painter)
 
 
 if __name__ == '__main__':
