@@ -21,9 +21,11 @@ Trouble shooting:
 import argparse
 import json
 import logging
+import io
 import os
 import sys
 import time
+import cProfile, pstats
 
 import PIL
 import torch
@@ -129,11 +131,22 @@ def processor_factory(args):
     processor = decoder.factory_from_args(args, model)
     return processor, model
 
+def reconnect(capture, RTSPURL):
+    capture.release()
+    droppedFrames = 0
+    capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
+    
+    if capture.isOpened():
+        LOG.info("Reconnected to stream: " + RTSPURL)
+        return (capture, True, droppedFrames)
+    else:
+        LOG.error("Cannot reconnect to stream: " + RTSPURL)
+        time.sleep(10)
+        return (capture, False, droppedFrames)
 
 def inference(args, stream):
     processor, model = processor_factory(args)
 
-    # create keypoint painter
     keypoint_painter = show.KeypointPainter(color_connections=args.colored_connections, linewidth=6)
     annotation_painter = show.AnnotationPainter(keypoint_painter=keypoint_painter)
 
@@ -144,6 +157,7 @@ def inference(args, stream):
     )
     
     (RTSPURL, ID, scale) = stream
+    online = False
     
     if ID == "webcam":
         capture = cv2.VideoCapture(-1)
@@ -151,19 +165,39 @@ def inference(args, stream):
         capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
     
     if capture.isOpened():
+        online = True
         LOG.info('Loaded stream: ' + str(RTSPURL))
     else:
         LOG.error('Cannot open stream: ' + str(RTSPURL))
 
-
     last_loop = time.time()
     output_fps = 0
+    droppedFrames = 0
+    
+    pr = cProfile.Profile()
+    pr.enable()
     
     for frame_i, (ax, ax_second) in enumerate(animation.iter()):
-        _, image = capture.read()
+        grabbed, image = capture.read()
         input_fps = capture.get(cv2.CAP_PROP_FPS)
         
-        if image is None:
+        if RTSPURL.startswith('rtsp'):
+            if grabbed:
+                droppedFrames = 0
+            else:
+                print("hi")
+                droppedFrames += 1
+                
+                if droppedFrames > input_fps*5:
+                    online = False
+                    
+                    while not capture.isOpened() or not online:
+                        LOG.warning("Reconnecting to stream: " + RTSPURL)
+                        capture, online, droppedFrames = reconnect(capture, RTSPURL)
+                        
+                continue
+            
+        elif image is None:
             LOG.info('no more images captured')
             capture.release()
             break
@@ -208,6 +242,18 @@ def inference(args, stream):
                 ))
             
         last_loop = time.time()
+        
+    pr.disable()
+    result = io.StringIO()
+    pstats.Stats(pr, stream=result).print_stats()
+    result=result.getvalue()
+    
+    result='ncalls'+result.split('ncalls')[-1]
+    result='\n'.join([','.join(line.rstrip().split(None,5)) for line in result.split('\n')])
+
+    with open(os.path.dirname(__file__)+'/results.csv', 'w+') as f:
+        f.write(result)
+        f.close()
 
 
 def main():

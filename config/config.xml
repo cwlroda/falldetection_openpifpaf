@@ -2,8 +2,8 @@
 <config>
     <Source>
         <RTSPAPI>
-            <ID>50waystofall</ID>
-            <RTSPURL>/home/htxsns/anaconda3/lib/python3.7/site-packages/openpifpaf/input/videoplayback.mp4</RTSPURL>
+            <ID>osaka</ID>
+            <RTSPURL>rtsp://:7089/osaka</RTSPURL>
             <Scale>0.7</Scale>
         </RTSPAPI>
     </Source>
