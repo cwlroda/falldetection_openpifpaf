@@ -185,7 +185,6 @@ def inference(args, stream):
             if grabbed:
                 droppedFrames = 0
             else:
-                print("hi")
                 droppedFrames += 1
                 
                 if droppedFrames > input_fps*5:
