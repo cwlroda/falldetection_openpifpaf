@@ -11,31 +11,31 @@ class FallDetector:
     def update(self, persons, framecount, fps):
         self.falls = OrderedDict()
         
-        for ID, (x, y, x_, y_, w_, h_) in persons.items():
+        for ID, (x, y, x_, y_, w_, h_, l_ank, r_ank) in persons.items():
             if framecount == 0:
-                self.old_persons[ID] = (x, y, False)
+                self.old_persons[ID] = (x, y, h_, False)
                 
             else:
                 if ID in self.old_persons:
-                    (old_x, old_y, fall) = self.old_persons[ID]
+                    (old_x, old_y, old_h, fall) = self.old_persons[ID]
                     
                     if w_ >= h_:
-                        if y - old_y >= h_:
+                        if (l_ank != 0 or r_ank != 0) and y-old_y >= old_h/2:
                             LOG.info("FALL DETECTED")
                             self.falls[ID] = (x_, y_, w_, h_)
-                            self.old_persons[ID] = (x, y, True)
+                            self.old_persons[ID] = (x, y, old_h, True)
                         
                         elif fall:
                             self.falls[ID] = (x_, y_, w_, h_)
                     
                     elif framecount % round(fps) == 0:
-                        self.old_persons[ID] = (x, y, False)
+                        self.old_persons[ID] = (x, y, h_, False)
                         
                     else:
-                        self.old_persons[ID] = (old_x, old_y, False)
+                        self.old_persons[ID] = (old_x, old_y, old_h, False)
                 
                 else:
-                    self.old_persons[ID] = (x, y, False)
+                    self.old_persons[ID] = (x, y, h_, False)
                     
         return self.falls
                 

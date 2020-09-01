@@ -176,22 +176,21 @@ class KeypointPainter:
         if not np.any(v > 0):
             return
 
-        # print("LS: "+str((x[5], y[5])))
-        # print("RS: "+str((x[6], y[6])))
+        l_ank = y[15]
+        r_ank = y[16]
         
         mid_x = (x[5]+x[6])/2
         mid_y = (y[5]+y[6])/2
-        # print("Midpoint: "+str((mid_x, mid_y)))
         
         if mid_x != 0 or mid_y != 0:
-            self.centroid = (mid_x, mid_y, x_, y_, w_, h_)
+            self.centroid = (mid_x, mid_y, x_, y_, w_, h_, l_ank, r_ank)
         else:
             self.centroid = -1
 
         # uncomment to disable skeleton drawing
         # return
     
-        # connectionsq
+        # connections
         lines, line_colors, line_styles = [], [], []
         for ci, (j1i, j2i) in enumerate(np.array(skeleton) - 1):
             c = color
