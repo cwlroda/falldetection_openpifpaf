@@ -176,14 +176,26 @@ class KeypointPainter:
         if not np.any(v > 0):
             return
 
-        l_ank = y[15]
-        r_ank = y[16]
+        if x[5] != 0 and x[6] == 0:
+            mid_x = x[5]
+        elif x[5] == 0 and x[6] != 0:
+            mid_x = x[6]
+        elif x[5] != 0 and x[6] != 0:
+            mid_x = (x[5]+x[6])/2
+        else:
+            mid_x = 0
+            
+        if y[5] != 0 and y[6] == 0:
+            mid_y = y[5]
+        elif y[5] == 0 and y[6] != 0:
+            mid_y = y[6]
+        elif y[5] != 0 and y[6] != 0:
+            mid_y = (y[5]+y[6])/2
+        else:
+            mid_y = 0
         
-        mid_x = (x[5]+x[6])/2
-        mid_y = (y[5]+y[6])/2
-        
-        if mid_x != 0 or mid_y != 0:
-            self.centroid = (mid_x, mid_y, x_, y_, w_, h_, l_ank, r_ank)
+        if mid_x != 0 and mid_y != 0:
+            self.centroid = (mid_x, mid_y, x_, y_, w_, h_, y[13], y[14])
         else:
             self.centroid = -1
 
@@ -335,7 +347,7 @@ class KeypointPainter:
     
     @staticmethod
     def _draw_fallcount(ax, fallcount):
-        ax.text(0, 0.9, "Fall Count: {}".format(fallcount), fontsize=16, color='black', transform=ax.transAxes)
+        ax.text(0, 0.9, "Fall Count: {}".format(fallcount), fontsize=16, color='black', transform=ax.transAxes, bbox={'facecolor': 'white', 'alpha': 0.5, 'linewidth': 0, 'pad': 0.1})
         
     def annotations(self, ax, annotations, stream, fps, *,
                     color=None, colors=None, texts=None, subtexts=None):
@@ -388,7 +400,6 @@ class KeypointPainter:
                 
                 # CODE TO SAVE RESULTS TO JPG
                 self.imgwriter.write(stream, self.fallcount)
-                # plt.savefig(os.path.abspath(__file__+"/../../")+"/output/img/"+str(self.fallcount)+".jpg")
         
         self.prev_fallen = self.fallen
         

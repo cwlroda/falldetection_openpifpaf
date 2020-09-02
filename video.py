@@ -225,7 +225,7 @@ def inference(args, stream):
         loop_time = time.time() - last_loop
         output_fps = 1.0 / loop_time
         
-        ax.text(0, 0.95, "FPS: {}".format(output_fps), fontsize=16, color='black', transform=ax.transAxes)
+        ax.text(0, 0.95, "FPS: {}".format(output_fps), fontsize=16, color='black', transform=ax.transAxes, bbox={'facecolor': 'white', 'alpha': 0.5, 'linewidth': 0, 'pad': 0.1})
 
         if args.device == torch.device('cpu'):
             LOG.info('frame %d, loop time = %.3fs, input FPS = %.3f, output FPS = %.3f',
@@ -253,6 +253,8 @@ def inference(args, stream):
     with open(os.path.dirname(__file__)+'/results.csv', 'w+') as f:
         f.write(result)
         f.close()
+        
+    return
 
 
 def main():
