@@ -7,11 +7,10 @@ LOG = logging.getLogger(__name__)
 
 
 class CentroidTracker():
-    def __init__(self, frame_threshold=30):
+    def __init__(self):
         self.ID = 0
         self.objects = OrderedDict()
         self.disappeared = OrderedDict()
-        self.frame_threshold = frame_threshold
         
     def register(self, centroid):
         self.objects[self.ID] = centroid
@@ -22,12 +21,12 @@ class CentroidTracker():
         del self.objects[ID]
         del self.disappeared[ID]
         
-    def update(self, inputCentroids):
+    def update(self, inputCentroids, frame_threshold):
         if len(inputCentroids) == 0:
             for ID in list(self.disappeared.keys()):
                 self.disappeared[ID] += 1
                 
-                if self.disappeared[ID] > self.frame_threshold:
+                if self.disappeared[ID] > 2*frame_threshold:
                     self.deregister(ID)
             
             return self.objects
@@ -66,7 +65,7 @@ class CentroidTracker():
                     ID = IDs[row]
                     self.disappeared[ID] += 1
                     
-                    if self.disappeared[ID] > self.frame_threshold:
+                    if self.disappeared[ID] > 2*frame_threshold:
                         self.deregister(ID)
                         
             else:

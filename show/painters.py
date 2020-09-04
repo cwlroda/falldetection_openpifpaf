@@ -31,6 +31,7 @@ class AnnotationPainter:
 
     def annotations(self, ax, annotations, ID, fps, *,
                     color=None, colors=None, texts=None, subtexts=None):
+        fallcount = None
         by_classname = defaultdict(list)
         for ann_i, ann in enumerate(annotations):
             by_classname[ann.__class__.__name__].append((ann_i, ann))
@@ -40,9 +41,11 @@ class AnnotationPainter:
             this_colors = [colors[i] for i, _ in i_anns] if colors else None
             this_texts = [texts[i] for i, _ in i_anns] if texts else None
             this_subtexts = [subtexts[i] for i, _ in i_anns] if subtexts else None
-            self.painters[classname].annotations(
+            fallcount = self.painters[classname].annotations(
                 ax, anns, ID, fps,
                 color=color, colors=this_colors, texts=this_texts, subtexts=this_subtexts)
+
+        return fallcount
 
 
 class DetectionPainter:
@@ -195,7 +198,7 @@ class KeypointPainter:
             mid_y = 0
         
         if mid_x != 0 and mid_y != 0:
-            self.centroid = (mid_x, mid_y, x_, y_, w_, h_, y[13], y[14])
+            self.centroid = (mid_x, mid_y, x_, y_, w_, h_)
         else:
             self.centroid = -1
 
@@ -383,7 +386,7 @@ class KeypointPainter:
             if self.centroid != -1:
                 centroids.append(self.centroid)
             
-        self.persons = self.ct.update(centroids)
+        self.persons = self.ct.update(centroids, fps)
         
         # for ID, (x, y, x_, y_, w_, h_) in self.persons.items():
         #     self._draw_centroids(ax, ID, x, y, color)
@@ -403,8 +406,10 @@ class KeypointPainter:
         
         self.prev_fallen = self.fallen
         
-        self._draw_fallcount(ax, self.fallcount)
+        # self._draw_fallcount(ax, self.fallcount)
         self.framecount += 1
+        
+        return self.fallcount
 
     def annotation(self, ax, ann, *, color=None, text=None, subtext=None):
         if color is None:

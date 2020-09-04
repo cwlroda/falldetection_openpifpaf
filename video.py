@@ -173,6 +173,7 @@ def inference(args, stream):
     last_loop = time.time()
     output_fps = 0
     droppedFrames = 0
+    old_fallcount = 0
     
     pr = cProfile.Profile()
     pr.enable()
@@ -226,7 +227,13 @@ def inference(args, stream):
         output_fps = 1.0 / loop_time
         
         ax.text(0, 0.95, "FPS: {}".format(output_fps), fontsize=16, color='black', transform=ax.transAxes, bbox={'facecolor': 'white', 'alpha': 0.5, 'linewidth': 0, 'pad': 0.1})
-
+        
+        if fallcount is not None:
+            ax.text(0, 0.9, "Fall Count: {}".format(fallcount), fontsize=16, color='black', transform=ax.transAxes, bbox={'facecolor': 'white', 'alpha': 0.5, 'linewidth': 0, 'pad': 0.1})
+            old_fallcount = fallcount
+        else:
+            ax.text(0, 0.9, "Fall Count: {}".format(old_fallcount), fontsize=16, color='black', transform=ax.transAxes, bbox={'facecolor': 'white', 'alpha': 0.5, 'linewidth': 0, 'pad': 0.1})
+        
         if args.device == torch.device('cpu'):
             LOG.info('frame %d, loop time = %.3fs, input FPS = %.3f, output FPS = %.3f',
                     frame_i,
@@ -236,7 +243,7 @@ def inference(args, stream):
         else:
             print('frame {}, input FPS = {}, output FPS = {}'.format(
                 frame_i,
-                input_fps,
+                int(input_fps),
                 output_fps
                 ))
             
