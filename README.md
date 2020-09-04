@@ -48,7 +48,14 @@ Replace ALL files in that folder with the files in falldetection_openpifpaf
 $ pip3 install -r requirements.txt
 ```
 **Execution**
+
+For video/RTSP streams, navigate to _config/config.xml_ to edit the video/RTSP stream path, then run:
 ```console
 $ python3 -m openpifpaf.video --show
+$ (use --help to see the full list of command line arguments)
+```
+For webcam, run:
+```console
+$ python3 -m openpifpaf.video --source {WEBCAM_ID} --show
 $ (use --help to see the full list of command line arguments)
 ```
