@@ -2,8 +2,8 @@
 <config>
     <Source>
         <RTSPAPI>
-            <ID>osaka</ID>
-            <RTSPURL>rtsp://:7089/osaka</RTSPURL>
+            <ID></ID>
+            <RTSPURL></RTSPURL>
             <Scale>0.7</Scale>
         </RTSPAPI>
     </Source>
