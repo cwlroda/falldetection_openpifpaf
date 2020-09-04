@@ -79,11 +79,19 @@ PifPaf: Composite Fields for Human Pose Estimation ([Link](http://openaccess.the
     @InProceedings{Kreiss_2019_CVPR,
         author = {Kreiss, Sven and Bertoni, Lorenzo and Alahi, Alexandre},
         title = {PifPaf: Composite Fields for Human Pose Estimation},
-        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+        booktitle = {Proceedings of the IEEE/CVF Conference on
+                    Computer Vision and Pattern Recognition (CVPR)},
         month = {June},
         year = {2019}
     }
 
 If you use the dataset above, please cite the following work: ([Link](http://home.agh.edu.pl/~bkw/research/pdf/2014/KwolekKepski_CMBP2014.pdf))
 
-    Bogdan Kwolek, Michal Kepski, Human fall detection on embedded platform using depth maps and wireless accelerometer, Computer Methods and Programs in Biomedicine, Volume 117, Issue 3, December 2014, Pages 489-501, ISSN 0169-2607
+    Bogdan Kwolek, Michal Kepski,
+    Human fall detection on embedded platform using depth maps and wireless accelerometer,
+    Computer Methods and Programs in Biomedicine,
+    Volume 117,
+    Issue 3,
+    December 2014,
+    Pages 489-501,
+    ISSN 0169-2607
