@@ -5,7 +5,7 @@ Fall Detection model based on [OpenPifPaf](https://github.com/vita-epfl/openpifp
 
 PyPI Library: https://pypi.org/project/openpifpaf/
 
-The detection can run on both GPU and CPU, on videos, RTSP streams, and webcams/USB cameras.
+The detection can run on both GPU and CPU, on multiple videos, RTSP streams, and webcams/USB cameras. Unlike most open-source fall detection models that work on large single subjects, this improved model integrates a person tracker that can detect falls in scenes with more than one person.
 
 ## Demo Videos
 ![Walking Trip](https://github.com/cwlroda/falldetection_openpifpaf/blob/master/media/walking_trip.gif)
@@ -14,7 +14,7 @@ The detection can run on both GPU and CPU, on videos, RTSP streams, and webcams/
 
 Video credits: 50 Ways to Fall ([Link](https://www.youtube.com/watch?v=8Rhimam6FgQ)), ran on a single NVIDIA Quadro P1000
 
-## Test results
+## Test Results
 UR Fall Detection Dataset ([Link](http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html)), tested on two NVIDIA Quadro GV100s.
 - Precision: 100%
 - Recall: 83.33%
