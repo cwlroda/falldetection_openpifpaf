@@ -1,36 +1,32 @@
 # Fall Detection using Pose Estimation
 
 ## Introduction
-Fall Detection model based on OpenPifPaf:
+Fall Detection model based on [OpenPifPaf](https://github.com/vita-epfl/openpifpaf)
 
-https://github.com/vita-epfl/openpifpaf
+PyPI Library: https://pypi.org/project/openpifpaf/
 
-https://pypi.org/project/openpifpaf/
-
-https://openaccess.thecvf.com/content_CVPR_2019/html/Kreiss_PifPaf_Composite_Fields_for_Human_Pose_Estimation_CVPR_2019_paper.html
-
-The detection can run on both GPU and CPU.
+The detection can run on both GPU and CPU, on videos, RTSP streams, and webcams/USB cameras.
 
 ## Demo Videos
 ![Walking Trip](https://github.com/cwlroda/falldetection_openpifpaf/blob/master/media/walking_trip.gif)
 ![Stubbed Toe](https://github.com/cwlroda/falldetection_openpifpaf/blob/master/media/stubbed_toe.gif)
 ![Drunk](https://github.com/cwlroda/falldetection_openpifpaf/blob/master/media/drunk.gif)
 
-Video credits: 50 Ways to Fall (https://www.youtube.com/watch?v=8Rhimam6FgQ), ran on a single NVIDIA Quadro P1000
+Video credits: 50 Ways to Fall ([Link](https://www.youtube.com/watch?v=8Rhimam6FgQ)), ran on a single NVIDIA Quadro P1000
 
 ## Test results
-UR Fall Detection Dataset (http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html), tested on two NVIDIA Quadro GV100s.
+UR Fall Detection Dataset ([Link](http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html)), tested on two NVIDIA Quadro GV100s.
 - Precision: 100%
 - Recall: 83.33%
 - F1 Score: 90.91%
 
-Note: Due to lack of available datasets, false positives and true negatives were not tested.
+_Note: Due to lack of available datasets, false positives and true negatives were not tested._
 
 ## Environment
 - Ubuntu 18.04 x86_64
 - Python 3.7.6
 - Anaconda 3
-- USB Camera/Video/RTSP Stream
+- CUDA 10.2
 
 ## Usage
 **Setup Conda Environment**
@@ -62,14 +58,14 @@ $ pip3 install -r requirements.txt
 
 **Execution**
 
-For video/RTSP streams, navigate to _config/config.xml_ to edit the video/RTSP stream path, then run:
+For videos/RTSP streams, navigate to _config/config.xml_ to edit the video/RTSP stream path, then run:
 ```console
 $ python3 -m openpifpaf.video --show
 $ (use --help to see the full list of command line arguments)
 ```
-For webcam, run:
+For webcams/USB cameras, run:
 ```console
-$ python3 -m openpifpaf.video --source {WEBCAM_ID} --show
+$ python3 -m openpifpaf.video --source {CAMERA_ID} --show
 $ (use --help to see the full list of command line arguments)
 ```
 
