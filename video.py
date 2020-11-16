@@ -160,7 +160,9 @@ def inference(args, stream):
     online = False
     
     if ID == "webcam":
-        capture = cv2.VideoCapture(-1)
+        print("webcam source is ",args.source)
+        capture = cv2.VideoCapture(args.source)
+        RTSPURL = "not required"
     else:
         capture = cv2.VideoCapture(RTSPURL, cv2.CAP_FFMPEG)
     
