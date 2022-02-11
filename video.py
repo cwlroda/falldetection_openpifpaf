@@ -182,7 +182,7 @@ def inference(args, stream):
         grabbed, image = capture.read()
         input_fps = capture.get(cv2.CAP_PROP_FPS)
         
-        if RTSPURL.startswith('rtsp'):
+        if (ID!="webcam" and RTSPURL.startswith('rtsp')):
             if grabbed:
                 droppedFrames = 0
             else:

@@ -1,7 +1,13 @@
 import numpy as np
+import pyximport
+pyximport.install(setup_args={"script_args" : ["--verbose"]})
+
+# fun = ctypes.CDLL("./functional.cpython-37m-x86_64-linux-gnu.so")
+# fun.connect()
+# fun.__pyx_f_10openpifpaf_10functional_scalar_value_clipped.argtypes = [ctypes.py_object, ctypes.py_object, ctypes.py_object]
 
 # pylint: disable=import-error
-from .functional import scalar_value_clipped
+from functional import scalar_value_clipped
 
 NOTSET = '__notset__'
 
